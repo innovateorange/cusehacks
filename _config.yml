@@ -78,14 +78,23 @@ event:
         software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
     - question: "How much does it cost?"
       answer: >
-        Nothing. Attending a hackathon is free.
-    - question: "Do I need to be a student to attend?"
+        Nothing. Attending a hackathon is free, and we will provide meals throughout the event.
+    - question: "Who can participate?"
       answer: >
-        Yes. Only students who are currently enrolled at a college/university or
-        have graduated within the past 12 months are eligible to attend.
+        All current college, high school, and middle school students are invited to participate.
+    - question: "What if I don't have coding or hackathon experience?"
+      answer: >
+        Beginners are especially encouraged to come! You do not need previous hackathon/coding experience or a technology
+        background. CuseHacks is meant to be a comfortable learning experience for everyone. Also, there will be workshops
+        and mentors available throughout the event that can help you get started.
+    - question: "How do teams work?"
+      answer: >
+        Each team can have up to 4 members. You can come with your friends or you can form a team at the event.
+        There will be team forming activities at the beginning of the hackathon for anybody interested. You can also work alone
+        if you want.
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The event will be held in the Life Science Building at Syracuse University.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
