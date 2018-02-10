@@ -32,7 +32,7 @@ seo:
 event:
   name:        "CuseHacks"
   description: "This will be Syracuse University's first student-run hackathon."
-  date:        "TBA"
+  date:        "April 21-22, 2018"
   location:    "Syracuse, NY, United States"
 
   trust_badge:
