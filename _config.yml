@@ -34,6 +34,7 @@ event:
   description: "This will be Syracuse University's first student-run hackathon."
   date:        "April 21-22, 2018"
   location:    "Syracuse, NY, United States"
+  school:      "Syracuse University"
 
   trust_badge:
     year:   "2018"  # season year
