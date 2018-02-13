@@ -64,11 +64,15 @@ section {
   top: -14px;
 }
 
+.hero .hero-header{
+  background-color: #000;
+}
+
 .hero .nav-item{
   color: #fff;
   align-items: center;
-
-  padding: 0.5rem 0.75rem;
+  font-size: 17px;
+  padding: 14px 16px;
 }
 
 .hero .wrapper {
