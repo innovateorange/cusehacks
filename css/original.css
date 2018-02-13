@@ -64,6 +64,13 @@ section {
   top: -14px;
 }
 
+.hero .nav-item{
+  color: #fff;
+  align-items: center;
+
+  padding: 0.5rem 0.75rem;
+}
+
 .hero .wrapper {
   padding-top: 30vh;
 }
