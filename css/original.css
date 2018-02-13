@@ -64,11 +64,10 @@ section {
   top: -14px;
 }
 
-/*.hero .hero-header{
+.hero .hero-header{
   background-color: #000;
-}*/
+}
 nav{
-  background-color: #000;
   display: block;
   height: 20px;
 }
