@@ -198,11 +198,13 @@ section {
   position: relative;
 }
 
-.faq .left_column{
+#left_column{
+  width: 50%;
   float: left;
 }
 
-.faq .right_column{
+#right_column{
+  width: 50%;
   float: right;
 }
 
