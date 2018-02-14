@@ -198,14 +198,6 @@ section {
   position: relative;
 }
 
-.faq .left_column{
-  float: left;
-}
-
-.faq .right_column{
-  float: right;
-}
-
 .faq h1 {
   font-family: 'Montserrat';
   font-weight: 700;
