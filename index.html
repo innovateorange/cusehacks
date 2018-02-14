@@ -44,20 +44,20 @@ layout: default
     <div class="row">
       <div id="left-questions">
         {% for item in site.event.faq_a %}
-        <div class="question col-xs-12 col-sm-12">
+        <!-- <div class="question col-xs-12 col-sm-12"> -->
           <h2>{{ item.question }}</h2>
           <hr>
           {{ item.answer | markdownify }}
-        </div>
+        <!-- </div> -->
         {% endfor %}
       </div>
       <div id="right-questions">
         {% for item in site.event.faq_b %}
-        <div class="question col-xs-12 col-sm-12">
+        <!-- <div class="question col-xs-12 col-sm-12"> -->
           <h2>{{ item.question }}</h2>
           <hr>
           {{ item.answer | markdownify }}
-        </div>
+        <!-- </div> -->
         {% endfor %}
       </div>
     </div>
