@@ -8,14 +8,14 @@
       </div>
   </nav>
 
-  <div class="wrapper text-center">
+  <div class="wrapper">
     <!-- <h1 rel="title">{{ site.event.name }}</h1> -->
     <!-- <h2 rel="description">{{ site.event.description }}</h2> -->
     <!-- <img src = "/images/cusehacks02.svg" alt="CuseHacks" style="height:800px"> -->
     <img src = "/images/cusehacks04.png" alt="CuseHacks">
     <h3 rel="location">{{ site.event.date }} &#64; {{ site.event.school }}</h3>
     <hr>
-    <div class="buttons">
+    <div class="buttons text-center">
       {% for link in site.event.hero.links %}
         {% if link.href %}
           <a href="{{ link.href }}">{{ link.text }}</a>
