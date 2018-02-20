@@ -21,12 +21,21 @@
   font-weight: 600;
 }
 
+
+
 body {
-  background-color: #D44500;
+  background-color:#000;
+  /*background-color: #D44500;*/
 }
 
 section {
   overflow-x:hidden;
+}
+
+img{
+
+  height: auto;
+  width: auto;
 }
 
 /*
@@ -43,6 +52,8 @@ section {
   width: 10%;
   z-index: 10000;
 }
+
+
 
 /*
  * Hero Section
