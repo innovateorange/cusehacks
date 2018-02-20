@@ -73,6 +73,7 @@ section {
   top: 0;
   height: 50px;
   width: 100%;
+  z-index: 100;
   /*padding-top: 25px;
   padding-bottom: 25px;*/
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.12), 0 1px 4px 0 rgba(0,0,0,.12);
@@ -91,7 +92,8 @@ section {
 }
 
 .hero .wrapper {
-  padding-top: 30vh;
+  padding-top: 15vh;
+  padding-left: 15px;
 }
 
 .hero .wrapper h1 {
