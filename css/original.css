@@ -29,6 +29,10 @@ section {
   overflow-x:hidden;
 }
 
+nav {
+  text-transform: uppercase;
+}
+
 /*
  * Trust Badge
  */
