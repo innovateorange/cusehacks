@@ -34,7 +34,7 @@ section {
 img{
 
   height: auto;
-  width: 400px;
+  width: 1000px;
 }
 
 /*
@@ -65,7 +65,7 @@ img{
 }
 
 .hero img {
-  max-width: 400px;
+  max-width: 1000px;
 }
 
 .hero hr {
