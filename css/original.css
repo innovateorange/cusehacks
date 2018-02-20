@@ -21,20 +21,12 @@
   font-weight: 600;
 }
 
-
-
 body {
   background-color: #fff;
 }
 
 section {
   overflow-x:hidden;
-}
-
-img{
-
-  height: auto;
-  width: 1000px;
 }
 
 /*
@@ -64,9 +56,9 @@ img{
   min-height: 110vh;
 }
 
-.hero img {
-  max-width: 1000px;
-}
+/*.hero img {
+  max-width: 5000px;
+}*/
 
 .hero hr {
   border-top: 15px solid #0F2C34;
