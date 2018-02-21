@@ -49,12 +49,12 @@ event:
         #   client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
         #   redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "/assets/test_sponsor_package.pdf"
+        href: "/assets/cusehacks_sponsorship_package3.pdf"
 
   about:
     description: >
       CuseHacks is the first student-run hackathon at Syracuse University. Over a span of 24-hours, students of all backgrounds are invited
-      to explore the possiblities of technology and imagination. 
+      to explore the possiblities of technology and imagination.
 
   # Info Sections
   info:
