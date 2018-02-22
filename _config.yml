@@ -78,12 +78,17 @@ event:
       answer: >
         A hackathon is an invention marathon. Students come together to build cool
         software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+        CuseHacks is not your typical hackathon. We encourage students with any level of experience to sign up. By including the participation of middle school and
+        highschool students, we are focused on providing a more welcoming environment to introduce the younger generation to tech culture. 
     - question: "How much does it cost?"
       answer: >
-        Nothing. Attending a hackathon is free, and we will provide meals throughout the event.
+        Nothing. Attending a hackathon is free, and we will provide meals, snacks, and swag throughout the event.
     - question: "Who can participate?"
       answer: >
-        All current college, high school, and middle school students are invited to participate.
+        All current college, high school, and middle school students are invited to participate. We will be capping attendance, so please register ASAP!
+    - question: "Will there be travel reimbursement?"
+      answer: >
+        We can not ensure travel reimbursements right now, but it may be a possibility. Please email cusehacks@gmail for more information.
     - question: "What if I don't have coding or hackathon experience?"
       answer: >
         Beginners are especially encouraged to come! You do not need previous hackathon/coding experience or a technology
@@ -91,16 +96,19 @@ event:
         and mentors available throughout the event that can help you get started.
     - question: "How do teams work?"
       answer: >
-        Each team can have up to 4 members. You can come with your friends or you can form a team at the event.
-        There will be team forming activities at the beginning of the hackathon for anybody interested. You can also work alone
-        if you want.
+        Each team can have up to as many members as you want. Typically teams rum from 3-4 members. You can come with your friends or you can form a team at the event.
+        There will be team forming activities at the beginning of the hackathon for anybody interested. You can also work alone if you want.
     - question: "Where is the event?"
       answer: >
-        The event will be held in the Life Science Building at Syracuse University.
-    - question: "What is Major League Hacking?"
-      answer: >
-        Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-        We work with over 200 Member Events and empower over 70,000 students every year.
+        The event will be held in the Life Science Complex Building at Syracuse University.
+    - question: "Your question not here?"
+      answer: > 
+        Please email cusehacks@gmail.com for any more questions.
+
+#    - question: "What is Major League Hacking?"
+#      answer: >
+#        Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
+#        We work with over 200 Member Events and empower over 70,000 students every year.
     - question: "Is there a code of conduct?"
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
