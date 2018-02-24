@@ -17,7 +17,8 @@
  */
 
 * {
-  font-family: "Circular", "helvetica", sans-serif;
+  /*font-family: "Circular", "helvetica", sans-serif;*/
+  font-family: "Circular", "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -76,10 +77,6 @@ nav.item-container{
   min-height: 110vh;
 }
 
-/*.hero img {
-  max-width: 5000px;
-}*/
-
 .hero hr {
   border-top: 15px solid #0F2C34;
   margin: 0;
@@ -99,11 +96,6 @@ nav.item-container{
   padding-bottom: 25px;*/
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.12), 0 1px 4px 0 rgba(0,0,0,.12);
 }
-
-/*.hero .item-container{
-  height: 100%;
-  width: 100%;
-}*/
 
 .hero .container{
   padding: 15px;
