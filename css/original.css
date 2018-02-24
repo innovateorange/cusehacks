@@ -172,6 +172,8 @@ nav.item-container{
  */
 
 .about {
+  font-family: 'Montserrat';
+  font-weight: 700;
   border-width: 15px 0;
   background-color: #fff;
   padding: 130px 0;
