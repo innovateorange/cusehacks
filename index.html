@@ -46,7 +46,15 @@ layout: default
 <section class="faq" id="section-faq">
   <div class="container">
     <h1 class="text-center">FAQ</h1>
-    <div class="row">
+    <div class="grid">
+        <div class="col md-12">
+          <h2>{{ item.question }}</h2>
+          <hr>
+          {{ item.answer | markdownify }}
+        </div>
+        {% endfor %}
+    </div>
+    <!-- <div class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         {% for item in site.event.faq %}
         <div class="question col-xs-12 col-sm-12">
@@ -56,7 +64,7 @@ layout: default
         </div>
         {% endfor %}
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 
