@@ -132,6 +132,8 @@ nav.item-container{
 
 .hero .wrapper h3 {
   font-size: 20px;
+  letter-spacing: -2px;
+  color: #D44500;
   font-weight: 200;
   padding-bottom: 35px;
 }
