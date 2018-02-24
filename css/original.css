@@ -46,7 +46,6 @@ nav.item-container{
 
 .container{
 
-
   max-width: 720px;
 }
 
@@ -109,6 +108,7 @@ nav.item-container{
   color: #000;
   align-items: center;
   font-size: 17px;
+  padding: 16px;
   /*padding: 14px 16px;*/
 }
 
