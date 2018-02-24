@@ -94,6 +94,7 @@ nav.item-container{
   height: 50px;
   width: 100%;
   z-index: 100;
+  font-family: sans-serif;
   /*padding-top: 25px;
   padding-bottom: 25px;*/
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.12), 0 1px 4px 0 rgba(0,0,0,.12);
@@ -104,10 +105,14 @@ nav.item-container{
   width: 100%;
 }
 
+.hero .container{
+  padding: 15px;
+}
+
 .hero .nav-item{
   color: #000;
   align-items: center;
-  font-size: 17px;
+  font-size: 1rem;
   padding: 0.5rem 0.75rem;
   /*padding: 14px 16px;*/
 }
