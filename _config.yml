@@ -49,7 +49,7 @@ event:
         #   client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
         #   redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "/assets/cusehacks_sponsorship_package3.pdf"
+        href: "/assets/cusehacks_sponsorship_package.pdf"
 
   about:
     description: >
@@ -79,7 +79,7 @@ event:
         A hackathon is an invention marathon. Students come together to build cool
         software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
         CuseHacks is not your typical hackathon. We encourage students with any level of experience to sign up. By including the participation of middle school and
-        highschool students, we are focused on providing a more welcoming environment to introduce the younger generation to tech culture. 
+        highschool students, we are focused on providing a more welcoming environment to introduce the younger generation to tech culture.
     - question: "How much does it cost?"
       answer: >
         Nothing. Attending a hackathon is free, and we will provide meals, snacks, and swag throughout the event.
@@ -102,7 +102,7 @@ event:
       answer: >
         The event will be held in the Life Science Complex Building at Syracuse University.
     - question: "Your question not here?"
-      answer: > 
+      answer: >
         Please email cusehacks@gmail.com for any more questions.
 
 #    - question: "What is Major League Hacking?"
