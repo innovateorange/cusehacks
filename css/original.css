@@ -19,7 +19,7 @@
 * {
   /*font-family: "Circular", "helvetica", sans-serif;*/
   font-family: "Circular", "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 body {
@@ -104,7 +104,7 @@ nav.item-container{
 .hero .nav-item{
   color: #000;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding: 0.5rem 0.75rem;
   /*padding: 14px 16px;*/
 }
@@ -123,8 +123,8 @@ nav.item-container{
   background: rgba(255, 255, 255, .3);*/
   color: #fff;
   display: inline-block;
-  font-size: 60px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 600;
   letter-spacing: -2px;
   padding: 10px 30px;
 }
@@ -155,7 +155,7 @@ nav.item-container{
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 300;
   padding: 10px 70px;
   text-decoration: none;
   text-transform: uppercase;
