@@ -48,11 +48,13 @@ layout: default
     <h1 class="text-center">FAQ</h1>
     <div class="grid">
         <div class="col md-12">
-          <h2>{{ item.question }}</h2>
-          <hr>
-          {{ item.answer | markdownify }}
-        </div>
-        {% endfor %}
+          {% for item in site.event.faq %}
+          <div class="question col-xs-12 col-sm-12">
+            <h2>{{ item.question }}</h2>
+            <hr>
+            {{ item.answer | markdownify }}
+          </div>
+          {% endfor %}
     </div>
     <!-- <div class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
