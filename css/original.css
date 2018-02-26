@@ -114,6 +114,10 @@ nav.item-container{
   padding-left: 15px;
 }
 
+.hero .hero-child{
+  padding-left: 15px;
+}
+
 .hero .wrapper h1 {
   /*background: #fff;
   background: rgba(255, 255, 255, .3);*/
@@ -137,6 +141,7 @@ nav.item-container{
   font-weight: 200;
   padding-bottom: 35px;
 }
+
 
 .hero .buttons {
   margin: 40px 0;
