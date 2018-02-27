@@ -151,7 +151,7 @@ nav.item-container{
 
 
 .hero .buttons {
-  margin: 40px 0;
+  margin: 20px 100px;
 
 }
 
@@ -177,7 +177,7 @@ nav.item-container{
 }
 
 .hero .buttons a:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 100px;
 }
 
 /*
