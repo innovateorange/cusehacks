@@ -161,7 +161,7 @@ nav.item-container{
   border: 4px solid #0F2C34;
   /*border-radius: 40px;*/
   color: #0F2C34;
-  display: inline-flex;;
+  display: inline-flex;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 300;
@@ -318,7 +318,7 @@ nav.item-container{
 @media(max-width: 768px) {
   .hero .buttons a {
     border-width: 8px;
-    display: block;
+    display: inline-flex;;
     font-size: 20px;
     margin: 5px;
   }
