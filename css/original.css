@@ -198,8 +198,8 @@ nav.item-container{
 }
 
 .about p span {
-  font-weight: 700;
-  text-transform: uppercase;
+  color: #F47E20;
+  font-weight: 500;
 }
 
 /*
@@ -282,7 +282,7 @@ nav.item-container{
  */
 
 .footer {
-  background-color: #D44500;
+  background-color: #F47E20;
   color: #fff;
   padding: 30px 0;
 }
