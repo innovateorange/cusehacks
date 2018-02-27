@@ -33,6 +33,50 @@ layout: default
   </div>
 </section>
 
+
+<section class="faq" id="section-faq">
+  <div class="container">
+    <div class="section-header">
+      <h1>FAQ<h1>
+    </div>
+    <div class="grid">
+        <div class="col md-12">
+          {% for item in site.event.faq %}
+          <div class="question col-xs-12 col-sm-12">
+            <h2>{{ item.question }}</h2>
+            <hr>
+            {{ item.answer | markdownify }}
+          </div>
+          {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sponsor" id="section-sponsors">
+  <div class="container">
+    <div class="section-header">
+      <h1>SPONSORS<h1>
+    </div>
+    <!-- <div class="row"> -->
+      <div class="col md-12">
+        <p>Interested in sponsoring us? Check out our sponsorship package <a href="/assets/CuseHacks2018_Sponsorship_Package.pdf">here</a> and send us an email.</p>
+      </div>
+    <!-- </div> -->
+  </div>
+</section>
+
+<!-- <div class="row">
+  <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+    {% for item in site.event.faq %}
+    <div class="question col-xs-12 col-sm-12">
+      <h2>{{ item.question }}</h2>
+      <hr>
+      {{ item.answer | markdownify }}
+    </div>
+    {% endfor %}
+  </div>
+</div> -->
+
 <!-- <section class="info" id="section-info">
   <div class="container">
     <div class="items row">
@@ -59,47 +103,3 @@ layout: default
     </div>
   </div>
 </section> -->
-
-
-
-<section class="faq" id="section-faq">
-  <div class="container">
-    <div class="section-header">
-      <h1>FAQ<h1>
-    </div>
-    <div class="grid">
-        <div class="col md-12">
-          {% for item in site.event.faq %}
-          <div class="question col-xs-12 col-sm-12">
-            <h2>{{ item.question }}</h2>
-            <hr>
-            {{ item.answer | markdownify }}
-          </div>
-          {% endfor %}
-    </div>
-    <!-- <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-        {% for item in site.event.faq %}
-        <div class="question col-xs-12 col-sm-12">
-          <h2>{{ item.question }}</h2>
-          <hr>
-          {{ item.answer | markdownify }}
-        </div>
-        {% endfor %}
-      </div>
-    </div> -->
-  </div>
-</section>
-
-<section class="Sponsor" id="section-sponsors">
-  <div class="container">
-    <div class="section-header">
-      <h1>SPONSORS<h1>
-    </div>
-    <!-- <div class="row"> -->
-      <div class="col md-12">
-        <p>Interested in sponsoring us? Check out our sponsorship package <a href="/assets/CuseHacks2018_Sponsorship_Package.pdf">here</a> and send us an email.</p>
-      </div>
-    <!-- </div> -->
-  </div>
-</section>

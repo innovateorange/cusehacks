@@ -46,7 +46,6 @@ nav.item-container{
 }
 
 .container{
-
   max-width: 800px;
 }
 
@@ -151,7 +150,7 @@ nav.item-container{
 
 
 .hero .buttons {
-  margin: 20px 100px;
+  margin: 10px 100px;
 
 }
 
@@ -185,10 +184,8 @@ nav.item-container{
  */
 
 .about {
-  font-family: 'Montserrat';
-  font-weight: 700;
   border-width: 15px 0;
-  background-color: #fff;
+  background-color: #F47E20;
   padding: 130px 0;
   position: relative;
 }
@@ -207,7 +204,7 @@ nav.item-container{
  * Info Section
  */
 
-.info {
+/*.info {
   background-color: #fff;
   margin-top: 15px;
   padding: 100px 0;
@@ -231,7 +228,7 @@ nav.item-container{
 
 .info .item p {
   font-size: 20px;
-}
+}*/
 
 /*
  * FAQ Section
@@ -265,6 +262,16 @@ nav.item-container{
   margin-bottom: -2px;
   margin-top: 40px;
   width: 300px;
+}
+
+.sponsor {
+  position: relative;
+}
+
+.sponsor p {
+  font-size: 22px;
+  line-height: 1.6em;
+
 }
 
 /*
