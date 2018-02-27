@@ -26,7 +26,8 @@ social:
 seo:
   title:       "CuseHacks | April 21- 22nd | Location: Lifesciences Complex, Syracuse University"
   description: "This will be Syracuse University's first student-run hackathon."
-  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+  image:       "/images/logo.jpeg"
+  # "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
