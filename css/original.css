@@ -86,6 +86,7 @@ nav.item-container{
 .hero hr {
   border-top: 15px solid #0F2C34;
   margin: 0;
+  padding-bottom: 50px
   position: relative;
   top: -14px;
 }
@@ -186,7 +187,7 @@ nav.item-container{
 .about {
   border-width: 15px 0;
   background-color: #F47E20;
-  padding: 130px 0;
+  padding: 50px 0;
   position: relative;
 }
 
@@ -238,6 +239,7 @@ nav.item-container{
   background-color: #fff;
   margin-top: 15px;
   position: relative;
+  padding: 50px;
 }
 
 .faq .question h2 {
