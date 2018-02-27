@@ -197,10 +197,14 @@ nav.item-container{
   line-height: 1.6em;
 }
 
-.about p span {
+.about .sub-header {
   color: #F47E20;
   font-weight: 500;
 }
+/*.about p span {
+  color: #F47E20;
+  font-weight: 500;
+}*/
 
 /*
  * Info Section
