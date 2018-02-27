@@ -7,9 +7,28 @@ layout: default
 <section class="about" id="section-about">
   <div class="container">
     <!-- <h1>About</h1> -->
-    <h1 class="text-center">ABOUT</h1>
+    <div class="section-header">
+      <h1>ABOUT<h1>
+    </div>
     <div class="col md-12">
-      {{ site.event.about.description | markdownify }}
+      <p>This Spring, Syracuse University will welcome it’s first student-run hackathon – CuseHacks.
+        College, high school, and middle school students around the northeast region are invited to spend 24 hours hacking to build cool and innovative applications, websites, and hardware projects.
+      </p>
+      <br>
+      <p>
+        You do not need to know how to code to participate.
+        Designers, Artists, Entrepreneurs, Engineers, and anyone interested in creating are encouraged to participate.
+        CuseHacks hopes to foster a fun and safe space for experimentation and education. We are dedicated to facilitating a welcoming environment for everyone, particularly beginners.
+        Asking questions is a beautiful thing.
+        Mentors and volunteers will be there to help you by answering questions, leading fun workshops, and guiding you on your hack.
+      </p>
+      <br>
+      <p>
+        It will be fun. Throughout the weekend, you can use your imagination to make anything you want with the help of your amazing peers and impressive mentors.
+        In addition to that, there will be games, food, and swag! Build something or break something. 
+        CuseHacks just wants you to have a great experience meeting new people, working with friends, and gaining new skills, learning about the possibilities of technology.
+      </p>
+
     </div>
   </div>
 </section>
@@ -45,7 +64,9 @@ layout: default
 
 <section class="faq" id="section-faq">
   <div class="container">
-    <h1 class="text-center">FAQ</h1>
+    <div class="section-header">
+      <h1>FAQ<h1>
+    </div>
     <div class="grid">
         <div class="col md-12">
           {% for item in site.event.faq %}
@@ -72,7 +93,9 @@ layout: default
 
 <section class="about" id="section-sponsors">
   <div class="container">
-    <h1 class="text-center">SPONSORS</h1>
+    <div class="section-header">
+      <h1>SPONSORS<h1>
+    </div>
     <!-- <div class="row"> -->
       <div class="col md-12">
         <p>Interested in sponsoring us? Check out our sponsorship package <a href="/assets/CuseHacks2018_Sponsorship_Package.pdf">here</a> and send us an email.</p>
