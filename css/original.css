@@ -237,7 +237,6 @@ nav.item-container{
 .faq {
   background-color: #fff;
   margin-top: 15px;
-  padding: 100px 0;
   position: relative;
 }
 
@@ -266,6 +265,8 @@ nav.item-container{
 
 .sponsor {
   position: relative;
+  padding: 100px 0;
+  padding-bottom: 50px;
 }
 
 .sponsor p {
