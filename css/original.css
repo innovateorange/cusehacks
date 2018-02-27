@@ -280,6 +280,14 @@ nav.item-container{
   padding: 30px 0;
 }
 
+.footer .a{
+  color: #fff;
+}
+
+.footer .social__icon{
+  padding: 0px 20px;
+}
+
 .footer img {
   max-width: 250px;
   margin-bottom: 15px;
