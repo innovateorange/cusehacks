@@ -145,6 +145,11 @@ nav.item-container{
 
 .hero .buttons {
   margin: 40px 0;
+  
+}
+
+.hero .one-button{
+  padding-left: 40px;
 }
 
 .hero .buttons a {
