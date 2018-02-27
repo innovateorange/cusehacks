@@ -280,19 +280,11 @@ nav.item-container{
   padding: 30px 0;
 }
 
-.footer .a {
-  color: white;
-
-}
 
 .footer .social__icon {
   padding: 0px 20px;
-  font-size: 30px;
-  color: white;
-}
-
-.fa {
   font-size: 20px;
+  color: white;
 }
 
 .footer img {
