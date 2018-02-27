@@ -79,8 +79,9 @@ nav.item-container{
 
 .hero {
   /*background-color: #D44500;*/
-  background-color: #fff;
+  background-color: #FAA95A;
   min-height: 110vh;
+  padding-bottom: 50px;
 }
 
 .hero hr {
@@ -186,7 +187,7 @@ nav.item-container{
 
 .about {
   border-width: 15px 0;
-  background-color: #F47E20;
+  background-color: #fff;
   padding: 50px 0;
   position: relative;
 }
@@ -236,7 +237,7 @@ nav.item-container{
  */
 
 .faq {
-  background-color: #fff;
+  background-color: #F47E20;
   margin-top: 15px;
   position: relative;
   padding: 50px;
@@ -267,8 +268,7 @@ nav.item-container{
 
 .sponsor {
   position: relative;
-  padding: 100px 0;
-  padding-bottom: 50px;
+  padding: 50px;
 }
 
 .sponsor p {
@@ -282,7 +282,11 @@ nav.item-container{
  */
 
 .footer {
-  background-color: #D44500;
+<<<<<<< HEAD
+  background-color: #FAA95A;
+=======
+  background-color: #F47E20;
+>>>>>>> 6d3f0099893377a848aa387c376bed6eb9344686
   color: #fff;
   padding: 30px 0;
 }
@@ -290,7 +294,7 @@ nav.item-container{
 
 .footer .social__icon {
   padding: 0px 20px;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
 }
 
