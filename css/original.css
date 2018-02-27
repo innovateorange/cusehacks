@@ -152,7 +152,7 @@ nav.item-container{
 
 
 .hero .buttons {
-  margin: 10px 100px;
+  margin: 0vw 10vw;
 
 }
 
@@ -165,9 +165,8 @@ nav.item-container{
   color: #0F2C34;
   display: inline-flex;
   font-family: Montserrat;
-  font-size: 2vw;
   font-weight: 300;
-  padding: 1.5rem 6rem;
+  padding: 1.25rem 5rem;
   text-decoration: none;
   text-transform: uppercase;
 }
