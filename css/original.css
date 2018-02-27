@@ -327,7 +327,8 @@ nav.item-container{
   }
 
   .hero img {
-    width: 250px;
+    /*width: 250px;*/
+    width: 100%;
   }
 
   .hero hr {
