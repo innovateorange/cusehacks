@@ -149,14 +149,14 @@ nav.item-container{
 
 .hero .buttons a {
   background: #fff;
-  border: 10px solid #0F2C34;
-  border-radius: 40px;
+  border: 4px solid #0F2C34;
+  /*border-radius: 40px;*/
   color: #0F2C34;
   display: inline;
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
-  padding: 10px 70px;
+  padding: 10px 50px;
   text-decoration: none;
   text-transform: uppercase;
 }
