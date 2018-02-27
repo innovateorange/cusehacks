@@ -161,11 +161,11 @@ nav.item-container{
   border: 4px solid #0F2C34;
   /*border-radius: 40px;*/
   color: #0F2C34;
-  display: inline;
+  display: inline-flex;;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 300;
-  padding: 10px 50px;
+  padding: 1.5rem 4rem;
   text-decoration: none;
   text-transform: uppercase;
 }
