@@ -50,6 +50,10 @@ nav.item-container{
   max-width: 800px;
 }
 
+.section-header {
+
+}
+
 /*
  * Trust Badge
  */
@@ -145,11 +149,7 @@ nav.item-container{
 
 .hero .buttons {
   margin: 40px 0;
-  
-}
 
-.hero .one-button{
-  padding-left: 40px;
 }
 
 .hero .buttons a {
