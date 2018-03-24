@@ -349,4 +349,8 @@ nav.item-container{
   .sponsor .partner{
     width: 40px;
   }
+
+  .sponsor a {
+    padding-left: 15px;
+  }
 }
