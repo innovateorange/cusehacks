@@ -284,7 +284,7 @@ nav.item-container{
 
 .sponsor .sponsor_logos{
 
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 /*
@@ -340,5 +340,13 @@ nav.item-container{
   .hero hr {
     border-top-width: 8px;
     top: -8px;
+  }
+
+  .sponsor .bronze_sponsor{
+    max-width: 300px;
+  }
+
+  .sponsor .partner{
+    width: 40px;
   }
 }
