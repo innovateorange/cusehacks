@@ -288,11 +288,12 @@ nav.item-container{
 }
 
 .partner {
-  padding-left: 15px;
+  padding-right: 30px;
+  width: 40px;
 }
 
-.bronze_sponsor {
-  padding-left: 15px;
+.bronze_sponsor{
+  max-width: 300px;
 }
 
 /*
@@ -350,12 +351,12 @@ nav.item-container{
     top: -8px;
   }
 
-  .bronze_sponsor{
+  /*.bronze_sponsor{
     max-width: 300px;
-  }
-
+  }*/
+/*
   .partner{
     width: 40px;
-  }
+  }*/
 
 }
