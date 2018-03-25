@@ -194,8 +194,8 @@ nav.item-container{
 }
 
 .about p {
-  font-size: 20px;
-  line-height: 1.6em;
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 .sub-header {
@@ -277,9 +277,23 @@ nav.item-container{
 }
 
 .sponsor p {
-  font-size: 20px;
-  line-height: 1.6em;
+  font-size: 18px;
+  line-height: 1.5em;
 
+}
+
+.sponsor .sponsor_logos{
+
+  padding-top: 40px;
+}
+
+.partner {
+  padding-right: 30px;
+  width: 300px;
+}
+
+.bronze_sponsor{
+  max-width: 200px;
 }
 
 /*
@@ -336,4 +350,13 @@ nav.item-container{
     border-top-width: 8px;
     top: -8px;
   }
+
+  /*.bronze_sponsor{
+    max-width: 300px;
+  }*/
+/*
+  .partner{
+    width: 40px;
+  }*/
+
 }
