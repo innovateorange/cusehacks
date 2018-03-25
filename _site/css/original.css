@@ -287,6 +287,14 @@ nav.item-container{
   padding-top: 40px;
 }
 
+.partner {
+  padding-left: 15px;
+}
+
+.bronze_sponsor {
+  padding-left: 15px;
+}
+
 /*
  * Footer Section
  */
@@ -342,15 +350,12 @@ nav.item-container{
     top: -8px;
   }
 
-  .sponsor .bronze_sponsor{
+  .bronze_sponsor{
     max-width: 300px;
   }
 
-  .sponsor .partner{
+  .partner{
     width: 40px;
   }
 
-  .sponsor a {
-    padding-left: 15px;
-  }
 }
