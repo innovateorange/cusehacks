@@ -283,7 +283,6 @@ nav.item-container{
 }
 
 .sponsor .sponsor_logos{
-
   padding-top: 40px;
 }
 
@@ -293,7 +292,14 @@ nav.item-container{
 }
 
 .bronze_sponsor{
-  max-width: 200px;
+  padding-right: 30px;
+  max-width: 100px;
+}
+
+.supporter {
+  padding-right: 30px;
+  max-width: 80px
+
 }
 
 /*
