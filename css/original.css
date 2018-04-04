@@ -300,8 +300,11 @@ nav.item-container{
 .supporter {
   padding-right: 30px;
   padding-top: 30px;
-  max-width: 80px
+  max-width: 85px
+}
 
+.sponsor_request{
+  padding-top: 30px;
 }
 
 /*
