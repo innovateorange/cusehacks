@@ -25,21 +25,21 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "CuseHacks | April 21- 22nd | Location: Lifesciences Complex, Syracuse University"
-  description: "This will be Syracuse University's first student-run hackathon."
+  title:       "CuseHacks | Spring 2019 | Location: TBD"
+  description: "This will be the second event of Syracuse University's first student-run hackathon."
   image:       "/images/logo.jpeg"
   # "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
   name:        "CuseHacks"
-  description: "This will be Syracuse University's first student-run hackathon."
-  date:        "April 21-22, 2018"
+  description: "This will be the second event of Syracuse University's first student-run hackathon."
+  date:        "Spring 2019"
   location:    "Syracuse, NY, United States"
   school:      "Syracuse University"
 
   trust_badge:
-    year:   "2018"  # season year
+    year:   "2019"  # season year
     region: "na"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
@@ -51,7 +51,7 @@ event:
         #   client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
         #   redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "/assets/CuseHacks2018_Sponsorship_Package.pdf"
+        href: "/assets/CuseHacks2019_Sponsorship_Package.pdf"
 
   about:
     description: >
