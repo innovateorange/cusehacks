@@ -34,7 +34,7 @@ seo:
 event:
   name:        "CuseHacks"
   description: "This will be the second event of Syracuse University's first student-run hackathon."
-  date:        "April 6th-7th 2019"
+  date:        "April 6th-7th"
   location:    "Syracuse, NY, United States"
   school:      "Syracuse University"
 
