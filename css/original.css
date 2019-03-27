@@ -294,25 +294,25 @@ nav.item-container{
 .gold_sponsor{
   padding-right: 30px;
   padding-top: 30px;
-  max-width: 325px;
+  max-width: 250px;
 }
 
 .silver_sponsor{
   padding-right: 30px;
   padding-top: 30px;
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .bronze_sponsor{
   padding-right: 30px;
   padding-top: 30px;
-  max-width: 175px;
+  max-width: 150px;
 }
 
 .supporter {
   padding-right: 30px;
   padding-top: 30px;
-  max-width: 85px
+  max-width: 100px
 }
 
 .sponsor_request{
