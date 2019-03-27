@@ -291,6 +291,12 @@ nav.item-container{
   width: 300px;
 }
 
+.gold_sponsor{
+  padding-right: 30px;
+  padding-top: 30px;
+  max-width: 325px;
+}
+
 .silver_sponsor{
   padding-right: 30px;
   padding-top: 30px;
