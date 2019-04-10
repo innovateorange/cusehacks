@@ -179,7 +179,7 @@ nav.item-container{
 }
 
 .hero .buttons a:not(:last-child) {
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 /*
@@ -362,7 +362,7 @@ nav.item-container{
   color: #fff;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 968px) {
   .hero .buttons a {
     border-width: 8px;
     display: inline-flex;
