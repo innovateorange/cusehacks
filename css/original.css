@@ -362,7 +362,7 @@ nav.item-container{
   color: #fff;
 }
 
-@media(max-width: 968px) {
+@media(max-width: 1268px) {
   .hero .buttons a {
     border-width: 8px;
     display: inline-flex;
