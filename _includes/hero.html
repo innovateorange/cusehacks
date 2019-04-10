@@ -23,14 +23,16 @@
     <div class="container">
         <!-- <div class="col md-12"> -->
           <div class="buttons">
-            {% for link in site.event.hero.links %}
-              {% if link.href %}
-                <a href="{{ link.href }}">{{ link.text }}</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-              {% elsif link.my_mlh %}
-                <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
-              {% endif %}
-            {% endfor %}
+            <p>
+              {% for link in site.event.hero.links %}
+                {% if link.href %}
+                  <a href="{{ link.href }}">{{ link.text }}</a>
+
+                {% elsif link.my_mlh %}
+                  <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
+                {% endif %}
+              {% endfor %}
+            </p>
           </div>
         <!-- </div> -->
     </div>
