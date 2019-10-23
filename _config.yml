@@ -48,7 +48,7 @@ event:
           # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "/assets/CuseHacks2019_Sponsorship_Package.pdf"
+        href: "/assets/CuseHacks2020_Sponsorship_Package.pdf"
 
   about:
     description: >
