@@ -31,7 +31,7 @@ seo:
 # Event information.
 event:
   name:        "CuseHacks"
-  description: "This site is under construction."
+  description: "This site is under construction. We'll be back soon with a brand new site."
   date:        "February 15th - 16th"
   location:    "Syracuse, NY, United States"
 
@@ -43,11 +43,12 @@ event:
   hero:
     links:
       - text: "Apply"
-        my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+        href: https://forms.gle/r9aAbo6eF76AbMwZ7
+        # my_mlh:
+          # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+          # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "/assets/CuseHacks2019_Sponsorship_Package.pdf"
 
   about:
     description: >
