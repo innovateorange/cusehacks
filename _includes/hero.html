@@ -1,42 +1,17 @@
 <section class="hero">
-  <nav class = "hero-header">
-      <div class = "item-container">
-        <div class="container">
-          <a class="nav-item" href="#section-about">About</a>
-          <!-- <a class="nav-item" href="#section-schedule">Schedule</a> -->
-          <a class="nav-item" href="#section-faq">FAQs</a>
-          <a class="nav-item" href="#section-sponsors">Sponsors</a>
-      </div>
-    </div>
-  </nav>
-
-<!-- splash title -->
-  <div class="wrapper center">
-    <!-- <h1 rel="title">{{ site.event.name }}</h1> -->
-    <!-- <h2 rel="description">{{ site.event.description }}</h2> -->
-    <!-- <img src = "/images/cusehacks02.svg" alt="CuseHacks" style="height:800px"> -->
-    <div class="container padded narrow">
-    <img src = "/images/cusehacks04.png" alt="CuseHacks">
-    <div class = "hero-child">
-    <h3 rel="location">{{ site.event.date }} &#64; {{ site.event.school }}</h3>
-    <!-- <hr> -->
-    <div class="container">
-        <!-- <div class="col md-12"> -->
-          <div class="buttons">
-            {% for link in site.event.hero.links %}
-              {% if link.href %}
-                <a href="{{ link.href }}">{{ link.text }}</a>
-
-              {% elsif link.my_mlh %}
-                <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
-              {% endif %}
-            {% endfor %}
-          </div>
-        <!-- </div> -->
+  <div class="wrapper text-center">
+    <h1 rel="title">{{ site.event.name }}</h1>
+    <h2 rel="description">{{ site.event.description }}</h2>
+    <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
+    <hr>
+    <div class="buttons">
+      {% for link in site.event.hero.links %}
+        {% if link.href %}
+          <a href="{{ link.href }}">{{ link.text }}</a>
+        {% elsif link.my_mlh %}
+          <a class="apply" href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{ link.text }}</a>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
-    </div>
-
-  </div>
-
 </section>

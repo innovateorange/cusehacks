@@ -1,14 +1,9 @@
 {% if site.event.trust_badge %}
-
-<!--
 <a id="mlh-trust-badge"
-   style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
-   href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white"
+   href="https://mlh.io/seasons/{{ site.event.trust_badge.region }}-{{ site.event.trust_badge.year }}/events?utm_source={{ site.event.trust_badge.region }}-{{ site.event.trust_badge.year }}&utm_medium=TrustBadge&utm_campaign={{ site.event.trust_badge.region }}-{{ site.event.trust_badge.year }}&utm_content={{ site.event.trust_badge.color }}"
    target="_blank">
-   <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" 
-        alt="Major League Hacking 2019 Hackathon Season" 
-        style="width:100%">
+    <img src="https://s3.amazonaws.com/logged-assets/trust-badge/{{ site.event.trust_badge.year }}/{{ site.event.trust_badge.color }}.svg"
+         alt="Major League Hacking {{ site.event.trust_badge.year }} Hackathon Season"
+         style="width:100%">
 </a>
--->
-
 {% endif %}
