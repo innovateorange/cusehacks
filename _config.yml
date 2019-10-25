@@ -26,7 +26,7 @@ tracking:
 seo:
   title:       "CuseHacks | February 15th - 16th"
   description: "Site Under Construction"
-#   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+image:       "/images/walt_the_crane.png"
 
 # Event information.
 event:
