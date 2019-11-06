@@ -16,7 +16,9 @@ style:
 
 # This will help you track who's visiting your website.
 tracking:
-  google_analytics: "UA-43729070-14"
+  google_analytics: "UA-151637954-1"
+  # Old: "UA-117420687-1"
+  # MLH: "UA-43729070-14"
 
 # Let people connect & engage with you through social media.
 social:
