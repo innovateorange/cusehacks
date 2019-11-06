@@ -4,17 +4,23 @@ layout: default
 
 {% include hero.html %}
 
-<section class="about">
+<section class="about" id="section-about">
   <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
+    <img rel=trees src="{{ site.image.palm_trees }}" alt="" height=150px>
+    <img rel=about src="{{ site.image.about }}" alt="About" height=100px>
+    <div class="col md-12">
+      {% for item in site.about %}
+        <p><span class="sub-header">{{ item.header }}</span>
+          {{ item.content | markdownify }}
+        </p>
+      {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="faq">
+<section class="faq" id="section-faq">
   <div class="container">
-    <h1 class="text-center">FAQ</h1>
+    <img rel=about src="{{ site.image.faq }}" alt="FAQ" height=100px>
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2">
         {% for item in site.event.faq %}
@@ -29,18 +35,28 @@ layout: default
   </div>
 </section>
 
-<section class="sponsors">
+<section class="sponsor" id="section-sponsors">
   <div class="container">
-    <div class="row">
-      {% for section in site.event.info.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <img src="{{ section.image }}" />
-            <h1>{{ section.title }}</h1>
-            <p>{{ section.description }}</p>
-          </div>
-        </div>
+    <img rel=about src="{{ site.image.sponsors }}" alt="Sponsors" height=100px>
+
+    {% if site.sponsor.status == "previous" %}
+      <p>These are our previous sponsors from {{ site.sponsor.year }}</p>
+    {% endif %}
+
+    <div class="col md-12">
+        <p>{{ site.sponsor.thank_you | markdownify }}</p>
+    </div>
+  
+    <div class="sponsor_logos">
+      {% for item in site.sponsor.company %}
+        <a target="_blank" href="{{ item.href }}">
+          <img src="{{ item.image }}" alt="{{ item.sponsor }}" class="{{ item.class }}">
+        </a>
       {% endfor %}
+    </div>
+
+    <div class="sponsor_request col md-12">
+      <p>{{ site.sponsor.message | markdownify }}</p>
     </div>
   </div>
 </section>
