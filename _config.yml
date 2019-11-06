@@ -33,11 +33,11 @@ seo:
 # Event information.
 event:
   name:        "CuseHacks"
-  description: "This will be the third event of Syracuse University's first student-run hackathon."
+  description: "Syracuse University's 24-hour hackathon"
   date:        "February 15th - 16th"
   year:        "2020"
   location:    "Life Sciences Complex"
-  school:      "Syracuse University"
+  # school:      "Syracuse University"
 
 # MLH Trust Badge for site. Leave commented out if MLH application
 # hasn't been approved
@@ -48,6 +48,7 @@ event:
 
 # Hero: Nav bar and links
 hero:
+  # For nav, hrefs (except sign up) go to sections with the proper id defined in index.html
   nav:
     - section: "ABOUT"
       href:    "#section-about"
@@ -82,21 +83,21 @@ image:
 
 # About Information
 about:
-  - paragraph_header: ""
-    paragraph_content: >
+  - header: ""
+    content: >
       CuseHacks is the first student-run hackathon at Syracuse University. Over a span of 24-hours, 
       students of all backgrounds are invited to explore the possiblities of technology and imagination.
-  - paragraph_header: "In 2020, Syracuse University will welcome back it’s student-run hackathon – CuseHacks."
-    paragraph_content: >
+  - header: "In 2020, Syracuse University will welcome back it’s student-run hackathon – CuseHacks."
+    content: >
       College students around the northeast region are invited to spend 24 hours hacking to build cool and 
       innovative applications, websites, and hardware projects.
-  - paragraph_header: "You do not need to know how to code to participate."
-    paragraph_content: >
+  - header: "You do not need to know how to code to participate."
+    content: >
       Designers, Artists, Entrepreneurs, Engineers, and anyone interested in creating are encouraged to participate.
       We are dedicated to facilitating a welcoming environment for everyone, particularly beginners.
       Mentors and volunteers will be there to help you by answering questions, leading fun workshops, and guiding you on your hack.
-  - paragraph_header: "It will be fun."
-    paragraph_content: >
+  - header: "It will be fun."
+    content: >
       Throughout the weekend, you can use your imagination to make anything you want with the help of your amazing 
       peers and impressive mentors. There will be games, food, and swag! Build something or break something.
       CuseHacks just wants you to have a great experience meeting new people, working with friends, and gaining new 
@@ -147,6 +148,7 @@ faq:
 # Sponsor Information: Thank you message, interest message, and company information
 sponsor:
   status: "previous"
+  year: "2019"
   thank_you: >
     Thank you to the Department of Electrical Engineering and Computer Science, David G. Edelstein, and 
     our other sponsors for collaborating with us.
