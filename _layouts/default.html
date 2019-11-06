@@ -9,6 +9,11 @@
 
     <section class="footer">
       <div class="container text-center">
+        {% for item in site.social %}
+          <a target="_blank" class="social__icon" href="{{ item.href }}">
+            <i class="{{ item.icon }}" aria-hidden="true"></i>
+          </a>
+        {% endfor %}
         <h3>{{ site.event.year }} {{ site.event.name }} <img src="{{ site.image.slice }}" alt="" height=5px></h3>
       </div>
     </section>
