@@ -2,7 +2,8 @@
 
 This is the Github page for CuseHacks at cusehacks.github.io.
 
-This was made from the MLH Hackathon Boilerplate found at https://github.com/MLH/mlh-hackathon-boilerplate
+This was made from the MLH Hackathon Boilerplate found at https://github.com/MLH/mlh-hackathon-boilerplate.
+
 
 ## Understanding the repo
 
@@ -15,4 +16,9 @@ The css is in the css folder. This is where all the styles are.
 
 ## Demo Site
 
-This GitHub Page is run through Jekyll. To familiarize yourself and demo, read the Jekyll docs here: https://jekyllrb.com/docs/ 
+This GitHub Page is run through Jekyll. To familiarize yourself and demo, read the Jekyll docs here: https://jekyllrb.com/docs/.
+
+
+## Google Analytics
+
+Sign in to https://analytics.google.com/ with innovateorange@gmail.com.
