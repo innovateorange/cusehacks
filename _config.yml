@@ -33,7 +33,8 @@ seo:
 # Event information.
 event:
   name:        "CuseHacks"
-  description: "Syracuse University's 24-hour hackathon"
+  # Spacing intentional
+  description: "Syracuse University's &nbsp;&nbsp; 24-hour hackathon"
   date:        "February 15th - 16th"
   year:        "2020"
   location:    "Life Sciences Complex"
