@@ -42,10 +42,8 @@ event:
 
 # MLH Trust Badge for site. Leave commented out if MLH application
 # hasn't been approved
-# trust_badge:
-#   year:   "2020"  # season year
-#   region: "na"    # "na" or "eu"
-#   color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
+# Update trust_badge.html with content from https://mlh.io/brand-guidelines for proper badge
+trust_badge: "2020"
 
 # Hero: Nav bar and links
 hero:
@@ -80,6 +78,7 @@ image:
   mountains:  "/images/mountains.png"
   sign_up:    "/images/sign_up.png"
   slice:      "/images/logos/cusehacks_logo.png"
+  favicon:    "images/logos/favicon.png"
   
 
 # About Information
@@ -109,8 +108,8 @@ faq:
   - question: "What is a hackathon?"
     answer: >
       A hackathon is an invention marathon. Students come together to build cool
-      software & hardware hacks over 24-48 hours. It's [very beginner friendly]
-      (https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+      software & hardware hacks over 24-48 hours. It's
+      [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl){:target="_blank"}.
       CuseHacks is not your typical hackathon. We encourage students with any level of experience to sign up.
   - question: "How much does it cost?"
     answer: >
@@ -140,11 +139,12 @@ faq:
       Please email innovateorange@gmail.com for any more questions.
   - question: "What is Major League Hacking?"
     answer: >
-      Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
+      Major League Hacking is [the official student hackathon league](https://mlh.io){:target="_blank"} in North America & Europe.
       We work with over 200 Member Events and empower over 70,000 students every year.
   - question: "Is there a code of conduct?"
     answer: >
-      Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+      Yes there is. We enforce it very strongly. You can 
+      [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
 
 # Sponsor Information: Thank you message, interest message, and company information
 sponsor:
@@ -153,9 +153,11 @@ sponsor:
   thank_you: >
     Thank you to the Department of Electrical Engineering and Computer Science, David G. Edelstein, and 
     our other sponsors for collaborating with us.
-  message: >
-    Interested in sponsoring us? Check out our sponsorship package <a href="/assets/CuseHacks2019_Sponsorship_Package.pdf">here</a> 
-    and send us an email at innovateorange@gmail.com.
+  # This doesn't work
+  # message: >
+    # Interested in sponsoring us? Check out our sponsorship package 
+    # [here](/assets/CuseHacks2019_Sponsorship_Package.pdf){:target="_blank"}
+    # and send us an email at innovateorange@gmail.com.
   company:
     - sponsor: "ECS"
       class:   "partner"
@@ -216,12 +218,16 @@ sponsor:
 
 # Social media on footer
 social:
-  - icon: "fa fa-facebook"
-    href: "https://www.facebook.com/CuseHacks-1625574677534631/"
-  - icon: "fa fa-instagram"
-    href: "https://www.instagram.com/innovateorange/?hl=en"
-  - icon: "fa fa-twitter"
+  - icon: "fa fa-facebook fa-2x"
+    href: "https://www.facebook.com/CuseHacks/"
+  - icon: "fa fa-instagram fa-2x"
+    href: "https://www.instagram.com/cusehacks/"
+  - icon: "fa fa-twitter fa-2x"
     href: "https://twitter.com/CuseHacks"
+
+sign_up:
+  message: >
+    Want to register for the event? Sign up [here](https://forms.gle/r9aAbo6eF76AbMwZ7){:target="_blank"}!
 
 
 

@@ -17,6 +17,12 @@ section {
   color: white;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*
  * Trust Badge
  */
@@ -39,7 +45,7 @@ section {
  */
 
 .hero {
-  min-height: 110vh;
+  padding-bottom: 100px;
 }
 
 .navbar-nav {
@@ -56,8 +62,9 @@ section {
 }
 
 .header {
-  width: 500px;
-  padding: 60px 0;
+  width: 700px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .hero .buttons {
@@ -71,7 +78,7 @@ section {
   display: inline;
   font-size: 24px;
   font-weight: 700;
-  padding: 15px 60px;
+  padding: 15px 75px;
   margin: 15px 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -89,50 +96,16 @@ section {
  */
 
 .about {
-  border-width: 15px 0;
-  padding: 130px 0;
-  position: relative;
+  padding: 40px 0;
+}
+
+.about-header{
+  width: 400px;
+  padding: 50px 0;
 }
 
 .about p {
-  color: #0F2C34;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 1.6em;
-  letter-spacing: -.3px;
-}
-
-.about p span {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-/*
- * Info Section
- */
-
-.info {
-  margin-top: 15px;
-  padding: 100px 0;
-  position: relative;
-}
-
-.info .item {
-  padding: 20px;
-}
-
-.info .item h1 {
-  font-size: 45px;
-  font-weight: 700;
-  margin: 20px 0;
-}
-
-.info .item img {
-  max-width: 220px;
-}
-
-.info .item p {
-  font-size: 20px;
+  text-indent: 30px;
 }
 
 /*
@@ -140,82 +113,96 @@ section {
  */
 
 .faq {
-  margin-top: 15px;
-  padding: 100px 0;
+  padding: 40px 0;
   position: relative;
 }
 
-.faq h1 {
-  font-weight: 700;
-  margin: 30px 0;
-}
-
-.faq .question h2 {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.faq .question hr {
-  border-top: 8px solid #0F2C34;
-  margin: 20px 0;
-  width: 80px;
-}
-
-.faq .question p {
-  font-size: 18px;
-  line-height: 1.5em;
-}
-
-.faq img {
-  margin-bottom: -2px;
-  margin-top: 40px;
+.faq-header{
   width: 300px;
+  padding: 50px 0;
 }
 
+.faq p {
+  text-indent: 30px;
+}
 
 /*
  * Sponsor Section
  */
 
+.sponsor {
+  padding: 40px 0;
+  position: relative;
+}
+
 .sponsor .sponsor_logos{
-  padding-top: 40px;
+  padding: 40px 0;
+  background-color: #a1dbe6;
+}
+
+.sponsor-header{
+  width: 500px;
+  padding: 50px 0;
+}
+
+.rounded {
+  border-radius: 3rem!important;
 }
 
 .partner {
-  padding-right: 50px;
+  padding: 10px 30px;
   width: 300px;
 }
 
 .long_gold_sponsor{
-  padding-right: 30px;
-  padding-top: 30px;
+  padding: 20px 20px;
   max-width: 400px;
 }
 
 .gold_sponsor{
-  padding-right: 30px;
-  padding-top: 30px;
+  padding: 20px 20px;
   max-width: 250px;
 }
 
 .silver_sponsor{
-  padding-right: 30px;
-  padding-top: 30px;
+  padding: 15px 15px;
   max-width: 200px;
 }
 
 .bronze_sponsor{
-  padding-right: 30px;
-  padding-top: 30px;
+  padding: 15px 15px;
   max-width: 150px;
 }
 
 .supporter {
-  padding-right: 30px;
-  padding-top: 30px;
+  padding: 20px 20px;
   max-width: 200px
 }
 
+.sponsor .sponsor_logos img:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.sponsor a:hover {
+  text-decoration: none;
+}
+
+/*
+ * Sign Up Section
+ */
+
+ .sign-up {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.sign-up-header{
+  width: 450px;
+  padding: 50px 0;
+}
 
 /*
  * Footer Section
@@ -227,20 +214,13 @@ section {
   padding-bottom: 30px;
 }
 
+
 .footer img {
-  max-width: 250px;
   margin-bottom: 2px;
 }
 
-.footer h3 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  margin: 0;
-}
-
-.footer h3 a {
-  color: #fff;
+.footer a:hover {
+  text-decoration: none;
 }
 
 hr {
@@ -249,5 +229,5 @@ hr {
 }
 
 .social_icon {
-  color: rgb(155, 7, 81);
+  color: rgb(179, 24, 145);
 }

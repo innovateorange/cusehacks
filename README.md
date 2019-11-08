@@ -13,6 +13,8 @@ Most of the structuring is done in _layouts/default.html, _includes/head.html, _
 
 The css is in the css folder. This is where all the styles are.
 
+Ignore the _site folder, you do not need to touch/change it. This is automatically compiled from all the other information.
+
 
 ## Demo Site
 
