@@ -15,6 +15,7 @@ layout: default
       </div>
       <div class="col"></div>
     </div>
+    <br>
     {% for item in site.about %}
       <div class="text-center">
         <h4>{{ item.header }}</h4>
@@ -31,13 +32,13 @@ layout: default
   <div class="container">
     <img rel=faq src="{{ site.image.faq }}" alt="FAQ" class="faq-header center">
     {% for item in site.faq %}
+      <br {% if item.id %} id="{{ item.id }}" {% endif %}>
+      <br>
+      <br>
       <div class="text-center">
         <h4>{{ item.question }}</h4>
       </div>
       <p>{{ item.answer | markdownify }}</p>
-      <br>
-      <br>
-      <br>
     {% endfor %}
   </div>
 </section>
@@ -57,7 +58,7 @@ layout: default
     <br>
     {% if site.sponsor.status == "previous" %}
       <div class="text-center">
-        <p>These are our previous sponsors from {{ site.sponsor.year }}.</p>
+        <p>These are our previous sponsors from CuseHacks {{ site.sponsor.year }}.</p>
       </div>
       <br>
     {% endif %}
@@ -72,7 +73,7 @@ layout: default
     </div>
     <br>
     <p>Interested in sponsoring us? Check out our sponsorship package
-       <a target="_blank" href="{{ site.hero.links[1].href }}">here</a> and send us an email at innovateorange@gmail.com.</p>
+       <a target="_blank" href="{{ site.hero.links[1].href }}">here</a> and send us an email at innovateorange@syr.edu.</p>
   </div>
 </section>
 

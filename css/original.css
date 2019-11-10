@@ -104,26 +104,19 @@ section {
   padding: 50px 0;
 }
 
-.about p {
-  text-indent: 30px;
-}
-
 /*
  * FAQ Section
  */
 
 .faq {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 80px;
   position: relative;
 }
 
 .faq-header{
   width: 300px;
-  padding: 50px 0;
-}
-
-.faq p {
-  text-indent: 30px;
+  padding: 20px 0;
 }
 
 /*
@@ -137,7 +130,6 @@ section {
 
 .sponsor .sponsor_logos{
   padding: 40px 0;
-  background-color: #6ed4e9;
 }
 
 .sponsor-header{

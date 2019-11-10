@@ -43,24 +43,26 @@ event:
 # MLH Trust Badge for site. Leave commented out if MLH application
 # hasn't been approved
 # Update trust_badge.html with content from https://mlh.io/brand-guidelines for proper badge
-trust_badge: "2020"
+# trust_badge: "2020"
 
 # Hero: Nav bar and links
 hero:
-  # For nav, hrefs (except sign up) go to sections with the proper id defined in index.html
+  # For nav, hrefs (except apply) go to sections with the proper id defined in index.html
   nav:
     - section: "ABOUT"
       href:    "#section-about"
     - section: "FAQ"
       href:    "#section-faq"
+    - section:  "CUSEHACKS JR"
+      href:    "#sub-section-jr"
     - section: "SPONSORS"
       href:    "#section-sponsors"
-    - section: "SIGN UP"
-      href:    "https://forms.gle/r9aAbo6eF76AbMwZ7"
+    - section: "APPLY"
+      href:    "https://forms.gle/ctc9A9re2mGMaf9b7"
 
   links:
     - text: "Apply"
-      href: "https://forms.gle/r9aAbo6eF76AbMwZ7"
+      href: "https://forms.gle/ctc9A9re2mGMaf9b7"
       # my_mlh:
         # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
         # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
@@ -73,7 +75,7 @@ image:
   sun:        "/images/sun_gradient.png"
   about:      "/images/about.png"
   palm_trees: "/images/palm_trees.png"
-  faq:        "/images/faqs.png"
+  faq:        "/images/faq.png"
   sponsors:   "/images/sponsors.png"
   mountains:  "/images/mountains.png"
   sign_up:    "/images/sign_up.png"
@@ -120,7 +122,7 @@ faq:
   - question: "Will there be travel reimbursement?"
     answer: >
       We can not ensure travel reimbursements right now, but it may be a possibility. Please email 
-      innovateorange@gmail.com for more information.
+      innovateorange@syr.edu for more information.
   - question: "What if I don't have coding or hackathon experience?"
     answer: >
       Beginners are especially encouraged to come! You do not need previous hackathon/coding experience or a technology
@@ -131,12 +133,22 @@ faq:
       Each team can have up to as many members as you want. Typically teams run from 3-4 members. You can come 
       with your friends or you can form a team at the event. There will be team forming activities at the 
       beginning of the hackathon for anybody interested. You can also work alone if you want.
+  - question: "Is there a schedule?"
+    answer: >
+      Not yet but stay tuned. The schedule will be posted on the CuseHacks 2020 Devpost which will look similar to 
+      [last year's Devpost](https://cusehacks2019.devpost.com/){:target="_blank"}. The Devpost is also where 
+      submissions are posted.
+  - question: "Will there be prizes for inventions?"
+    answer: >
+      Yes, there are many prizes we will be giving out! At the end of the 24 hours, there will be an expo where you 
+      can demo your invention. Judges will be going around finding the best invention to fit the prize categories on 
+      the Devpost.
   - question: "Where is the event?"
     answer: >
       The event location is at the Life Science Complex Building at Syracuse University.
   - question: "Your question not here?"
     answer: >
-      Please email innovateorange@gmail.com for any more questions.
+      Please email innovateorange@syr.edu for any more questions.
   - question: "What is Major League Hacking?"
     answer: >
       Major League Hacking is [the official student hackathon league](https://mlh.io){:target="_blank"} in North America & Europe.
@@ -145,6 +157,10 @@ faq:
     answer: >
       Yes there is. We enforce it very strongly. You can 
       [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
+  - question: "What is CuseHacks Jr?"
+    answer: >
+      CuseHacks Jr is our mini-hackathon for minors. Stay tuned for more information!.
+    id: "sub-section-jr"
 
 # Sponsor Information: Thank you message, interest message, and company information
 sponsor:
@@ -157,39 +173,39 @@ sponsor:
   # message: >
     # Interested in sponsoring us? Check out our sponsorship package 
     # [here](/assets/CuseHacks2019_Sponsorship_Package.pdf){:target="_blank"}
-    # and send us an email at innovateorange@gmail.com.
+    # and send us an email at innovateorange@syr.edu.
   company:
     - sponsor: "ECS"
       class:   "partner"
-      image:   "/images/logos/ecs_logo.png"
+      image:   "/images/white_logos/ecs_logo.png"
       href:    "http://eng-cs.syr.edu/"
     - sponsor: "MLH"
       class:   "supporter"
-      image:   "/images/logos/mlh_logo.png"
+      image:   "/images/white_logos/mlh_logo.png"
       href:    "https://mlh.io/"
-    # - sponsor: "EECS"
-      # class:   "partner"
-      # image:   "/images/logos/eecs_logo.png"
-      # href:    ""
+    - sponsor: "EECS"
+      class:   "partner"
+      image:   "/images/white_logos/eecs_logo.png"
+      href:    ""
     - sponsor: "IBM"
       class:   "gold_sponsor"
-      image:   "/images/logos/ibm_logo.png"
-      href:    "https://www-03.ibm.com/employment/us/entry_level_campus.shtml"
+      image:   "/images/white_logos/ibm_logo.png"
+      href:    "https://www.ibm.com/employment/"
     - sponsor: "Lockheed Martin"
       class:   "long_gold_sponsor"
-      image:   "/images/logos/lockheed_logo.png"
+      image:   "/images/white_logos/lockheed_logo.png"
       href:    "https://www.lockheedmartinjobs.com/"
     - sponsor: "Google Cloud Platform"
       class:   "silver_sponsor"
-      image:   "/images/logos/google_cloud_logo.png"
+      image:   "/images/white_logos/google_cloud_logo.png"
       href:    "https://cloud.google.com/"
     - sponsor: "Google"
       class:   "silver_sponsor"
-      image:   "/images/logos/google_logo.png"
+      image:   "/images/white_logos/google_logo.png"
       href:    "https://careers.google.com/jobs/"
     - sponsor: "CASE"
       class:   "silver_sponsor"
-      image:   "/images/logos/case_logo.png"
+      image:   "/images/white_logos/case_logo.png"
       href:    "http://case.syr.edu/"
     # - sponsor: "SRC"
       # class:   "silver_sponsor"
@@ -197,20 +213,24 @@ sponsor:
       # href:    "https://www.srcinc.com/"
     - sponsor: "Dibellas"
       class:   "bronze_sponsor"
-      image:   "/images/logos/dibellas_logo.png"
+      image:   "/images/white_logos/dibellas_logo.png"
       href:    "https://www.dibellas.com/"
     - sponsor: "Rockstar"
       class:   "bronze_sponsor"
-      image:   "/images/logos/rockstar_logo.png"
+      image:   "/images/white_logos/rockstar_logo.png"
       href:    "http://rockstarenergy.com/"
     - sponsor: "Twitch"
       class:   "bronze_sponsor"
-      image:   "/images/logos/twitch_logo.png"
+      image:   "/images/white_logos/twitch_logo.png"
       href:    "https://www.twitch.tv/"
     - sponsor: "Wegmans"
       class:   "bronze_sponsor"
-      image:   "/images/logos/wegmans_logo.png"
+      image:   "/images/white_logos/wegmans_logo.png"
       href:    "https://www.wegmans.com/"
+    - sponsor: "M&T Bank"
+      class:   "bronze_sponsor"
+      image:   "/images/white_logos/MT_bank_logo.png"
+      href:    "https://www.mtb.com/home-page"
     # - sponsor: "United Technologies"
       # class:   "bronze_sponsor"
       # image:   "/images/logos/utc_logo.png"
@@ -227,7 +247,7 @@ social:
 
 sign_up:
   message: >
-    Want to register for the event? Sign up [here](https://forms.gle/r9aAbo6eF76AbMwZ7){:target="_blank"}!
+    Interested in attending the event? Apply [here](https://forms.gle/ctc9A9re2mGMaf9b7){:target="_blank"}!
 
 
 
