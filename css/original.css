@@ -68,6 +68,10 @@ p {
   padding-bottom: 10%;
 }
 
+.navbar {
+  padding: .5% 1%;
+}
+
 .navbar-nav {
   justify-content: space-around;
 }
