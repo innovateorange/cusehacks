@@ -1,0 +1,225 @@
+@font-face {
+ font-family: 'krungthep';
+ src: url(Krungthep.ttf);
+ font-weight: normal;
+}
+
+* {
+  font-family: 'krungthep';
+}
+
+body {
+  background-image: linear-gradient(rgb(13, 0, 59), rgb(18, 12, 116), rgb(13, 0, 59), rgb(18, 12, 116));
+}
+
+section {
+  overflow-x:hidden;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ * Trust Badge
+ */
+
+#mlh-trust-badge {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: fixed;
+  right: 50px;
+  top: 0;
+  width: 10%;
+  z-index: 10000;
+}
+
+
+
+/* 
+ * Hero Section
+ */
+
+.hero {
+  padding-bottom: 100px;
+}
+
+.navbar-nav {
+  justify-content: space-around;
+}
+
+.nav-item {
+  color: black;
+}
+
+.hero nav {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.header {
+  width: 700px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.hero .buttons {
+  margin: 40px 0;
+}
+
+.hero .buttons a {
+  background: #fff;
+  border-radius: 30px;
+  color: #0F2C34;
+  display: inline;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px 75px;
+  margin: 15px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero .buttons a:hover,
+.hero .buttons a:focus {
+  background-color: #0F2C34;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+/* 
+ * About Section
+ */
+
+.about {
+  padding: 40px 0;
+}
+
+.about-header{
+  width: 400px;
+  padding: 50px 0;
+}
+
+/*
+ * FAQ Section
+ */
+
+.faq {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.faq-header{
+  width: 300px;
+  padding: 20px 0;
+}
+
+/*
+ * Sponsor Section
+ */
+
+.sponsor {
+  padding: 40px 0;
+  position: relative;
+}
+
+.sponsor .sponsor_logos{
+  padding: 40px 0;
+}
+
+.sponsor-header{
+  width: 500px;
+  padding: 50px 0;
+}
+
+.rounded {
+  border-radius: 3rem!important;
+}
+
+.partner {
+  padding: 10px 30px;
+  width: 300px;
+}
+
+.long_gold_sponsor{
+  padding: 20px 20px;
+  max-width: 400px;
+}
+
+.gold_sponsor{
+  padding: 20px 20px;
+  max-width: 250px;
+}
+
+.silver_sponsor{
+  padding: 15px 15px;
+  max-width: 200px;
+}
+
+.bronze_sponsor{
+  padding: 15px 15px;
+  max-width: 150px;
+}
+
+.supporter {
+  padding: 20px 20px;
+  max-width: 200px
+}
+
+.sponsor .sponsor_logos img:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.sponsor a:hover {
+  text-decoration: none;
+}
+
+/*
+ * Sign Up Section
+ */
+
+ .sign-up {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.sign-up-header{
+  width: 450px;
+  padding: 50px 0;
+}
+
+/*
+ * Footer Section
+ */
+
+.footer {
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+
+.footer img {
+  margin-bottom: 2px;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+hr {
+  background-color: white;
+  height: 1px
+}
+
+.social_icon {
+  color: rgb(179, 24, 145);
+}
