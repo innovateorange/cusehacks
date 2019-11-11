@@ -3,8 +3,10 @@
   {% include head.html %}
 
   <body>
-    {% include trust_badge.html %}
-
+    {% if site.trust_badge %}
+      {% include trust_badge.html %}
+    {% endif %}
+    
     {{ content }}
 
     <hr>
