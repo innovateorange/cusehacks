@@ -3,46 +3,85 @@ layout: default
 ---
 
 {% include hero.html %}
-<!--
 
-<section class="about">
+<section class="about" id="section-about">
   <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
+    <div class="row align-items-center">
+      <div class="col">
+        <img rel=trees src="{{ site.image.palm_trees }}" alt="" height=200px>
+      </div>
+      <div class="col">
+        <img rel=about src="{{ site.image.about }}" alt="About" class="about-header">
+      </div>
+      <div class="col"></div>
     </div>
+    <br>
+    {% for item in site.about %}
+      <div class="text-center">
+        <h4>{{ item.header }}</h4>
+      </div>
+      <p>{{ item.content | markdownify }}</p>
+      <br>
+      <br>
+      <br>
+    {% endfor %}
   </div>
 </section>
 
-<section class="info">
+<section class="faq" id="section-faq">
   <div class="container">
-    <div class="items row">
-      {% for section in site.event.info.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <img src="{{ section.image }}" />
-            <h1>{{ section.title }}</h1>
-            <p>{{ section.description }}</p>
-          </div>
-        </div>
+    <img rel=faq src="{{ site.image.faq }}" alt="FAQ" class="faq-header center">
+    {% for item in site.faq %}
+      <br {% if item.id %} id="{{ item.id }}" {% endif %}>
+      <br>
+      <br>
+      <div class="text-center">
+        <h4>{{ item.question }}</h4>
+      </div>
+      <p>{{ item.answer | markdownify }}</p>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="sponsor" id="section-sponsors">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+        <img rel=mountains src="{{ site.image.mountains }}" alt="" height=125px>
+      </div>
+      <div class="col">
+        <img rel=sponsors src="{{ site.image.sponsors }}" alt="Sponsors" class="sponsor-header">
+      </div>
+      <div class="col"></div>
+    </div>
+    <br>
+    <br>
+    {% if site.sponsor.status == "previous" %}
+      <div class="text-center">
+        <p>These are our previous sponsors from CuseHacks {{ site.sponsor.year }}.</p>
+      </div>
+      <br>
+    {% endif %}
+    <p>{{ site.sponsor.thank_you | markdownify }}</p>
+    <br>
+    <div class="sponsor_logos container rounded text-center">
+      {% for item in site.sponsor.company %}
+        <a target="_blank" href="{{ item.href }}">
+          <img src="{{ item.image }}" alt="{{ item.sponsor }}" class="{{ item.class }}">
+        </a>
       {% endfor %}
     </div>
+    <br>
+    <p>Interested in sponsoring us? Check out our sponsorship package
+       <a target="_blank" href="{{ site.hero.links[1].href }}">here</a> and send us an email at innovateorange@syr.edu.</p>
   </div>
 </section>
 
-<section class="faq">
-  <div class="container">
-    <h1 class="text-center">FAQ</h1>
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-        {% for item in site.event.faq %}
-        <div class="question col-xs-12 col-sm-12">
-          <h2>{{ item.question }}</h2>
-          <hr>
-          {{ item.answer | markdownify }}
-        </div>
-        {% endfor %}
+<section class="sign-up" id="section-sign-up">
+    <div class="container">
+      <img rel=sign-up src="{{ site.image.sign_up }}" alt="Sign Up" class="sign-up-header center">
+      <div class="text-center">
+        <p>{{ site.sign_up.message | markdownify }}</p>
       </div>
     </div>
-  </div>
-</section>
--->
+  </section>

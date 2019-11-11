@@ -16,66 +16,240 @@ style:
 
 # This will help you track who's visiting your website.
 tracking:
-  google_analytics: "UA-43729070-14"
+  google_analytics: "UA-151637954-1"
+  # Old: "UA-117420687-1"
+  # MLH: "UA-43729070-14"
 
 # Let people connect & engage with you through social media.
-#social:
-#  twitter_handle: "MLHacks"
+social:
+  twitter_handle: "CuseHacks"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "CuseHacks | February 15th - 16th"
-  description: "Site Under Construction"
-image:       "/images/walt_the_crane.png"
+  title:       "CuseHacks | February 15th - 16th | Life Sciences Complex"
+  description: "This will be the third event of Syracuse University's first student-run hackathon."
+  image:       "/images/logos/cusehacks_logo.png"
 
 # Event information.
 event:
   name:        "CuseHacks"
-  description: "This site is under construction. We'll be back soon with a brand new site."
+  # Spacing intentional
+  description: "Syracuse University's &nbsp;&nbsp; 24-hour hackathon"
   date:        "February 15th - 16th"
-  location:    "Syracuse, NY, United States"
+  year:        "2020"
+  location:    "Life Sciences Complex"
+  # school:      "Syracuse University"
 
-  # trust_badge:
-  #   year:   "2017"  # season year
-  #   region: "eu"    # "na" or "eu"
-  #   color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
+# MLH Trust Badge for site. Leave commented out if MLH application
+# hasn't been approved
+# Update trust_badge.html with content from https://mlh.io/brand-guidelines for proper badge
+# trust_badge: "2020"
 
-  hero:
-    links:
-      - text: "Apply"
-        href: https://forms.gle/r9aAbo6eF76AbMwZ7
-        # my_mlh:
-          # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
-      - text: "Sponsor"
-        href: "/assets/CuseHacks2020_Sponsorship_Package.pdf"
+# Hero: Nav bar and links
+hero:
+  # For nav, hrefs (except apply) go to sections with the proper id defined in index.html
+  nav:
+    - section: "ABOUT"
+      href:    "#section-about"
+    - section: "FAQ"
+      href:    "#section-faq"
+    - section:  "CUSEHACKS JR"
+      href:    "#sub-section-jr"
+    - section: "SPONSORS"
+      href:    "#section-sponsors"
+    - section: "APPLY"
+      href:    "https://forms.gle/ctc9A9re2mGMaf9b7"
 
-  about:
-    description: >
-      Site Under Construction
+  links:
+    - text: "Apply"
+      href: "https://forms.gle/ctc9A9re2mGMaf9b7"
+      # my_mlh:
+        # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+        # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+    - text: "Sponsor"
+      href: "/assets/CuseHacks2020_Sponsorship_Package.pdf"
 
-  # Info Sections
-  #info:
-  #  sections:
-  #    - image: "images/image1.png"
-  #      title: "LEARN."
-  #      description: >
-  #        We can write something nice with a graphic (as above) to make the event more appealing.
-  #    - image: "images/image2.png"
-  #      title: "BUILD."
-  #      description: >
-  #        We can write something nice with a graphic (as above) to make the event more appealing.
-  #    - image: "images/image3.png"
-  #      title: "SHARE."
-  #      description: >
-  #        We can write something nice with a graphic (as above) to make the event more appealing.
+# Images
+image:
+  header:     "/images/cuse_hacks_header.png"
+  sun:        "/images/sun_gradient.png"
+  about:      "/images/about.png"
+  palm_trees: "/images/palm_trees.png"
+  faq:        "/images/faq.png"
+  sponsors:   "/images/sponsors.png"
+  mountains:  "/images/mountains.png"
+  sign_up:    "/images/sign_up.png"
+  slice:      "/images/logos/cusehacks_logo.png"
+  favicon:    "images/logos/favicon.png"
+  
 
-  # Frequently asked questions.
+# About Information
+about:
+  - header: ""
+    content: >
+      CuseHacks is the first student-run hackathon at Syracuse University. Over a span of 24-hours, 
+      students of all backgrounds are invited to explore the possiblities of technology and imagination.
+  - header: "In 2020, Syracuse University will welcome back it’s student-run hackathon – CuseHacks."
+    content: >
+      College students around the northeast region are invited to spend 24 hours hacking to build cool and 
+      innovative applications, websites, and hardware projects.
+  - header: "You do not need to know how to code to participate."
+    content: >
+      Designers, Artists, Entrepreneurs, Engineers, and anyone interested in creating are encouraged to participate.
+      We are dedicated to facilitating a welcoming environment for everyone, particularly beginners.
+      Mentors and volunteers will be there to help you by answering questions, leading fun workshops, and guiding you on your hack.
+  - header: "It will be fun."
+    content: >
+      Throughout the weekend, you can use your imagination to make anything you want with the help of your amazing 
+      peers and impressive mentors. There will be games, food, and swag! Build something or break something.
+      CuseHacks just wants you to have a great experience meeting new people, working with friends, and gaining new 
+      skills, learning about the possibilities of technology.
 
-  # This is the message you'll receive once you've registered.
-  register:
-    message: >
-      You'll receive more information closer to the hackathon.
+# Frequently asked questions.
+faq:
+  - question: "What is a hackathon?"
+    answer: >
+      A hackathon is an invention marathon. Students come together to build cool
+      software & hardware hacks over 24-48 hours. It's
+      [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl){:target="_blank"}.
+      CuseHacks is not your typical hackathon. We encourage students with any level of experience to sign up.
+  - question: "How much does it cost?"
+    answer: >
+      Nothing. Attending a hackathon is free, and we will provide meals, snacks, and swag throughout the event.
+  - question: "Who can participate?"
+    answer: >
+      All current college students are invited to participate. We will be capping attendance, so please register ASAP!
+  - question: "Will there be travel reimbursement?"
+    answer: >
+      We can not ensure travel reimbursements right now, but it may be a possibility. Please email 
+      innovateorange@syr.edu for more information.
+  - question: "What if I don't have coding or hackathon experience?"
+    answer: >
+      Beginners are especially encouraged to come! You do not need previous hackathon/coding experience or a technology
+      background. CuseHacks is meant to be a comfortable learning experience for everyone. Also, there will be workshops
+      and mentors available throughout the event that can help you get started.
+  - question: "How do teams work?"
+    answer: >
+      Each team can have up to as many members as you want. Typically teams run from 3-4 members. You can come 
+      with your friends or you can form a team at the event. There will be team forming activities at the 
+      beginning of the hackathon for anybody interested. You can also work alone if you want.
+  - question: "Is there a schedule?"
+    answer: >
+      Not yet but stay tuned. The schedule will be posted on the CuseHacks 2020 Devpost which will look similar to 
+      [last year's Devpost](https://cusehacks2019.devpost.com/){:target="_blank"}. The Devpost is also where 
+      submissions are posted.
+  - question: "Will there be prizes for inventions?"
+    answer: >
+      Yes, there are many prizes we will be giving out! At the end of the 24 hours, there will be an expo where you 
+      can demo your invention. Judges will be going around finding the best invention to fit the prize categories on 
+      the Devpost.
+  - question: "Where is the event?"
+    answer: >
+      The event location is at the Life Science Complex Building at Syracuse University.
+  - question: "Your question not here?"
+    answer: >
+      Please email innovateorange@syr.edu for any more questions.
+  - question: "What is Major League Hacking?"
+    answer: >
+      Major League Hacking is [the official student hackathon league](https://mlh.io){:target="_blank"} in North America & Europe.
+      We work with over 200 Member Events and empower over 70,000 students every year.
+  - question: "Is there a code of conduct?"
+    answer: >
+      Yes there is. We enforce it very strongly. You can 
+      [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
+  - question: "What is CuseHacks Jr?"
+    answer: >
+      CuseHacks Jr is our mini-hackathon for minors. Stay tuned for more information and the application!.
+    id: "sub-section-jr"
+
+# Sponsor Information: Thank you message, interest message, and company information
+sponsor:
+  status: "previous"
+  year: "2019"
+  thank_you: >
+    Thank you to the Department of Electrical Engineering and Computer Science, David G. Edelstein, and 
+    our other sponsors for collaborating with us.
+  # This doesn't work
+  # message: >
+    # Interested in sponsoring us? Check out our sponsorship package 
+    # [here](/assets/CuseHacks2019_Sponsorship_Package.pdf){:target="_blank"}
+    # and send us an email at innovateorange@syr.edu.
+  company:
+    - sponsor: "ECS"
+      class:   "partner"
+      image:   "/images/white_logos/ecs_logo.png"
+      href:    "http://eng-cs.syr.edu/"
+    - sponsor: "MLH"
+      class:   "supporter"
+      image:   "/images/white_logos/mlh_logo.png"
+      href:    "https://mlh.io/"
+    - sponsor: "EECS"
+      class:   "partner"
+      image:   "/images/white_logos/eecs_logo.png"
+      href:    ""
+    - sponsor: "IBM"
+      class:   "gold_sponsor"
+      image:   "/images/white_logos/ibm_logo.png"
+      href:    "https://www.ibm.com/employment/"
+    - sponsor: "Lockheed Martin"
+      class:   "long_gold_sponsor"
+      image:   "/images/white_logos/lockheed_logo.png"
+      href:    "https://www.lockheedmartinjobs.com/"
+    - sponsor: "Google Cloud Platform"
+      class:   "silver_sponsor"
+      image:   "/images/white_logos/google_cloud_logo.png"
+      href:    "https://cloud.google.com/"
+    - sponsor: "Google"
+      class:   "silver_sponsor"
+      image:   "/images/white_logos/google_logo.png"
+      href:    "https://careers.google.com/jobs/"
+    - sponsor: "CASE"
+      class:   "silver_sponsor"
+      image:   "/images/white_logos/case_logo.png"
+      href:    "http://case.syr.edu/"
+    # - sponsor: "SRC"
+      # class:   "silver_sponsor"
+      # image:   "/images/logos/src_logo.png"
+      # href:    "https://www.srcinc.com/"
+    - sponsor: "Dibellas"
+      class:   "bronze_sponsor"
+      image:   "/images/white_logos/dibellas_logo.png"
+      href:    "https://www.dibellas.com/"
+    - sponsor: "Rockstar"
+      class:   "bronze_sponsor"
+      image:   "/images/white_logos/rockstar_logo.png"
+      href:    "http://rockstarenergy.com/"
+    - sponsor: "Twitch"
+      class:   "bronze_sponsor"
+      image:   "/images/white_logos/twitch_logo.png"
+      href:    "https://www.twitch.tv/"
+    - sponsor: "Wegmans"
+      class:   "bronze_sponsor"
+      image:   "/images/white_logos/wegmans_logo.png"
+      href:    "https://www.wegmans.com/"
+    - sponsor: "M&T Bank"
+      class:   "bronze_sponsor"
+      image:   "/images/white_logos/MT_bank_logo.png"
+      href:    "https://www.mtb.com/home-page"
+    # - sponsor: "United Technologies"
+      # class:   "bronze_sponsor"
+      # image:   "/images/logos/utc_logo.png"
+      # href:    "http://www.utc.com/Pages/Home.aspx"
+
+# Social media on footer
+social:
+  - icon: "fa fa-facebook fa-2x"
+    href: "https://www.facebook.com/CuseHacks/"
+  - icon: "fa fa-instagram fa-2x"
+    href: "https://www.instagram.com/cusehacks/"
+  - icon: "fa fa-twitter fa-2x"
+    href: "https://twitter.com/CuseHacks"
+
+sign_up:
+  message: >
+    Interested in attending the event? Apply [here](https://forms.gle/ctc9A9re2mGMaf9b7){:target="_blank"}!
+
+
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
