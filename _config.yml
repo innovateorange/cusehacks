@@ -34,7 +34,7 @@ seo:
 event:
   name:        "CuseHacks"
   # Spacing intentional
-  description: "Syracuse University's &nbsp;&nbsp; 24-hour hackathon"
+  description: "Syracuse University's 24-hour hackathon"
   date:        "February 15th - 16th"
   year:        "2020"
   location:    "Life Sciences Complex"
@@ -159,7 +159,7 @@ faq:
       [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
   - question: "What is CuseHacks Jr?"
     answer: >
-      CuseHacks Jr is our mini-hackathon for minors. Stay tuned for more information and the application!.
+      CuseHacks Jr is our mini-hackathon for minors. Stay tuned for more information and the application!
     id: "sub-section-jr"
 
 # Sponsor Information: Thank you message, interest message, and company information
@@ -169,7 +169,7 @@ sponsor:
   thank_you: >
     Thank you to the Department of Electrical Engineering and Computer Science, David G. Edelstein, and 
     our other sponsors for collaborating with us.
-  # This doesn't work
+  # This doesn't work, implemented manually in index
   # message: >
     # Interested in sponsoring us? Check out our sponsorship package 
     # [here](/assets/CuseHacks2019_Sponsorship_Package.pdf){:target="_blank"}
