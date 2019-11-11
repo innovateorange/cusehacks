@@ -17,6 +17,26 @@ section {
   color: white;
 }
 
+h2 {
+  font-size: 2vw;
+}
+
+h3 {
+  font-size: 1.75vw;
+}
+
+h4 {
+  font-size: 1.6vw;
+}
+
+h5 {
+  font-size: 1.25vw;
+}
+
+p {
+  font-size: 1vw;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -59,12 +79,22 @@ section {
 .hero nav {
   margin-left: 30px;
   margin-right: 30px;
+  font-size: 1vw;
+  margin-bottom: 10%;
+}
+
+.navbar-nav {
+  flex-direction: row;
 }
 
 .header {
-  width: 700px;
+  width: 50%;
   padding-top: 40px;
   padding-bottom: 30px;
+}
+
+.hero .col {
+  padding-right: 7%;
 }
 
 .hero .buttons {
@@ -76,9 +106,9 @@ section {
   border-radius: 30px;
   color: #0F2C34;
   display: inline;
-  font-size: 24px;
+  font-size: 1.75vw;
   font-weight: 700;
-  padding: 15px 75px;
+  padding: 1% 5%;
   margin: 15px 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -91,6 +121,11 @@ section {
   transition: all 0.2s ease;
 }
 
+.sun {
+  width: 150%;
+  height: 150%;
+}
+
 /* 
  * About Section
  */
@@ -99,11 +134,15 @@ section {
   padding: 40px 0;
 }
 
-.about-header{
-  width: 400px;
+.about-header {
+  width: 115%;
   padding: 50px 0;
 }
 
+.trees {
+  width: 75%
+  /*200px*/
+}
 /*
  * FAQ Section
  */
@@ -114,8 +153,8 @@ section {
   position: relative;
 }
 
-.faq-header{
-  width: 300px;
+.faq-header {
+  width: 25%;
   padding: 20px 0;
 }
 
@@ -128,13 +167,18 @@ section {
   position: relative;
 }
 
-.sponsor .sponsor_logos{
+.sponsor .sponsor_logos {
   padding: 40px 0;
 }
 
-.sponsor-header{
-  width: 500px;
-  padding: 50px 0;
+.sponsor-header {
+  width: 150%;
+  padding: 50px 30px;
+}
+
+.mountains {
+  width: 100%
+  /*125px*/
 }
 
 .rounded {
@@ -146,22 +190,22 @@ section {
   width: 300px;
 }
 
-.long_gold_sponsor{
+.long_gold_sponsor {
   padding: 20px 20px;
   max-width: 400px;
 }
 
-.gold_sponsor{
+.gold_sponsor {
   padding: 20px 20px;
   max-width: 250px;
 }
 
-.silver_sponsor{
+.silver_sponsor {
   padding: 15px 15px;
   max-width: 200px;
 }
 
-.bronze_sponsor{
+.bronze_sponsor {
   padding: 15px 15px;
   max-width: 150px;
 }
@@ -191,8 +235,8 @@ section {
   position: relative;
 }
 
-.sign-up-header{
-  width: 450px;
+.sign-up-header {
+  width: 40%;
   padding: 50px 0;
 }
 
@@ -222,4 +266,8 @@ hr {
 
 .social_icon {
   color: rgb(179, 24, 145);
+}
+
+.fa-2x {
+  font-size: 2vw;
 }
