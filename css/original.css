@@ -65,7 +65,7 @@ p {
  */
 
 .hero {
-  padding-bottom: 100px;
+  padding-bottom: 10%;
 }
 
 .navbar-nav {
@@ -98,13 +98,13 @@ p {
 }
 
 .hero .buttons {
-  margin: 40px 0;
+  margin: 10% 0;
 }
 
 .hero .buttons a {
   background: #fff;
   border-radius: 30px;
-  color: #0F2C34;
+  color: rgb(0, 0, 0);
   display: inline;
   font-size: 1.75vw;
   font-weight: 700;
@@ -130,7 +130,7 @@ p {
  */
 
 .about {
-  padding: 40px 0;
+  padding-bottom: 10%;
 }
 
 .about-header {
@@ -139,22 +139,34 @@ p {
 }
 
 .trees {
-  width: 75%
-  /*200px*/
+  width: 75%;
 }
+
+.about p {
+  padding-bottom: 8%;
+}
+
 /*
  * FAQ Section
  */
 
 .faq {
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 10%;
   position: relative;
 }
 
 .faq-header {
   width: 25%;
   padding: 20px 0;
+  padding-bottom: 10%;
+}
+
+.faq p {
+  padding-bottom: 8%;
+}
+
+.faq .space {
+  padding: 5% 0;
 }
 
 /*
@@ -162,8 +174,8 @@ p {
  */
 
 .sponsor {
-  padding: 40px 0;
   position: relative;
+  padding-bottom: 5%;
 }
 
 .sponsor .sponsor_logos {
@@ -171,13 +183,19 @@ p {
 }
 
 .sponsor-header {
-  width: 150%;
-  padding: 50px 30px;
+  width: 175%;
 }
 
 .mountains {
-  width: 100%
-  /*125px*/
+  width: 80%;
+}
+
+.sponsor .row {
+  padding-bottom: 8%;
+}
+
+.sponsor p {
+  padding-bottom: 5%;
 }
 
 .rounded {
@@ -185,33 +203,33 @@ p {
 }
 
 .partner {
-  padding: 10px 30px;
-  width: 300px;
+  padding: 1% 3%;
+  width: 30%;
 }
 
 .long_gold_sponsor {
-  padding: 20px 20px;
-  max-width: 400px;
+  padding: 2% 2%;
+  max-width: 35%;
 }
 
 .gold_sponsor {
-  padding: 20px 20px;
-  max-width: 250px;
+  padding: 2% 2%;
+  max-width: 23%;
 }
 
 .silver_sponsor {
-  padding: 15px 15px;
-  max-width: 200px;
+  padding: 1.5% 1.5%;
+  max-width: 20%;
 }
 
 .bronze_sponsor {
-  padding: 15px 15px;
-  max-width: 150px;
+  padding: 1.5% 1.5%;
+  max-width: 15%;
 }
 
 .supporter {
-  padding: 20px 20px;
-  max-width: 200px
+  padding: 2% 2%;
+  max-width: 10%;
 }
 
 .sponsor .sponsor_logos img:hover {
@@ -229,14 +247,13 @@ p {
  */
 
  .sign-up {
-  padding-top: 40px;
-  padding-bottom: 70px;
+  padding-bottom: 6%;
   position: relative;
 }
 
 .sign-up-header {
   width: 40%;
-  padding: 50px 0;
+  padding: 3% 0;
 }
 
 /*
@@ -245,8 +262,8 @@ p {
 
 .footer {
   color: #fff;
-  padding-top: 15px;
-  padding-bottom: 30px;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 
@@ -260,7 +277,9 @@ p {
 
 hr {
   background-color: white;
-  height: 1px
+  height: 1px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .social_icon {
@@ -269,4 +288,8 @@ hr {
 
 .fa-2x {
   font-size: 2vw;
+}
+
+.footer h5 {
+  padding-top: 3%;
 }

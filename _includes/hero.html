@@ -17,8 +17,8 @@
   <div class="text-center">
     <div class="row justify-content-center align-items-center">
       <div class="col-4">
-        <h2 rel="description">{{ site.event.description }}</h2>
-        <br>
+        <h2 rel="description" style="margin-bottom: 25%;">{{ site.event.description }}</h2>
+
         <h3 rel="date">{{ site.event.date }}, {{ site.event.year }}</h3>
         <h3 rel="location">{{ site.event.location }}</h3>
       </div>
@@ -26,8 +26,7 @@
         <img rel=sun src="{{ site.image.sun }}" alt="" class="sun">
       </div>
     </div>
-    <br>
-    <br>
+
     <div class="buttons">
       {% for link in site.hero.links %}
         {% if link.href %}
