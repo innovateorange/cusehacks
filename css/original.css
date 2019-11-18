@@ -43,6 +43,7 @@ p {
   margin-right: auto;
 }
 
+
 /*
  * Trust Badge
  */
@@ -57,7 +58,6 @@ p {
   width: 10%;
   z-index: 10000;
 }
-
 
 
 /* 
@@ -129,6 +129,7 @@ p {
   width: 75%;
 }
 
+
 /* 
  * About Section
  */
@@ -171,6 +172,24 @@ p {
 
 .faq .space {
   padding: 5% 0;
+}
+
+
+/*
+ * Jr Section
+ */
+
+.jr {
+  padding-bottom: 10%;
+  position: relative;
+}
+
+.jr-header {
+  width: 200%;
+}
+
+.jr p {
+  padding-bottom: 8%;
 }
 
 /*
@@ -246,6 +265,7 @@ p {
   text-decoration: none;
 }
 
+
 /*
  * Sign Up Section
  */
@@ -259,6 +279,7 @@ p {
   width: 40%;
   padding: 3% 0;
 }
+
 
 /*
  * Footer Section
