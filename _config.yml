@@ -54,7 +54,7 @@ hero:
     - section: "FAQ"
       href:    "#section-faq"
     - section:  "CUSEHACKS JR"
-      href:    "#sub-section-jr"
+      href:    "#section-jr"
     - section: "SPONSORS"
       href:    "#section-sponsors"
     - section: "APPLY"
@@ -76,12 +76,12 @@ image:
   about:      "/images/about.png"
   palm_trees: "/images/palm_trees.png"
   faq:        "/images/faq.png"
+  jr:         "/images/cusehacks_jr.png"
   sponsors:   "/images/sponsors.png"
   mountains:  "/images/mountains.png"
   sign_up:    "/images/sign_up.png"
   slice:      "/images/logos/cusehacks_logo.png"
   favicon:    "images/logos/favicon.png"
-  
 
 # About Information
 about:
@@ -157,27 +157,27 @@ faq:
     answer: >
       Yes there is. We enforce it very strongly. You can 
       [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
-  - question: "What is CuseHacks Jr?"
-    answer: >
-      CuseHacks Jr. is an interactive way to learn about electrical engineering and computer science (EECS) through a 
-      sequence of educational workshops, followed by a viewing of the CuseHacks project exposition. It will be on 
-      February 16th from 8am to 2pm at the Life Sciences Complex (123 College Place), Syracuse University. 
-      <br><br>
-      The workshop activities relate to various aspects of EECS, including both hardware and software. CuseHacks Jr. 
-      occurs during the final stretch of CuseHacks, a 24-hour technical project competition or “hackathon”, which 
-      concludes with an open house where participants show what they have created over the past 24 hours. 
-      Participants are free to attend as many or as few of the CuseHacks Jr. activities as they like. 
-      <br><br>
-      Snacks and lunch will be provided for CuseHacks Jr. participants and their parents or guardians. We ask 
-      parents/guardians to stay with their child during CuseHacks Jr., and welcome them to sit in on the workshops 
-      or wait in a nearby lounge area within sight of the workshop space. 
-      <br><br>
-      It’s our hope that CuseHacks Jr. will interest, educate, and inspire Syracuse’s next generation of innovators 
-      by providing a hands-on preview of EECS and showcasing what is possible through CuseHacks’ project expo.
-      <br><br>
-      Please check back later for more information on the workshop topics and schedule!
 
-    id: "sub-section-jr"
+#CuseHacks Jr Info
+jr:
+  message: >
+    CuseHacks Jr. is an interactive way to learn about electrical engineering and computer science (EECS) through a 
+    sequence of educational workshops, followed by a viewing of the CuseHacks project exposition. It will be on 
+    February 16th from 8am to 2pm at the Life Sciences Complex (123 College Place), Syracuse University. 
+    <br><br>
+    The workshop activities relate to various aspects of EECS, including both hardware and software. CuseHacks Jr. 
+    occurs during the final stretch of CuseHacks, a 24-hour technical project competition or “hackathon”, which 
+    concludes with an open house where participants show what they have created over the past 24 hours. 
+    Participants are free to attend as many or as few of the CuseHacks Jr. activities as they like. 
+    <br><br>
+    Snacks and lunch will be provided for CuseHacks Jr. participants and their parents or guardians. We ask 
+    parents/guardians to stay with their child during CuseHacks Jr., and welcome them to sit in on the workshops 
+    or wait in a nearby lounge area within sight of the workshop space. 
+    <br><br>
+    It’s our hope that CuseHacks Jr. will interest, educate, and inspire Syracuse’s next generation of innovators 
+    by providing a hands-on preview of EECS and showcasing what is possible through CuseHacks’ project expo.
+    <br><br>
+    Please check back later for more information on the workshop topics and schedule!
 
 # Sponsor Information: Thank you message, interest message, and company information
 sponsor:
