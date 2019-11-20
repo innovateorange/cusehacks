@@ -18,23 +18,19 @@ section {
 }
 
 h2 {
-  font-size: 2vw;
+  font-size: 2.75vw;
 }
 
 h3 {
-  font-size: 1.75vw;
+  font-size: 2.36vw;
 }
 
 h4 {
-  font-size: 1.6vw;
-}
-
-h5 {
-  font-size: 1.25vw;
+  font-size: 2.25vw;
 }
 
 p {
-  font-size: 1.25vw;
+  font-size: 1.75vw;
 }
 
 .center {
@@ -83,7 +79,7 @@ p {
 .hero nav {
   margin-left: 30px;
   margin-right: 30px;
-  font-size: 1vw;
+  font-size: 2vw;
   margin-bottom: 10%;
 }
 
