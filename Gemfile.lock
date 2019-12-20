@@ -72,7 +72,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     popper_js (1.14.5)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails-dom-testing (2.0.3)
