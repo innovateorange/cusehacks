@@ -81,7 +81,7 @@ image:
   mountains:  "/images/mountains.png"
   sign_up:    "/images/sign_up.png"
   slice:      "/images/logos/cusehacks_logo.png"
-  favicon:    "images/logos/favicon.png"
+  favicon:    "/images/logos/favicon.png"
 
 # About Information
 about:
