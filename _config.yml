@@ -194,9 +194,9 @@ jr:
 sponsor:
   status: "current"
   year: "2020"
-  thank_you: >
-    Thank you to the Department of Electrical Engineering and Computer Science, David G. Edelstein, and 
-    our other sponsors for collaborating with us.
+  # thank_you: >
+    # Thank you to the Department of Electrical Engineering and Computer Science, David G. Edelstein, and 
+    # our other sponsors for collaborating with us.
   # This doesn't work, implemented manually in index
   # message: >
     # Interested in sponsoring us? Check out our sponsorship package 
@@ -207,10 +207,10 @@ sponsor:
       class:   "partner"
       image:   "/images/white_logos/ecs_logo.png"
       href:    "http://eng-cs.syr.edu/"
-    - sponsor: "EECS"
-      class:   "partner"
-      image:   "/images/white_logos/eecs_logo.png"
-      href:    ""
+    # - sponsor: "EECS"
+      # class:   "partner"
+      # image:   "/images/white_logos/eecs_logo.png"
+      # href:    "https://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/"
     - sponsor: "IBM"
       class:   "gold_sponsor"
       image:   "/images/white_logos/ibm_logo.png"
