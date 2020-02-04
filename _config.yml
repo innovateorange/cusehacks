@@ -256,7 +256,7 @@ sponsor:
       # image:   "/images/white_logos/google_cloud_logo.png"
       # href:    "https://cloud.google.com/"
     - sponsor: "Insomnia Cookies"
-      class:   "bronze_sponsor"
+      class:   "small_bronze_sponsor"
       image:   "/images/white_logos/insomnia_logo.png"
       href:    "https://insomniacookies.com/"
     # - sponsor: "Rockstar"
