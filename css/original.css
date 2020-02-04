@@ -244,6 +244,11 @@ p {
   max-width: 15%;
 }
 
+.small_bronze_sponsor {
+  padding: 1.5% 1.5%;
+  max-width: 10%;
+}
+
 .supporter {
   padding: 2% 2%;
   max-width: 10%;
