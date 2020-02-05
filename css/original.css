@@ -234,6 +234,11 @@ p {
   max-width: 23%;
 }
 
+.long_silver_sponsor {
+  padding: 1.5% 1.5%;
+  max-width: 25%;
+}
+
 .silver_sponsor {
   padding: 1.5% 1.5%;
   max-width: 20%;
