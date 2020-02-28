@@ -61,13 +61,19 @@ hero:
       href:    "https://forms.gle/ctc9A9re2mGMaf9b7"
 
   links:
-    - text: "Apply"
-      href: "https://forms.gle/ctc9A9re2mGMaf9b7"
+    - text: "Sign Up for Updates"
+      href: "https://forms.gle/1xtUzSKpJ7AbdoQu9"
+    - text: "Apply to be an Organizer"
+      href: "https://innovateorange.github.io/"
       # my_mlh:
         # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
         # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
     - text: "Sponsor"
       href: "/assets/CuseHacks2020_Sponsorship_Package.pdf"
+      
+  message: >
+    Thank you for an amazing CuseHacks 2020! We hope to see you again soon! Be sure to sign up for updates 
+    about our future events or apply to be an organizer!
 
 # Images
 image:
@@ -171,7 +177,7 @@ jr:
 
 # Sponsor Information: Thank you message, interest message, and company information
 sponsor:
-  status: "current"
+  status: "previous"
   year: "2020"
   # thank_you: >
     # Thank you to the Department of Electrical Engineering and Computer Science, David G. Edelstein, and 
