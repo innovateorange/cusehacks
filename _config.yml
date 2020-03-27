@@ -53,8 +53,8 @@ hero:
       href:    "#section-about"
     - section: "FAQ"
       href:    "#section-faq"
-    - section:  "CUSEHACKS JR"
-      href:    "#section-jr"
+    # - section:  "CUSEHACKS JR"
+      # href:    "#section-jr"
     - section: "SPONSORS"
       href:    "#section-sponsors"
     - section: "APPLY"
@@ -110,7 +110,9 @@ about:
       peers and impressive mentors. There will be games, food, and swag! Build something or break something.
       CuseHacks just wants you to have a great experience meeting new people, working with friends, and gaining new 
       skills, learning about the possibilities of technology.
-
+  - header: ""
+    content: >
+      Want to see past projects from our past hackathons? Check out our devpost [here](https://devpost.com/cusehacks/challenges){:target="_blank"}.
 # Frequently asked questions.
 faq:
   - question: "What is a hackathon?"
