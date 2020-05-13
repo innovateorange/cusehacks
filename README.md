@@ -18,7 +18,7 @@ Ignore the _site folder, you do not need to touch/change it. This is automatical
 
 ## Demo Site
 
-This GitHub Page is run through Jekyll. To familiarize yourself and demo, read the Jekyll docs here: https://jekyllrb.com/docs/. To install Jekyll, first install RubyGems at https://rubygems.org/pages/download then in your shell type 'gem install bundler jekyll'.
+This GitHub Page is run through Jekyll. To familiarize yourself, install, and demo, read the Jekyll docs here: https://jekyllrb.com/docs/.
 
 
 ## Google Analytics
