@@ -50,15 +50,15 @@ hero:
   # For nav, hrefs (except apply) go to sections with the proper id defined in index.html
   nav:
     - section: "ABOUT"
-      href:    "#section-about"
+      href:    "#about"
     - section: "FAQ"
-      href:    "#section-faq"
+      href:    "#faq"
     # - section:  "CUSEHACKS JR"
-      # href:    "#section-jr"
+      # href:    "#jr"
     - section: "SPONSORS"
-      href:    "#section-sponsors"
+      href:    "#sponsors"
     - section: "APPLY"
-      href:    "https://forms.gle/ctc9A9re2mGMaf9b7"
+      href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
 
   links:
     - text: "Sign Up for Updates"
@@ -282,7 +282,8 @@ social:
 
 sign_up:
   message: >
-    Interested in attending the event? Apply [here](https://forms.gle/ctc9A9re2mGMaf9b7){:target="_blank"}!
+    CuseHacks 2020 is over, but you can go here to sign up to stay tuned about CuseHacks 2021
+    [here](https://forms.gle/1xtUzSKpJ7AbdoQu9){:target="_blank"}!
 
 
 
