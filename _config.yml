@@ -63,8 +63,8 @@ hero:
   links:
     - text: "Sign Up for Updates"
       href: "https://forms.gle/1xtUzSKpJ7AbdoQu9"
-    - text: "Apply to be an Organizer"
-      href: "https://innovateorange.github.io/"
+    # - text: "Apply to be an Organizer"
+      # href: "https://innovateorange.github.io/"
       # my_mlh:
         # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
         # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
@@ -73,7 +73,7 @@ hero:
       
   message: >
     Thank you for an amazing CuseHacks 2020! We hope to see you again soon! Be sure to sign up for updates 
-    about our future events or apply to be an organizer!
+    about our future events!
 
 # Images
 image:
@@ -95,7 +95,7 @@ about:
     content: >
       CuseHacks is the first student-run hackathon at Syracuse University. Over a span of 24-hours, 
       students of all backgrounds are invited to explore the possibilities of technology and imagination.
-  - header: "In 2020, Syracuse University will welcome back it’s student-run hackathon – CuseHacks."
+  - header: "In 2020, Syracuse University welcomed back it’s student-run hackathon – CuseHacks."
     content: >
       College students around the northeast region are invited to spend 24 hours hacking to build cool and 
       innovative applications, websites, and hardware projects.
@@ -143,7 +143,7 @@ faq:
       beginning of the hackathon for anybody interested. You can also work alone if you want.
   - question: "Is there a schedule?"
     answer: >
-      Not yet but stay tuned. The schedule will be posted on the [CuseHacks 2020 Devpost](https://cusehacks2020.devpost.com/){:target="_blank"}. The Devpost is also where 
+      The schedule is posted on the [CuseHacks 2020 Devpost](https://cusehacks2020.devpost.com/){:target="_blank"}. The Devpost is also where 
       submissions are posted.
   - question: "Will there be prizes for inventions?"
     answer: >
