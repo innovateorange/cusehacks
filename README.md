@@ -1,6 +1,6 @@
 # CuseHacks Github Page
 
-This is the Github page for CuseHacks at cusehacks.github.io.
+This is the Github page for CuseHacks at https://innovateorange.github.io/cusehacks.
 
 This was made from the MLH Hackathon Boilerplate found at https://github.com/MLH/mlh-hackathon-boilerplate.
 
