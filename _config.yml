@@ -51,8 +51,8 @@ hero:
   nav:
     - section: "ABOUT"
       href:    "#about"
-    - section: "FAQ"
-      href:    "#faq"
+    #- section: "FAQ"
+     # href:    "#faq"
     # - section:  "CUSEHACKS JR"
       # href:    "#jr"
     - section: "SPONSORS"
