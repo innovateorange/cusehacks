@@ -1,9 +1,8 @@
-<!--White-->
 <a id="mlh-trust-badge" 
 style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" 
-href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white" 
+href="https://mlh.io/seasons/na-{{ site.trust_badge.year }}/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign={{ site.trust_badge.year }}-season&utm_content={{ site.trust_badge.color }}" 
 target="_blank">
-    <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg" 
-    alt="Major League Hacking 2020 Hackathon Season" 
+    <img src="https://s3.amazonaws.com/logged-assets/trust-badge/{{ site.trust_badge.year }}/mlh-trust-badge-{{ site.trust_badge.year }}-{{ site.trust_badge.color }}.svg" 
+    alt="Major League Hacking {{ site.trust_badge.year }} Hackathon Season" 
     style="width:100%">
 </a>

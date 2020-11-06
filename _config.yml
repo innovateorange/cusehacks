@@ -17,8 +17,6 @@ style:
 # This will help you track who's visiting your website.
 tracking:
   google_analytics: "UA-151637954-1"
-  # Old: "UA-117420687-1"
-  # MLH: "UA-43729070-14"
 
 # Let people connect & engage with you through social media.
 social:
@@ -26,8 +24,8 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "CuseHacks | February 15th - 16th | Life Sciences Complex"
-  description: "This will be the third event of Syracuse University's first student-run hackathon."
+  title:       "CuseHacks | Date TBD | Online"
+  description: "This will be the fourth event of Syracuse University's first student-run hackathon."
   image:       "/cusehacks/images/logos/cusehacks_logo.png"
 
 # Event information.
@@ -35,59 +33,46 @@ event:
   name:        "CuseHacks"
   # Spacing intentional
   description: "Syracuse University's 24-hour hackathon"
-  date:        "February 15th - 16th"
-  year:        "2020"
-  location:    "Life Sciences Complex"
-  # school:      "Syracuse University"
+  date:        "TBD"
+  year:        "2021"
+  location:    "Online"
 
 # MLH Trust Badge for site. Leave commented out if MLH application
 # hasn't been approved
 # Update trust_badge.html with content from https://mlh.io/brand-guidelines for proper badge
-# trust_badge: "2020"
+# trust_badge: 
+#   year:  "2021"
+#   color: "white"
 
 # Hero: Nav bar and links
 hero:
   # For nav, hrefs (except apply) go to sections with the proper id defined in index.html
   nav:
-    - section: "ABOUT"
-      href:    "#about"
-    #- section: "FAQ"
-     # href:    "#faq"
-    # - section:  "CUSEHACKS JR"
-      # href:    "#jr"
-    - section: "SPONSORS"
-      href:    "#sponsors"
-    - section: "APPLY"
-      href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
+    # - section: "ABOUT"
+    #   href:    "#about"
+    # - section: "FAQ"
+    #   href:    "#faq"
+    # - section: "SPONSORS"
+    #   href:    "#sponsors"
+    # - section: "APPLY"
+    #   href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
 
   links:
     - text: "Sign Up for Updates"
       href: "https://forms.gle/1xtUzSKpJ7AbdoQu9"
-    # - text: "Apply to be an Organizer"
-      # href: "https://innovateorange.github.io/"
-      # my_mlh:
-        # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-        # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
     - text: "Sponsor"
       href: "/cusehacks/assets/CuseHacks2020_Sponsorship_Package.pdf"
       
   message: >
-    Thank you for an amazing CuseHacks 2020! We hope to see you again soon! Be sure to sign up for updates 
-    about our future events!
+    We are in the process of fixing this site for CuseHacks 2021, our online hackathon! We hope to be 
+    finished by the start of 2021. Check out our site for last year's Cusehacks 
+    [here](https://innovateorange.github.io/cusehacks-2020/)!
 
 # Images
 image:
-  header:     "/cusehacks/images/cuse_hacks_header.png"
-  sun:        "/cusehacks/images/sun_gradient.png"
-  about:      "/cusehacks/images/about.png"
-  palm_trees: "/cusehacks/images/palm_trees.png"
-  faq:        "/cusehacks/images/faq.png"
-  jr:         "/cusehacks/images/cusehacks_jr.png"
-  sponsors:   "/cusehacks/images/sponsors.png"
-  mountains:  "/cusehacks/images/mountains.png"
-  sign_up:    "/cusehacks/images/sign_up.png"
-  slice:      "/cusehacks/images/logos/cusehacks_logo.png"
-  favicon:    "/cusehacks/images/logos/favicon.png"
+  header:  "/cusehacks/images/cuse_hacks_header.png"
+  slice:   "/cusehacks/images/logos/cusehacks_logo.png"
+  favicon: "/cusehacks/images/logos/favicon.png"
 
 # About Information
 about:
@@ -97,7 +82,7 @@ about:
       students of all backgrounds are invited to explore the possibilities of technology and imagination.
   - header: "In 2020, Syracuse University welcomed back it’s student-run hackathon – CuseHacks."
     content: >
-      College students around the northeast region are invited to spend 24 hours hacking to build cool and 
+      College students all around are invited to spend 24 hours hacking to build cool and 
       innovative applications, websites, and hardware projects.
   - header: "You do not need to know how to code to participate."
     content: >
@@ -127,10 +112,10 @@ faq:
   - question: "Who can participate?"
     answer: >
       All current college students are invited to participate. We will be capping attendance, so please register ASAP!
-  - question: "Will there be travel reimbursement?"
-    answer: >
-      We can not ensure travel reimbursements right now, but it may be a possibility. Please email 
-      innovateorange@syr.edu for more information.
+  # - question: "Will there be travel reimbursement?"
+  #   answer: >
+  #     We can not ensure travel reimbursements right now, but it may be a possibility. Please email 
+  #     innovateorange@syr.edu for more information.
   - question: "What if I don't have coding or hackathon experience?"
     answer: >
       Beginners are especially encouraged to come! You do not need previous hackathon/coding experience or a technology
@@ -152,7 +137,7 @@ faq:
       the Devpost.
   - question: "Where is the event?"
     answer: >
-      The event location is at the Life Science Complex Building at Syracuse University.
+      The event will be online this year.
   - question: "Your question not here?"
     answer: >
       Please email innovateorange@syr.edu for any more questions.
@@ -164,112 +149,6 @@ faq:
     answer: >
       Yes there is. We enforce it very strongly. You can 
       [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
-
-#CuseHacks Jr Info
-jr:
-  message: >
-    POSTPONED
-    <br><br>
-    Apply [here](https://forms.gle/j6c1tPvXqUg21B286){:target="_blank"} for CuseHacks Jr!
-    <br><br>
-    CuseHacks Jr. is an interactive way to learn about electrical engineering and computer science (EECS) through a 
-    sequence of educational workshops, followed by a viewing of the CuseHacks project exposition. 
-    It is currently postponed to a date to be determined. Check back here soon for updates!
-    
-
-# Sponsor Information: Thank you message, interest message, and company information
-sponsor:
-  status: "previous"
-  year: "2020"
-  # thank_you: >
-    # Thank you to the Department of Electrical Engineering and Computer Science, David G. Edelstein, and 
-    # our other sponsors for collaborating with us.
-  # This doesn't work, implemented manually in index
-  # message: >
-    # Interested in sponsoring us? Check out our sponsorship package 
-    # [here](/assets/CuseHacks2019_Sponsorship_Package.pdf){:target="_blank"}
-    # and send us an email at innovateorange@syr.edu.
-  company:
-    - sponsor: "ECS"
-      class:   "partner"
-      image:   "/cusehacks/images/white_logos/ecs_logo.png"
-      href:    "http://eng-cs.syr.edu/"
-    - sponsor: "EECS"
-      class:   "partner"
-      image:   "/cusehacks/images/white_logos/eecs_logo.png"
-      href:    "https://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/"
-    # - sponsor: "Lockheed Martin"
-      # class:   "long_gold_sponsor"
-      # image:   "/cusehacks/images/white_logos/lockheed_logo.png"
-      # href:    "https://www.lockheedmartinjobs.com/"
-    - sponsor: "IBM"
-      class:   "silver_sponsor"
-      image:   "/cusehacks/images/white_logos/ibm_logo.png"
-      href:    "https://www.ibm.com/employment/"
-    - sponsor: "TGCplayer"
-      class:   "silver_sponsor"
-      image:   "/cusehacks/images/white_logos/tgcplayer_logo.png"
-      href:    "https://www.tcgplayer.com/"
-    # - sponsor: "SRC"
-      # class:   "silver_sponsor"
-      # image:   "/cusehacks/images/logos/src_logo.png"
-      # href:    "https://www.srcinc.com/"
-    - sponsor: "M&T Bank"
-      class:   "bronze_sponsor"
-      image:   "/cusehacks/images/white_logos/MT_tech_logo.png"
-      href:    "https://www.mtb.com/home-page"
-    - sponsor: "Wegmans"
-      class:   "bronze_sponsor"
-      image:   "/cusehacks/images/white_logos/wegmans_logo.png"
-      href:    "https://www.wegmans.com/"
-    - sponsor: "CASE"
-      class:   "bronze_sponsor"
-      image:   "/cusehacks/images/white_logos/case_logo.png"
-      href:    "http://case.syr.edu/"
-    - sponsor: "Scherzi Systems"
-      class:   "bronze_sponsor"
-      image:   "/cusehacks/images/white_logos/scherzi_logo.png"
-      href:    "https://www.scherzisystems.com/"
-    - sponsor: "Google"
-      class:   "bronze_sponsor"
-      image:   "/cusehacks/images/white_logos/google_logo.png"
-      href:    "https://careers.google.com/jobs/"
-    - sponsor: "Booz Allen Hamilton"
-      class:   "bronze_sponsor"
-      image:   "/cusehacks/images/white_logos/booz_allen_logo.png"
-      href:    "https://www.boozallen.com/"
-    - sponsor: "JP Morgan Chase"
-      class:   "silver_sponsor"
-      image:   "/cusehacks/images/white_logos/jp_morgan_logo.png"
-      href:    "https://www.jpmorganchase.com/"
-    - sponsor: "MLH"
-      class:   "supporter"
-      image:   "/cusehacks/images/white_logos/mlh_logo.png"
-      href:    "https://mlh.io/"
-    - sponsor: "Dibellas"
-      class:   "bronze_sponsor"
-      image:   "/cusehacks/images/white_logos/dibellas_logo.png"
-      href:    "https://www.dibellas.com/"
-    - sponsor: "Insomnia Cookies"
-      class:   "small_bronze_sponsor"
-      image:   "/cusehacks/images/white_logos/insomnia_logo.png"
-      href:    "https://insomniacookies.com/"
-    # - sponsor: "United Technologies"
-      # class:   "bronze_sponsor"
-      # image:   "/cusehacks/images/logos/utc_logo.png"
-      # href:    "http://www.utc.com/Pages/Home.aspx"
-    # - sponsor: "Rockstar"
-      # class:   "bronze_sponsor"
-      # image:   "/cusehacks/images/white_logos/rockstar_logo.png"
-      # href:    "http://rockstarenergy.com/"
-    # - sponsor: "Twitch"
-      # class:   "bronze_sponsor"
-      # image:   "/cusehacks/images/white_logos/twitch_logo.png"
-      # href:    "https://www.twitch.tv/"
-    # - sponsor: "Google Cloud Platform"
-      # class:   "bronze_sponsor"
-      # image:   "/cusehacks/images/white_logos/google_cloud_logo.png"
-      # href:    "https://cloud.google.com/"
 
 # Social media on footer
 social:
@@ -284,7 +163,6 @@ sign_up:
   message: >
     CuseHacks 2020 is over, but you can go here to sign up to stay tuned about CuseHacks 2021
     [here](https://forms.gle/1xtUzSKpJ7AbdoQu9){:target="_blank"}!
-
 
 
 # ----------------------------------------------------
