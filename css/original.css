@@ -125,6 +125,11 @@ p {
   width: 75%;
 }
 
+.video {
+ width: 70vw;
+ height: 40vw;
+}
+
 
 /* 
  * About Section

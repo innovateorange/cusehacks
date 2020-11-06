@@ -4,7 +4,7 @@ layout: default
 
 {% include hero.html %}
 
-<section class="about" id="section-about">
+<section class="about" id="about">
   <div class="container">
     <div class="row align-items-center">
       <div class="col">
@@ -25,7 +25,7 @@ layout: default
   </div>
 </section>
 
-<section class="faq" id="section-faq">
+<section class="faq" id="faq">
   <div class="container">
     <img rel=faq src="{{ site.image.faq }}" alt="FAQ" class="faq-header center">
     {% for item in site.faq %}
@@ -36,15 +36,15 @@ layout: default
     {% endfor %}
   </div>
 </section>
-
-<section class="jr" id="section-jr">
+<!--
+<section class="jr" id="jr">
   <div class="container">
     <img rel=jr src="{{ site.image.jr }}" alt="CUSEHACKS JR" class="jr-header center">
     {{ site.jr.message | markdownify }}
   </div>
 </section>
-
-<section class="sponsor" id="section-sponsors">
+-->
+<section class="sponsor" id="sponsors">
   <div class="container">
     <div class="row align-items-center">
       <div class="col">
@@ -76,7 +76,7 @@ layout: default
   </div>
 </section>
 
-<section class="sign-up" id="section-sign-up">
+<section class="sign-up" id="sign-up">
     <div class="container">
       <img rel=sign-up src="{{ site.image.sign_up }}" alt="Sign Up" class="sign-up-header center">
       <div class="text-center">

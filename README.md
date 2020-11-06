@@ -1,6 +1,6 @@
 # CuseHacks Github Page
 
-This is the Github page for CuseHacks at cusehacks.github.io.
+This is the Github page for CuseHacks at https://innovateorange.github.io/cusehacks.
 
 This was made from the MLH Hackathon Boilerplate found at https://github.com/MLH/mlh-hackathon-boilerplate.
 
@@ -18,7 +18,7 @@ Ignore the _site folder, you do not need to touch/change it. This is automatical
 
 ## Demo Site
 
-This GitHub Page is run through Jekyll. To familiarize yourself and demo, read the Jekyll docs here: https://jekyllrb.com/docs/.
+This GitHub Page is run through Jekyll. To familiarize yourself, install, and demo, read the Jekyll docs here: https://jekyllrb.com/docs/.
 
 
 ## Google Analytics
