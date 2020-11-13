@@ -1,10 +1,19 @@
+@font-face {
+font-family: 'heronsans';
+src: url(HeronSans.otf);
+font-weight: normal;
+}
+
+* {
+  font-family: 'heronsans';
+}
+
 body {
-  background-image: linear-gradient(rgb(13, 0, 59), rgb(18, 12, 116), rgb(13, 0, 59), rgb(18, 12, 116));
+  background-color: white;
 }
 
 section {
   overflow-x:hidden;
-  color: white;
 }
 
 h2 {
@@ -16,11 +25,21 @@ h3 {
 }
 
 h4 {
-  font-size: 2.25vw;
+  font-size: 2vw;
 }
 
 p {
   font-size: 1.75vw;
+}
+
+a {
+  color: rgb(87, 84, 0);
+}
+
+a:hover,
+a:focus {
+  color: rgb(5, 5, 5);
+  text-decoration: underline;
 }
 
 .center {
@@ -45,13 +64,109 @@ p {
   z-index: 10000;
 }
 
+.content {
+  color: black;
+  margin-left: 25vw;
+}
+
 
 /* 
+ * Sidebar 
+ */
+
+.wrapper {
+  display: flex;
+}
+
+ .sidebar {
+  background-image: url('side_banner.jpg');
+  background-size: auto 100%;
+  color: #fff;
+  align-content: center;
+  align-items: center;
+  width: 25vw;
+  min-height: calc(100vh - 174px);
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  margin-top: 0;
+}
+
+.sidebar img {
+  width:70%
+}
+
+.sidebar h2 {
+  color: #4fd1a5;
+  margin-top: 5vh;
+  margin-bottom: 7vh;
+  text-transform: uppercase;
+}
+
+.sidebar h4 {
+  color: #4fd1a5;
+  text-transform: uppercase;
+}
+
+.sidebar h5 {
+  font-size: 1vw;
+  color: #4fd1a5;
+  margin-bottom: 0%;
+  text-transform: uppercase;
+}
+
+.sidebar-q {
+  margin-bottom: 2vh;
+}
+
+.sidebar-faq-link {
+  font-size: 1vw;
+  margin-bottom: 3.5vh;
+}
+
+.sidebar-faq-link a {
+  color: #4fd1a5;
+  text-transform: uppercase;
+}
+
+.sidebar-register {
+  margin-bottom: 5vh;
+}
+
+.sidebar-buttons {
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg);
+  margin: 3vh 0;
+}
+
+.sidebar-buttons a {
+  background:rgb(79,209,165, 0.75);
+  color: #fff;
+  display: inline;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 0.5vw 2.25vw;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sidebar-buttons a:hover,
+.sidebar-buttons a:focus {
+  background-color: #2c775e;
+  transition: all 0.2s ease;
+}
+
+
+/*
  * Hero Section
  */
 
 .hero {
-  padding-bottom: 10%;
+  padding-bottom: 8vh;
 }
 
 .navbar {
@@ -117,12 +232,11 @@ p {
  */
 
 .about {
-  padding-bottom: 10%;
+  padding-bottom: 12vh;
 }
 
 .about-header {
-  width: 115%;
-  padding: 50px 0;
+  padding: 5vh 0;
 }
 
 .about p {
@@ -134,14 +248,12 @@ p {
  */
 
 .faq {
-  padding-bottom: 10%;
+  padding-bottom: 12vh;
   position: relative;
 }
 
 .faq-header {
-  width: 25%;
-  padding: 20px 0;
-  padding-bottom: 10%;
+  padding: 5vh 0;
 }
 
 .faq p {
@@ -249,8 +361,9 @@ p {
  */
 
 .footer {
+  background-color: rgb(24, 24, 24);
   color: #fff;
-  padding-top: 1%;
+  padding-top: 2%;
   padding-bottom: 2%;
 }
 
@@ -266,12 +379,12 @@ p {
 hr {
   background-color: white;
   height: 1px;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .social_icon {
-  color: rgb(179, 24, 145);
+  color: #4fd1a5;
 }
 
 .fa-2x {
