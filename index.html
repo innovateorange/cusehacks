@@ -3,3 +3,31 @@ layout: default
 ---
 
 {% include hero.html %}
+
+<section class="about container" id="about">
+  <div class="container">
+    <div class="about-header text-center">
+      <h3>Syracuse University's 24-hour hackathon is going virtual!</h3>
+    </div>
+    {% for item in site.about %}
+      <div class="text-center">
+        <h4>{{ item.header }}</h4>
+      </div>
+      {{ item.content | markdownify }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="faq container" id="faq">
+  <div class="container">
+    <div class="faq-header text-center">
+      <h3>FAQ</h3>
+    </div>
+    {% for item in site.faq %}
+      <div class="text-center">
+        <h4>{{ item.question }}</h4>
+      </div>
+      {{ item.answer | markdownify }}
+    {% endfor %}
+  </div>
+</section>
