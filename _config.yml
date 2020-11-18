@@ -33,7 +33,7 @@ event:
   name:        "CuseHacks"
   # Spacing intentional
   description: "Syracuse University's 24-hour hackathon"
-  date:        "TBD"
+  date:        "February 28-30th,"
   year:        "2021"
   location:    "Online"
 
@@ -48,14 +48,14 @@ event:
 hero:
   # For nav, hrefs (except apply) go to sections with the proper id defined in index.html
   nav:
-    # - section: "ABOUT"
-    #   href:    "#about"
-    # - section: "FAQ"
-    #   href:    "#faq"
-    # - section: "SPONSORS"
-    #   href:    "#sponsors"
-    # - section: "APPLY"
-    #   href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
+    - section: "ABOUT"
+      href:    "#about"
+    - section: "FAQ"
+      href:    "#faq"
+    - section: "SPONSORS"
+      href:    "#sponsors"
+    - section: "APPLY"
+      href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
 
   links:
     - text: "Sign Up for Updates"

@@ -3,12 +3,17 @@
     <img rel=header src="{{ site.image.header }}" alt="CuseHacks" class="header">
   </div>
 
-  <div class="content"> 
-    <div class="text-center">
-      <a>About</a>
-      <a>Faq</a>
-      <a>Apply</a>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8de3e6;">
+    <div class="navbar-nav w-100">
+      {% for item in site.hero.nav %}
+        {% if item.section == "APPLY" %}
+          <a target="_blank" class="nav-item" href="{{ item.href }}">{{ item.section }}</a>
+        {% else %}
+          <a class="nav-item" href="{{ item.href }}">{{ item.section }}</a>
+        {% endif %}
+      {% endfor %}
     </div>
+  </nav>
     
       </div>
 
