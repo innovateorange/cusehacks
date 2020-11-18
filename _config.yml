@@ -101,6 +101,13 @@ about:
   - header: "Not convinced yet?"
     content: >
       Want to see past projects from our past hackathons? Check out our devpost [here](https://devpost.com/cusehacks/challenges){:target="_blank"}.
+    lines:
+      - l: Never been to a hackathon? Read our FAQ
+      - l: View photos from last years CuseHacks.
+      - l: Support CuseHacks
+      - l: Interested in sponsoring us? Check out our sponsorship package
+      - l: Sign up to become a Volunteer! 
+      - l: Sign up to become a Mentor/Judge! 
 # Frequently asked questions.
 fq:
   message: "Have questions? You've come to the right place! Here are all our top questions."

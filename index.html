@@ -8,22 +8,22 @@ layout: default
     <div class="container">
         <h2 class="text-center" style="color: #00ff00;">About Image</h2>
       <div class="row align-items-center">
+
         <div class="col">
           <img rel=trees src="{{ site.image.palm_trees }}" alt="" class="trees">
         </div>
-        <div class="col">
-        <!--  <img rel=about src="{{ site.image.about }}" alt="About" class="about-header"> -->
-        </div>
-        <div class="col"></div>
-      </div>
-  
-      {% for item in site.about %}
-        <div class="">
+
+
+        <div class="col-9">
+                        {% for item in site.about %}
             {% if item.header == "Syracuse University's 24-hour hackathon is going virtual!" %}
+        <div>
             <h5 style="background-color: #00ff00;">{{ item.header }} </div>
-            <div>
-                <img rel=aboutTop src="{{ site.image.aboutTop }}" alt="CuseHacks" class="header">
-                {{ item.content | markdownify }} </div>
+                <div class="row">
+
+            <div class="col-6"><img rel=aboutTop src="{{ site.image.aboutTop }}" alt="CuseHacks" class="header"> </div>
+            <div class="col-6"> {{item.content | markdownify }}</div> </div>
+            
             {% continue %}
         {% endif %}
           <h5 style="background-color: #000000;">{{ item.header }}</h5>
@@ -31,16 +31,24 @@ layout: default
           <img rel=aboutMid src="{{ site.image.aboutMid }}" alt="CuseHacks" class="header">
         {% endif %}
         {% if item.header == "Not convinced yet?" %}
-          <img rel=aboutBottom src="{{ site.image.aboutBottom }}" alt="CuseHacks" class="header">
+        <div class="row">
+        <div class="col-6"><img rel=aboutBottom src="{{ site.image.aboutBottom }}" alt="CuseHacks" class="header"></div>
+          <div class="col-6"> {{item.content | markdownify }}
+        </div> </div> </div>
+          {% continue %}
         {% endif %}
+
 
         {% if item.header == "Proudly Sponsored By" %}
           <a target="_blank" href="{{ item.href}}"><img rel=aboutBottom src="{{ site.image.aboutSponsor }}" alt="CuseHacks" class="header"> </a>
-        {% endif %}
-        </div>
+          {% endif %}
+
         {{ item.content | markdownify }}
       {% endfor %}
-    </div>
+    </div> <!--col -9 #1-->
+
+        </div>
+      </div>
   </section>
 
 <!--
