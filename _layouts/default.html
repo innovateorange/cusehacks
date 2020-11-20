@@ -23,7 +23,7 @@
           <div class="sidebar-register">
             <h4><i>Ready to register?</i></h4>
             <div class="sidebar-buttons">
-              <a target="_blank" href="{{ site.side_banner.apply_href }}">{{ site.side_banner.apply_text }}</a>
+              <a target="_blank" href="{{ site.apply_href }}">{{ site.side_banner.apply_text }}</a>
             </div>
           </div>
           <div class="sidebar-sponsors">
@@ -39,16 +39,24 @@
 
     </div>
 
-    <hr>
     <section class="footer">
-      <div class="container text-center">
-        {% for item in site.social %}
-          <a target="_blank" class="social_icon" href="{{ item.href }}">
-            <i class="{{ item.icon }}" aria-hidden="true"></i>
-          </a>
-          &nbsp;
-        {% endfor %}
-        <p>2020 CuseHacks <img src="{{ site.image.slice }}" alt="" width=2%></p>
+      <div class="footer-heading">
+        <h6><i>Contact Us</i></h6>
+      </div>
+
+
+      <div class="row justify-content-around">
+        <div class="col-5">
+          <p>2020 CuseHacks <img src="{{ site.image.slice }}" alt="" width=8%></p>
+        </div>
+        <div class="col-3">
+          {% for item in site.social %}
+            <a target="_blank" class="social_icon" href="{{ item.href }}">
+              <i class="{{ item.icon }}" aria-hidden="true"></i>
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          {% endfor %}
+        </div>
       </div>
     </section>
 

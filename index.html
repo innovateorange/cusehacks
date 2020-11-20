@@ -4,81 +4,60 @@ layout: default
 
 {% include hero.html %}
 
-<!--
-<section class="about container" id="about">
-  <div class="container">
-    <div class="about-header text-center">
-      <h3>Syracuse University's 24-hour hackathon is going virtual!</h3>
-    </div>
-    {% for item in site.about %}
-      <div class="text-center">
-        <h4>{{ item.header }}</h4>
-      </div>
-      {{ item.content | markdownify }}
-    {% endfor %}
-  </div>
-</section>
-
-<section class="faq container" id="faq">
-  <div class="container">
-    <div class="faq-header text-center">
-      <h3>FAQ</h3>
-    </div>
-    {% for item in site.faq %}
-      <div class="text-center">
-        <h4>{{ item.question }}</h4>
-      </div>
-      {{ item.answer | markdownify }}
-    {% endfor %}
-  </div>
-</section>
--->
 <section class="about" id="about">
-    <div class="container">
-        <h2 class="text-center" style="color: #00ff00;">About Image</h2>
-      <div class="row align-items-center">
+  <div class="row align-items-center">
+    <div class="col-4">
+      <img class="about-top" src="{{ site.image.aboutTop }}" alt="Top">
+    </div>
+    <div class="col-8">
+      <p>{{ site.about.content1.first }}</p>
+      <p style="color:#48bd96;"><b>{{ site.about.content1.second }}</b></p>
+    </div>
+  </div>
 
-        <div class="col">
-          <img rel=trees src="{{ site.image.palm_trees }}" alt="" class="trees">
-        </div>
+  <div class="content-heading">
+    <h6><i>{{ site.about.header2 }}</i></h6>
+  </div>
 
+  <div class="content-p container">
+    <p>{{ site.about.content2 }}</p>
+  </div>
 
-        <div class="col-9">
-                        {% for item in site.about %}
-            {% if item.header == "Syracuse University's 24-hour hackathon is going virtual!" %}
-        <div>
-            <h5 style="background-color: #00ff00;">{{ item.header }} </div>
-                <div class="row">
+  <div class="content-heading">
+    <h6><i>{{ site.about.header3 }}</i></h6>
+  </div>
 
-            <div class="col-6"><img rel=aboutTop src="{{ site.image.aboutTop }}" alt="CuseHacks" class="header"> </div>
-            <div class="col-6"> {{item.content | markdownify }}</div> </div>
-            
-            {% continue %}
-        {% endif %}
-          <h5 style="background-color: #000000;">{{ item.header }}</h5>
-          {% if item.header == "It will be fun." %}
-          <img rel=aboutMid src="{{ site.image.aboutMid }}" alt="CuseHacks" class="header">
-        {% endif %}
-        {% if item.header == "Not convinced yet?" %}
-        <div class="row">
-        <div class="col-6"><img rel=aboutBottom src="{{ site.image.aboutBottom }}" alt="CuseHacks" class="header"></div>
-          <div class="col-6"> {{item.content | markdownify }}
-        </div> </div> </div>
-          {% continue %}
-        {% endif %}
+  <img class="about-mid" src="{{ site.image.aboutMid }}" alt="Middle">
 
+  <div class="content-p container">
+    <p>{{ site.about.content3 }}</p>
+  </div>
 
-        {% if item.header == "Proudly Sponsored By" %}
-          <a target="_blank" href="{{ item.href}}"><img rel=aboutBottom src="{{ site.image.aboutSponsor }}" alt="CuseHacks" class="header"> </a>
-          {% endif %}
+  <div class="content-heading">
+    <h6><i>{{ site.about.header4 }}</i></h6>
+  </div>
 
-        {{ item.content | markdownify }}
-      {% endfor %}
-    </div> <!--col -9 #1-->
+  <img class="about-sponsor" src="{{ site.image.aboutSponsor }}" alt="Sponsors">
+</section>
 
-        </div>
-      </div>
-  </section>
+<section class="faq" id="faq">
+  <div class="container text-center">
+      <h2 style="color:#48bd96;">FAQ</h2>
+      <p>{{ site.fq.message }}</p>
+  </div>
+
+  <br>
+
+  {% for item in site.faq %}
+  <div class="content-heading">
+    <h6><i>{{ item.question }}</i></h6>
+  </div>
+  <div class="content-p container">
+    {{ item.answer | markdownify }}
+  </div>
+  {% endfor %}
+  <img class="faq-bottom" src="{{ site.image.faqBottom }}" alt="Bottom">
+</section>
 
 <!--
   <section class="faq" id="faq">
@@ -93,5 +72,5 @@ layout: default
         {{ item.answer | markdownify }}
       {% endfor %}
     </div>
-  </section> -->
-
+  </section> 
+-->
