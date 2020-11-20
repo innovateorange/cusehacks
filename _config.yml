@@ -44,37 +44,30 @@ event:
 #   year:  "2021"
 #   color: "white"
 
-# Hero: Nav bar and links
-hero:
-  # For nav, hrefs (except apply) go to sections with the proper id defined in index.html
-  nav:
-    - section: "ABOUT"
-      href:    "#about"
-    - section: "FAQ"
-      href:    "#faq"
-    - section: "SPONSORS"
-      href:    "#sponsors"
-    - section: "APPLY"
-      href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
+# Links
+links:
+  about_href:      "#about"
+  faq_href:        "#faq"
+  sponsors_href:   "#sponsors"
+  apply_href:      "https://forms.gle/eLXQKgySo6g3qs5M8"
+  sponsor_package: "/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf"
 
 hero_header: Syracuse University's 24-hour hackathon is going virtual!
 
-video: /cusehacks/images/video.mp4
-
-apply_href: "https://forms.gle/1xtUzSKpJ7AbdoQu9"
+video: "/cusehacks/images/video.mp4"
 
 # Images
 image:
-  header:     "/cusehacks/images/cuse_hacks_header.png"
-  thumbnail:  "/cusehacks/images/cuse_hacks_thumbnail.png"
-  slice:      "/cusehacks/images/logos/cusehacks_logo.png"
-  favicon:    "/cusehacks/images/logos/favicon.png"
-  aboutTop : "/cusehacks/images/about/about_top.png"
-  aboutMid : "/cusehacks/images/about/about_middle.png"
+  header:       "/cusehacks/images/cuse_hacks_header.png"
+  thumbnail:    "/cusehacks/images/cuse_hacks_thumbnail.png"
+  slice:        "/cusehacks/images/logos/cusehacks_logo.png"
+  favicon:      "/cusehacks/images/logos/favicon.png"
+  aboutTop :    "/cusehacks/images/about/about_top.png"
+  aboutMid :    "/cusehacks/images/about/about_middle.png"
   aboutSponsor: "/cusehacks/images/about/sponsor_screenshot.png"
   aboutBottom : "/cusehacks/images/about/about_bottom.png"
-  faqTop: "/cusehacks/images/faq/faq_top.png"
-  faqBottom: "/cusehacks/images/faq/faq_bottom.png"
+  faqTop:       "/cusehacks/images/faq/faq_top.png"
+  faqBottom:    "/cusehacks/images/faq/faq_bottom.png"
 
 # Side Banner
 side_banner:
@@ -92,7 +85,6 @@ side_banner:
     - header: "Where at?"
       content: >
         Your place. We're going virtual!
-  faq_href: "#faq"
 
 # About Information
 about:
@@ -104,33 +96,40 @@ about:
     second: "Join us February 27th-28th, 2020!"
   header2: "You don't need to know how to code to participate."
   content2: >
-    Designers, Artists, Entrepreneurs, Engineers, and anyone interested in creating are encouraged to participate.
-    We are dedicated to facilitating a welcoming environment for everyone, particularly beginners.
-    Mentors and volunteers will be there to help you by answering questions, leading fun workshops, and guiding you on your hack.
+    Designers, Artists, Entrepreneurs, Engineers, and <span style="color: #48bd96;">anyone</span> 
+    interested in creating are encouraged to participate. We are dedicated to facilitating a welcoming 
+    environment for everyone, particularly beginners. Mentors and volunteers will be there to help you 
+    by answering questions, leading fun workshops, and guiding you on your hack.
   header3: "It will be fun."
   content3: >
     Throughout the weekend, you can use your imagination to make anything you want with the help of your amazing 
-    peers and impressive mentors. There will be games, food, and swag! Build something or break something.
-    CuseHacks just wants you to have a great experience meeting new people, working with friends, and gaining new 
-    skills, learning about the possibilities of technology.
-  header4: "Proudly Sponsored By"
+    peers and impressive mentors. <span style="color: #48bd96;">There will be games, food, and swag!</span> 
+    Build something or break something. CuseHacks just wants you to have a great experience meeting new people, 
+    working with friends, and gaining new skills, learning about the possibilities of technology.
+  header4: "Previous Sponsors"
   content4: >
-    Interestered in sponsoring us? Check out our sponsorship package here and send us an email at innovateorange@syr.edu
-  href: "/cusehacks/assets/CuseHacks2020_Sponsorship_Package.pdf"
+    Interestered in sponsoring us? Check out our sponsorship package 
+    [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
+    and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
   header5: "Not convinced yet?"
   content5:
-    - item: >
+    - text: >
         Check out past projects and winners on our [Devpost](https://devpost.com/cusehacks/challenges){:target="_blank"}.
-    - item: "Never been to a hackathon? Read our FAQ"
-    - item: "View photos from last years CuseHacks."
+    - text: >
+        Never been to a hackathon? Read our [FAQ](#faq).
+    - text: >
+        View [photos](https://drive.google.com/drive/folders/107c2zow0wFz0TLrBV0LSLuS-qFj4EWvT?usp=sharing){:target="_blank"} 
+        from last years CuseHacks.
   header6: "Support CuseHacks"
   content6:
-    - item : "Interested in sponsoring us? Check out our sponsorship package"
-    - item : "Sign up to become a Volunteer!"
-    - item : "Sign up to become a Mentor/Judge!" 
+    - text : >
+        Interested in sponsoring us? Check out our sponsorship package
+        [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"}.
+
 # Frequently asked questions.
-fq:
-  message: "Have questions? You've come to the right place! Here are all our top questions."
+faq_message: >
+    Have questions? You've come to the right place! Here are all our 
+    <span style="color: #48bd96;">top questions.</span>
 faq:
   - question: "What is a hackathon?"
     answer: >
@@ -170,17 +169,17 @@ faq:
   - question: "Where is the event?"
     answer: >
       CuseHacks is going VIRTUAL! Join us from wherever you are in the world. We'll be hosting it virtually on this website.
+  - question: "Is there a code of conduct?"
+    answer: >
+      Yes there is. We enforce it very strongly. You can find it
+      [here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
+  - question: "What is Major League Hacking?"
+    answer: >
+      Major League Hacking is [the official student hackathon league](https://mlh.io){:target="_blank"} in North America & Europe.
+      They work with over 200 Member Events and empower over 70,000 students every year.
   - question: "Your question not here?"
     answer: >
-      Please email innovateorange@syr.edu for any more questions.
-  # - question: "What is Major League Hacking?"
-  #   answer: >
-  #     Major League Hacking is [the official student hackathon league](https://mlh.io){:target="_blank"} in North America & Europe.
-  #     We work with over 200 Member Events and empower over 70,000 students every year.
-  # - question: "Is there a code of conduct?"
-  #   answer: >
-  #     Yes there is. We enforce it very strongly. You can 
-  #     [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf){:target="_blank"}.
+      Please email [innovateorange@syr.edu](mailto:innovateorange@syr.edu) for any more questions.
 
 # Social media on footer
 social:

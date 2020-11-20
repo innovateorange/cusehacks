@@ -89,6 +89,14 @@ a:focus {
   font-family: 'heronsanslight';
 }
 
+.content hr {
+  background-color: black;
+  height: 2vw;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+}
+
 .content-heading {
   padding-top: 1.5vw;
   padding-bottom: 1.5vw;
@@ -141,6 +149,7 @@ a:focus {
 .sidebar h4 {
   color: #48bd96;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .sidebar h5 {
@@ -148,6 +157,7 @@ a:focus {
   color: #48bd96;
   margin-bottom: 0%;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .sidebar-q {
@@ -239,7 +249,7 @@ a:focus {
  */
 
 .about {
-  padding-bottom: 7vw;
+  padding-bottom: 0vw;
 }
 
 .about-top {
@@ -250,6 +260,9 @@ a:focus {
   width: 100%;
 }
 
+.about-bottom {
+  width: 32vw;
+}
 
 /*
  * FAQ Section
@@ -260,8 +273,16 @@ a:focus {
   position: relative;
 }
 
+.faq h2 {
+  font-weight: 700;
+}
+
 .faq-header {
   padding: 2vw 0;
+}
+
+.faq-top {
+  width: 35vw;
 }
 
 .faq-bottom {
@@ -390,13 +411,6 @@ a:focus {
 .footer a:hover, .footer a:focus {
   text-decoration: none;
   color: #42a886;
-}
-
-hr {
-  background-color: white;
-  height: 1px;
-  margin-top: 0%;
-  margin-bottom: 0%;
 }
 
 .social_icon {
