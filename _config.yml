@@ -24,7 +24,7 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "CuseHacks | Date TBD | Online"
+  title:       "CuseHacks | February 27-28th, 2021 | Online"
   description: "This will be the fourth event of Syracuse University's first student-run hackathon."
   image:       "/cusehacks/images/logos/cusehacks_logo.png"
 
@@ -33,7 +33,7 @@ event:
   name:        "CuseHacks"
   # Spacing intentional
   description: "Syracuse University's 24-hour hackathon"
-  date:        "February 28-30th"
+  date:        "February 27-28th"
   year:        "2021"
   location:    "Online"
 
@@ -57,32 +57,49 @@ hero:
     - section: "APPLY"
       href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
 
-  links:
-    - text: "Sign Up for Updates"
-      href: "https://forms.gle/1xtUzSKpJ7AbdoQu9"
-    - text: "Sponsor"
-      href: "/cusehacks/assets/CuseHacks2020_Sponsorship_Package.pdf"
-      
-  message: >
-    We are in the process of fixing this site for CuseHacks 2021, our online hackathon! We hope to be 
-    finished by the start of 2021. Check out our site for last year's Cusehacks 
-    [here](https://innovateorange.github.io/cusehacks-2020/)!
+video: /cusehacks/images/video.mp4
 
 # Images
 image:
-  header:  "/cusehacks/images/cuse_hacks_header.png"
-  slice:   "/cusehacks/images/logos/cusehacks_logo.png"
-  favicon: "/cusehacks/images/logos/favicon.png"
+  header:     "/cusehacks/images/cuse_hacks_header.png"
+  thumbnail:  "/cusehacks/images/cuse_hacks_thumbnail.png"
+  slice:      "/cusehacks/images/logos/cusehacks_logo.png"
+  favicon:    "/cusehacks/images/logos/favicon.png"
   aboutTop : "/cusehacks/images/about/about_top.png"
   aboutMid : "/cusehacks/images/about/about_middle.png"
   aboutSponsor: "/cusehacks/images/about/sponsor_screenshot.png"
   aboutBottom : "/cusehacks/images/about/about_bottom.png"
 
+# Side Banner
+side_banner:
+  apply_text: "I'm in."
+  apply_href: "https://forms.gle/1xtUzSKpJ7AbdoQu9"
+  faq: 
+    - header: "What is CuseHacks?"
+      content: >
+        Syracuse University's original 24-hour hackathon.
+    - header: "When is it?"
+      content: >
+        February 27-28th, 2021.
+    - header: "What's at stake?"
+      content: >
+        Over $5000 worth of prizes.
+    - header: "Where at?"
+      content: >
+        Your place. We're going virtual!
+  faq_href: "#faq"
+
 # About Information
 about:
   - header: "Syracuse University's 24-hour hackathon is going virtual!"
     content: >
-      Over a span of 24-hours, college students of all backgrounds are invited to explore the possibilities of technology and imagination. Build cool and innovative applications, websites, and hardware projects and compete for the grand prize.
+      Over a span of 24-hours, students of all backgrounds are invited to explore the possibilities 
+      of technology and imagination. Build cool and innovative applications, websites, and hardware 
+      projects and compete for the grand prize.
+  - header: "In 2021, Syracuse University will welcome back it’s student-run hackathon – CuseHacks."
+    content: >
+      College students all around are invited to spend 24 hours hacking to build cool and 
+      innovative applications, websites, and hardware projects.
   - header: "You do not need to know how to code to participate."
     content: >
       Designers, Artists, Entrepreneurs, Engineers, and anyone interested in creating are encouraged to participate.
@@ -120,10 +137,10 @@ faq:
       CuseHacks is not your typical hackathon. We encourage students with any level of experience to sign up.
   - question: "How much does it cost?"
     answer: >
-      Nothing. Attending a hackathon is free, and we will provide meals, snacks, and swag throughout the event.
+      Nothing. Attending a hackathon is free, and we will provide resources throughout the event.
   - question: "Who can participate?"
     answer: >
-      All current college students are invited to participate. We will be capping attendance, so please register ASAP!
+      All current college students are invited to participate.
   # - question: "Will there be travel reimbursement?"
   #   answer: >
   #     We can not ensure travel reimbursements right now, but it may be a possibility. Please email 
@@ -145,11 +162,11 @@ faq:
   - question: "Will there be prizes for inventions?"
     answer: >
       Yes, there are many prizes we will be giving out! At the end of the 24 hours, there will be an expo where you 
-      can demo your invention. Judges will be going around finding the best invention to fit the prize categories on 
+      can demo your invention. Judges will be looking for the best inventions to fit the prize categories on 
       the Devpost.
   - question: "Where is the event?"
     answer: >
-      The event will be online this year.
+      The event will be online this year! We'll be hosting it virtually on this website.
   - question: "Your question not here?"
     answer: >
       Please email innovateorange@syr.edu for any more questions.
@@ -170,11 +187,6 @@ social:
     href: "https://www.instagram.com/cusehacks/"
   - icon: "fa fa-twitter fa-2x"
     href: "https://twitter.com/CuseHacks"
-
-sign_up:
-  message: >
-    CuseHacks 2020 is over, but you can go here to sign up to stay tuned about CuseHacks 2021
-    [here](https://forms.gle/1xtUzSKpJ7AbdoQu9){:target="_blank"}!
 
 
 # ----------------------------------------------------

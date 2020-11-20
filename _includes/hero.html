@@ -1,35 +1,5 @@
 <section class="hero">
-  <div class="text-center">
-    <img rel=header src="{{ site.image.header }}" alt="CuseHacks" class="header">
-  </div>
-
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8de3e6;">
-    <div class="navbar-nav w-100">
-      {% for item in site.hero.nav %}
-        {% if item.section == "APPLY" %}
-          <a target="_blank" class="nav-item" href="{{ item.href }}">{{ item.section }}</a>
-        {% else %}
-          <a class="nav-item" href="{{ item.href }}">{{ item.section }}</a>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </nav>
-    
-      </div>
-
-  <div class="text-center">
-    <h2 rel="description">{{ site.event.description }}</h2>
-    <h3 rel="date">{{ site.event.date }}, {{ site.event.year }}</h3>
-    <h3 rel="location">{{ site.event.location }}</h3>
-
-    <div class="buttons">
-      {% for link in site.hero.links %}
-        <a target="_blank" href="{{ link.href }}">{{ link.text }}</a>
-      {% endfor %}
-    </div>
-
-    <div class="container">
-      <p>{{ site.hero.message | markdownify }}</p>
-    </div>
-  </div>
+  <video width="100%" muted autoplay poster="{{ site.image.thumbnail }}">
+    <source src="{{ site.video }}" type="video/mp4">
+  </video>
 </section>
