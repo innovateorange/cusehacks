@@ -4,6 +4,12 @@ src: url(HeronSans.otf);
 font-weight: normal;
 }
 
+@font-face {
+  font-family: 'heronsanslight';
+  src: url(HeronSansLight.otf);
+  font-weight: 200;
+  }
+
 * {
   font-family: 'heronsans';
 }
@@ -28,17 +34,27 @@ h4 {
   font-size: 2vw;
 }
 
-p {
+h5 {
   font-size: 1.75vw;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-size: 1.25vw;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1.25vw;
 }
 
 a {
-  color: rgb(87, 84, 0);
+  color: #48bd96;
 }
 
 a:hover,
 a:focus {
-  color: rgb(5, 5, 5);
+  color: rgba(58, 219, 165, 0.6);
   text-decoration: underline;
 }
 
@@ -67,6 +83,22 @@ a:focus {
 .content {
   color: black;
   margin-left: 25vw;
+}
+
+.content p {
+  font-family: 'heronsanslight';
+}
+
+.content-heading {
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  padding-left: 2vw;
+  background-color: black;
+  color: white;
+}
+
+.content-p {
+  margin: 2vw 0;
 }
 
 
@@ -100,51 +132,51 @@ a:focus {
 }
 
 .sidebar h2 {
-  color: #4fd1a5;
-  margin-top: 5vh;
-  margin-bottom: 7vh;
+  color: #48bd96;
+  margin-top: 4vw;
+  margin-bottom: 6vw;
   text-transform: uppercase;
 }
 
 .sidebar h4 {
-  color: #4fd1a5;
+  color: #48bd96;
   text-transform: uppercase;
 }
 
 .sidebar h5 {
   font-size: 1vw;
-  color: #4fd1a5;
+  color: #48bd96;
   margin-bottom: 0%;
   text-transform: uppercase;
 }
 
 .sidebar-q {
-  margin-bottom: 2vh;
+  margin-bottom: 1vw;
 }
 
 .sidebar-faq-link {
   font-size: 1vw;
-  margin-bottom: 3.5vh;
+  margin-bottom: 1.5vw;
 }
 
 .sidebar-faq-link a {
-  color: #4fd1a5;
+  color: #48bd96;
   text-transform: uppercase;
 }
 
 .sidebar-register {
-  margin-bottom: 5vh;
+  margin-bottom: 2vw;
 }
 
 .sidebar-buttons {
   -ms-transform: skewX(-15deg); /* IE 9 */
   -webkit-transform: skewX(-15deg); /* Safari */
   transform: skewX(-15deg);
-  margin: 3vh 0;
+  margin: 1vw 0;
 }
 
 .sidebar-buttons a {
-  background:rgb(79,209,165, 0.75);
+  background: #48bd96;  
   color: #fff;
   display: inline;
   font-size: 1vw;
@@ -156,7 +188,7 @@ a:focus {
 
 .sidebar-buttons a:hover,
 .sidebar-buttons a:focus {
-  background-color: #2c775e;
+  background-color: rgba(58, 219, 165, 0.6);
   transition: all 0.2s ease;
 }
 
@@ -166,65 +198,40 @@ a:focus {
  */
 
 .hero {
-  padding-bottom: 8vh;
+  padding-bottom: 0vw;
 }
 
-.navbar {
-  padding: .5% 1%;
+.hero-header {
+  margin-top: -0.5vw;
+  padding: 0.7vw 0;
+  background-color: #48bd96;
+  color: #fff;
 }
 
-.navbar-nav {
-  justify-content: space-around;
+.hero-buttons {
+  -ms-transform: skewX(-15deg); /* IE 9 */
+  -webkit-transform: skewX(-15deg); /* Safari */
+  transform: skewX(-15deg);
+  margin: 1vw 0;
 }
 
-.nav-item {
-  color: black;
-}
-
-.hero nav {
-  margin-left: 30px;
-  margin-right: 30px;
-  font-size: 2vw;
-  margin-bottom: 10%;
-}
-
-.navbar-nav {
-  flex-direction: row;
-}
-
-.header {
-  width: 50%;
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
-
-.hero .col {
-  padding-right: 7%;
-}
-
-.hero .buttons {
-  margin: 10% 0;
-}
-
-.hero .buttons a {
-  background: #fff;
-  border-radius: 30px;
-  color: rgb(0, 0, 0);
+.hero-buttons a {
+  background: black;
+  color: #fff;
   display: inline;
-  font-size: 1.75vw;
-  font-weight: 700;
-  padding: 1% 5%;
-  margin: 15px 15px;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 0.5vw 2.25vw;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.hero .buttons a:hover,
-.hero .buttons a:focus {
-  background-color: #0F2C34;
-  color: #fff;
+.hero-buttons a:hover,
+.hero-buttons a:focus {
+  background-color: rgba(0, 0, 0, 0.60);
   transition: all 0.2s ease;
 }
+
 
 
 /* 
@@ -232,32 +239,33 @@ a:focus {
  */
 
 .about {
-  padding-bottom: 12vh;
+  padding-bottom: 7vw;
 }
 
-.about-header {
-  padding: 5vh 0;
+.about-top {
+  width: 22vw;
 }
 
-.about p {
-  padding-bottom: 8%;
+.about-mid, .about-sponsor {
+  width: 100%;
 }
+
 
 /*
  * FAQ Section
  */
 
 .faq {
-  padding-bottom: 12vh;
+  padding-bottom: 0vw;
   position: relative;
 }
 
 .faq-header {
-  padding: 5vh 0;
+  padding: 2vw 0;
 }
 
-.faq p {
-  padding-bottom: 8%;
+.faq-bottom {
+  width: 100%;
 }
 
 
@@ -361,19 +369,27 @@ a:focus {
  */
 
 .footer {
-  background-color: rgb(24, 24, 24);
-  color: #fff;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  margin-left: 25vw;
+  color: black;
+  background-color: white;
 }
 
+.footer-heading {
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  padding-left: 2vw;
+  margin-bottom: 2vw;
+  background-color: black;
+  color: white;
+}
 
 .footer img {
   margin-bottom: 2px;
 }
 
-.footer a:hover {
+.footer a:hover, .footer a:focus {
   text-decoration: none;
+  color: #42a886;
 }
 
 hr {
@@ -384,7 +400,7 @@ hr {
 }
 
 .social_icon {
-  color: #4fd1a5;
+  color: #48bd96;
 }
 
 .fa-2x {
