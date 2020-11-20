@@ -48,14 +48,14 @@ event:
 hero:
   # For nav, hrefs (except apply) go to sections with the proper id defined in index.html
   nav:
-    # - section: "ABOUT"
-    #   href:    "#about"
-    # - section: "FAQ"
-    #   href:    "#faq"
-    # - section: "SPONSORS"
-    #   href:    "#sponsors"
-    # - section: "APPLY"
-    #   href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
+    - section: "ABOUT"
+      href:    "#about"
+    - section: "FAQ"
+      href:    "#faq"
+    - section: "SPONSORS"
+      href:    "#sponsors"
+    - section: "APPLY"
+      href:    "https://forms.gle/1xtUzSKpJ7AbdoQu9"
 
 video: /cusehacks/images/video.mp4
 
@@ -65,6 +65,10 @@ image:
   thumbnail:  "/cusehacks/images/cuse_hacks_thumbnail.png"
   slice:      "/cusehacks/images/logos/cusehacks_logo.png"
   favicon:    "/cusehacks/images/logos/favicon.png"
+  aboutTop : "/cusehacks/images/about/about_top.png"
+  aboutMid : "/cusehacks/images/about/about_middle.png"
+  aboutSponsor: "/cusehacks/images/about/sponsor_screenshot.png"
+  aboutBottom : "/cusehacks/images/about/about_bottom.png"
 
 # Side Banner
 side_banner:
@@ -87,10 +91,11 @@ side_banner:
 
 # About Information
 about:
-  - header: ""
+  - header: "Syracuse University's 24-hour hackathon is going virtual!"
     content: >
-      CuseHacks is the first student-run hackathon at Syracuse University. Over a span of 24-hours, 
-      students of all backgrounds are invited to explore the possibilities of technology and imagination.
+      Over a span of 24-hours, students of all backgrounds are invited to explore the possibilities 
+      of technology and imagination. Build cool and innovative applications, websites, and hardware 
+      projects and compete for the grand prize.
   - header: "In 2021, Syracuse University will welcome back it’s student-run hackathon – CuseHacks."
     content: >
       College students all around are invited to spend 24 hours hacking to build cool and 
@@ -106,10 +111,23 @@ about:
       peers and impressive mentors. There will be games, food, and swag! Build something or break something.
       CuseHacks just wants you to have a great experience meeting new people, working with friends, and gaining new 
       skills, learning about the possibilities of technology.
-  - header: ""
+  - header: "Proudly Sponsored By"
+    content: >
+      Interestered in sponsoring us? Check out our sponsorship package here and send us an email at innovateorange@syr.edu
+    href: "/cusehacks/assets/CuseHacks2020_Sponsorship_Package.pdf"
+  - header: "Not convinced yet?"
     content: >
       Want to see past projects from our past hackathons? Check out our devpost [here](https://devpost.com/cusehacks/challenges){:target="_blank"}.
+    lines:
+      - l: Never been to a hackathon? Read our FAQ
+      - l: View photos from last years CuseHacks.
+      - l: Support CuseHacks
+      - l: Interested in sponsoring us? Check out our sponsorship package
+      - l: Sign up to become a Volunteer! 
+      - l: Sign up to become a Mentor/Judge! 
 # Frequently asked questions.
+fq:
+  message: "Have questions? You've come to the right place! Here are all our top questions."
 faq:
   - question: "What is a hackathon?"
     answer: >
