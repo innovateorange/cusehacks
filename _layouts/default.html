@@ -18,12 +18,12 @@
           </div>
           {% endfor %}
           <div class="sidebar-faq-link">
-            <i>More questions? </i><a href="{{ site.side_banner.faq_href }}"><b><i>FAQ.</i></b></a>
+            <i>More questions? </i><a href="{{ site.links.faq_href }}"><b><i>FAQ.</i></b></a>
           </div>
           <div class="sidebar-register">
             <h4><i>Ready to register?</i></h4>
             <div class="sidebar-buttons">
-              <a target="_blank" href="{{ site.apply_href }}">{{ site.side_banner.apply_text }}</a>
+              <a target="_blank" href="{{ site.links.apply_href }}">{{ site.side_banner.apply_text }}</a>
             </div>
           </div>
           <div class="sidebar-sponsors">
@@ -47,14 +47,14 @@
 
       <div class="row justify-content-around">
         <div class="col-5">
-          <p>2020 CuseHacks <img src="{{ site.image.slice }}" alt="" width=8%></p>
+          <p>2020 CuseHacks <img src="{{ site.image.slice }}" alt="" width=6%></p>
         </div>
         <div class="col-3">
           {% for item in site.social %}
             <a target="_blank" class="social_icon" href="{{ item.href }}">
               <i class="{{ item.icon }}" aria-hidden="true"></i>
             </a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           {% endfor %}
         </div>
       </div>

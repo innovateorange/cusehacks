@@ -38,15 +38,47 @@ layout: default
   </div>
 
   <img class="about-sponsor" src="{{ site.image.aboutSponsor }}" alt="Sponsors">
-</section>
 
-<section class="faq" id="faq">
-  <div class="container text-center">
-      <h2 style="color:#48bd96;">FAQ</h2>
-      <p>{{ site.fq.message }}</p>
+  <div class="content-p container">
+    {{ site.about.content4 | markdownify }}
   </div>
 
-  <br>
+  <div class="content-heading">
+    <h6><i>{{ site.about.header5 }}</i></h6>
+  </div>
+
+  <div class="row align-items-center">
+    <div class="col-5">
+      <img class="about-bottom" src="{{ site.image.aboutBottom }}" alt="Bottom">
+    </div>
+    <div class="col-6">
+      {% for item in site.about.content5 %}
+      <div class="content-p container" style="padding-left: 3vw;">
+        {{ item.text | markdownify }}
+      </div>
+      {% endfor %}
+      <div class="content-heading" style="width: 150%;">
+        <h6><i>{{ site.about.header6 }}</i></h6>
+      </div>
+      {% for item in site.about.content6 %}
+      <div class="content-p container" style="padding-left: 3vw;">
+        {{ item.text | markdownify }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<hr>
+<section class="faq" id="faq">
+  <div class="row align-items-center justify-content-around">
+    <div class="col-6">
+      <h2 style="color:#48bd96;">FAQ</h2>
+      <p>{{ site.faq_message }}</p>
+    </div>
+    <div class="col-5">
+      <img class="faq-top" src="{{ site.image.faqTop }}" alt="Top">
+    </div>
+  </div>
 
   {% for item in site.faq %}
   <div class="content-heading">
