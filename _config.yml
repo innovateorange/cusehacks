@@ -39,10 +39,10 @@ event:
 
 # MLH Trust Badge for site. Leave commented out if MLH application
 # hasn't been approved
-# Update trust_badge.html with content from https://mlh.io/brand-guidelines for proper badge
-# trust_badge: 
-#   year:  "2021"
-#   color: "white"
+# Check https://mlh.io/brand-guidelines to make sure trust_badge.html has proper badge
+trust_badge: 
+  year:  "2021"
+  color: "white"
 
 # Links
 links:
