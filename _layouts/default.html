@@ -3,7 +3,9 @@
   {% include head.html %}
 
   <body>
-    {% include trust_badge.html %}
+    {% if site.trust_badge.year %}
+      {% include trust_badge.html %}
+    {% endif %}
     
     <div class="wrapper">
       <div class="sidebar">
