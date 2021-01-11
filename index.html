@@ -34,16 +34,6 @@ layout: default
   </div>
 
   <div class="content-heading">
-    <h6><i>{{ site.about.header4 }}</i></h6>
-  </div>
-
-  <img class="about-sponsor" src="{{ site.image.aboutSponsor }}" alt="Sponsors">
-
-  <div class="content-p container">
-    {{ site.about.content4 | markdownify }}
-  </div>
-
-  <div class="content-heading">
     <h6><i>{{ site.about.header5 }}</i></h6>
   </div>
 
@@ -69,24 +59,3 @@ layout: default
   </div>
 </section>
 <hr>
-<section class="faq" id="faq">
-  <div class="row align-items-center justify-content-around">
-    <div class="col-6">
-      <h2 style="color:#48bd96;">FAQ</h2>
-      <p>{{ site.faq_message }}</p>
-    </div>
-    <div class="col-5">
-      <img class="faq-top" src="{{ site.image.faqTop }}" alt="Top">
-    </div>
-  </div>
-
-  {% for item in site.faq %}
-  <div class="content-heading">
-    <h6><i>{{ item.question }}</i></h6>
-  </div>
-  <div class="content-p container">
-    {{ item.answer | markdownify }}
-  </div>
-  {% endfor %}
-  <img class="faq-bottom" src="{{ site.image.faqBottom }}" alt="Bottom">
-</section>
