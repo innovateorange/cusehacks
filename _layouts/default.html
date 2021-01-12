@@ -10,9 +10,11 @@
     <div class="wrapper">
       <div class="sidebar">
         <div class="container text-center">
-          <img src= "{{ site.image.header }}" alt="CuseHacks">
+          <a href="/cusehacks/">
+            <img src= "{{ site.image.header }}" alt="CuseHacks">
+          </a>
           {% for item in site.side_banner.faq %}
-          <div class="sidebar-q container">
+          <div class="sidebar-q">
             <h5><i>{{ item.header }}</i></h5>
             {{ item.content }}
           </div>
@@ -45,9 +47,9 @@
       </div>
 
 
-      <div class="row justify-content-around">
+      <div class="mobile-hide row justify-content-around">
         <div class="col-5">
-          <p>2020 CuseHacks <img src="{{ site.image.slice }}" alt="" width=6%></p>
+          <p>2021 CuseHacks <img src="{{ site.image.slice }}" alt="" width=6%></p>
         </div>
         <div class="col-3">
           {% for item in site.social %}
@@ -57,6 +59,17 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           {% endfor %}
         </div>
+      </div>
+
+      <div class="mobile text-center">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        {% for item in site.social %}
+          <a target="_blank" class="social_icon" href="{{ item.href }}">
+            <i class="{{ item.icon }}" aria-hidden="true"></i>
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+        {% endfor %}
+        <p>2021 CuseHacks <img src="{{ site.image.slice }}" alt="" width=6%></p>
       </div>
     </section>
 

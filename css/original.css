@@ -1,15 +1,21 @@
-@font-face {
-font-family: 'heronsans';
-src: url(HeronSans.otf);
-font-weight: normal;
-}
+/* 
+--------------------------------------------------------------------------------------------------
+Desktop layout below
+-------------------------------------------------------------------------------------------------
+*/
 
+@font-face {
+  font-family: 'heronsans';
+  src: url(HeronSans.otf);
+  font-weight: normal;
+  }
+  
 @font-face {
   font-family: 'heronsanslight';
   src: url(HeronSansLight.otf);
   font-weight: 200;
   }
-
+  
 * {
   font-family: 'heronsans';
 }
@@ -54,7 +60,7 @@ a {
 
 a:hover,
 a:focus {
-  color: rgba(58, 219, 165, 0.6);
+  color: #48bd96;
   text-decoration: underline;
 }
 
@@ -94,7 +100,6 @@ a:focus {
   height: 2vw;
   margin-top: 0%;
   margin-bottom: 0%;
-
 }
 
 .content-heading {
@@ -109,6 +114,18 @@ a:focus {
   margin: 2vw 0;
 }
 
+.mobile {
+  display: none;
+}
+
+.content-apply {
+  padding: 4vw 11vw;
+  background-color: #48bd96;
+  color: #fff;
+}
+
+
+
 
 /* 
  * Sidebar 
@@ -118,7 +135,7 @@ a:focus {
   display: flex;
 }
 
- .sidebar {
+.sidebar {
   background-image: url('side_banner.jpg');
   background-size: auto 100%;
   color: #fff;
@@ -136,7 +153,8 @@ a:focus {
 }
 
 .sidebar img {
-  width:70%
+  width: 70%;
+  margin: 4mm 0;
 }
 
 .sidebar h2 {
@@ -161,7 +179,13 @@ a:focus {
 }
 
 .sidebar-q {
-  margin-bottom: 1vw;
+  margin-bottom: 5mm;
+  font-size: 1vw;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .sidebar-faq-link {
@@ -211,6 +235,10 @@ a:focus {
   padding-bottom: 0vw;
 }
 
+.mobile-img {
+  display: none;
+}
+
 .hero-header {
   margin-top: -0.5vw;
   padding: 0.7vw 0;
@@ -218,14 +246,14 @@ a:focus {
   color: #fff;
 }
 
-.hero-buttons {
+.buttons {
   -ms-transform: skewX(-15deg); /* IE 9 */
   -webkit-transform: skewX(-15deg); /* Safari */
   transform: skewX(-15deg);
   margin: 1vw 0;
 }
 
-.hero-buttons a {
+.buttons a {
   background: black;
   color: #fff;
   display: inline;
@@ -236,8 +264,8 @@ a:focus {
   text-transform: uppercase;
 }
 
-.hero-buttons a:hover,
-.hero-buttons a:focus {
+.buttons a:hover,
+.buttons a:focus {
   background-color: rgba(0, 0, 0, 0.60);
   transition: all 0.2s ease;
 }
@@ -252,7 +280,7 @@ a:focus {
   padding-bottom: 0vw;
 }
 
-.about-top {
+.about-top img {
   width: 22vw;
 }
 
@@ -260,7 +288,7 @@ a:focus {
   width: 100%;
 }
 
-.about-bottom {
+.about-bottom img {
   width: 32vw;
 }
 
@@ -281,7 +309,7 @@ a:focus {
   padding: 2vw 0;
 }
 
-.faq-top {
+.faq-top img {
   width: 35vw;
 }
 
@@ -423,4 +451,195 @@ a:focus {
 
 .footer h5 {
   padding-top: 3%;
+}
+
+
+/* Mobile layout */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 8vw;
+  }
+
+  h4 {
+    font-size: 2vw;
+  }
+
+  h5 {
+    font-size: 4vw;
+  }
+
+  h6 {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 4vw;
+  }
+
+  .content {
+    margin-left: 0vw;
+  }
+
+  .content-heading {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 6vw;
+    padding-right: 40vw;
+  }
+
+  .content-p {
+    margin: 7vw 0;
+    padding-right: 7vw;
+    padding-left: 7vw;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  /* 
+  * Sidebar 
+  */
+
+  .wrapper {
+    display: block;
+  }
+
+  .sidebar {
+    width: 100vw;
+    height: 10%;
+    position: relative;
+    z-index: 0;
+  }
+
+  .sidebar img {
+    width: 60%;
+    margin: 0 0
+  }
+
+  .sidebar h4 {
+    font-size: 4vw;
+  }
+
+  .sidebar h5 {
+    font-size: 4vw;
+  }
+
+  .sidebar-q {
+    margin-bottom: 2vw;
+    font-size: 4vw;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .sidebar-faq-link {
+    font-size: 4vw;
+  }
+
+  .sidebar-register {
+    margin-top: 16vw;
+    margin-bottom: 5vw;
+  }
+
+  .sidebar-buttons a {
+    font-size: 3vw;
+    padding: 1vw 6vw;
+  }
+
+
+  /*
+  * Hero Section
+  */
+
+  video {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+    width: 100%;
+  }
+
+  .hero-header {
+    display: none;
+  }
+
+  .buttons a {
+    font-size: 3vw;
+    padding: 1vw 5vw;
+  }
+
+
+
+  /* 
+  * About Section
+  */
+
+  .about-top {
+    display: none;
+  }
+
+  .about-mid {
+    display: none;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .about-bottom {
+    display: none;
+  }
+
+  /*
+  * FAQ Section
+  */
+
+  .faq {
+    padding-top: 4vw;
+  }
+
+  .faq-top {
+    display: none;
+  }
+
+  .faq-bottom {
+    display: none;
+  }
+
+
+  /*
+  * Sponsor Section
+  */
+
+
+
+  /*
+  * Sign Up Section
+  */
+
+
+
+  /*
+  * Footer Section
+  */
+
+  .footer {
+    margin-left: 0vw;
+  }
+
+  .footer-heading {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 6vw;
+    padding-right: 40vw;
+  }
+
+  .fa-2x {
+    font-size: 5vw;
+  }
+
 }

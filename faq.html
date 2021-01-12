@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section class="faq" id="faq">
+    <div class="faq-top row align-items-center justify-content-around">
+      <div class="col-6">
+        <h2 style="color:#48bd96;">FAQ</h2>
+        <p>{{ site.faq_message }}</p>
+      </div>
+      <div class="col-5">
+        <img src="{{ site.image.faqTop }}" alt="Top">
+      </div>
+    </div>
+
+    <div class="mobile text-center">
+      <h2 style="color:#48bd96;">FAQ</h2>
+      <p>{{ site.faq_message }}</p>
+    </div>
+  
+    {% for item in site.faq %}
+    <div class="content-heading">
+      <h6><i>{{ item.question }}</i></h6>
+    </div>
+    <div class="content-p container">
+      {{ item.answer | markdownify }}
+    </div>
+    {% endfor %}
+    <img class="faq-bottom" src="{{ site.image.faqBottom }}" alt="Bottom">
+  </section>

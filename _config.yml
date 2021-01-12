@@ -47,8 +47,8 @@ trust_badge:
 # Links
 links:
   about_href:      "#about"
-  faq_href:        "#faq"
-  sponsors_href:   "#sponsors"
+  faq_href:        "faq.html"
+  sponsors_href:   "sponsors.html"
   apply_href:      "https://forms.gle/eLXQKgySo6g3qs5M8"
   sponsor_package: "/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf"
 
@@ -108,7 +108,7 @@ about:
     working with friends, and gaining new skills, learning about the possibilities of technology.
   header4: "Previous Sponsors"
   content4: >
-    Interestered in sponsoring us? Check out our sponsorship package 
+    Interested in sponsoring us? Check out our sponsorship package 
     [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
     and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
   header5: "Not convinced yet?"
@@ -116,15 +116,18 @@ about:
     - text: >
         Check out past projects and winners on our [Devpost](https://devpost.com/cusehacks/challenges){:target="_blank"}.
     - text: >
-        Never been to a hackathon? Read our [FAQ](#faq).
+        Never been to a hackathon? Read our [FAQ](/cusehacks/faq.html).
     - text: >
         View [photos](https://drive.google.com/drive/folders/107c2zow0wFz0TLrBV0LSLuS-qFj4EWvT?usp=sharing){:target="_blank"} 
         from last years CuseHacks.
   header6: "Support CuseHacks"
   content6:
     - text : >
-        Interested in sponsoring us? Check out our sponsorship package
-        [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"}.
+        Interested in sponsoring us? Check out our sponsorship package 
+        [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
+        and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
+    - text : >
+        Check out our sponsorship page [here](/cusehacks/sponsors.html).
 
 # Frequently asked questions.
 faq_message: >
