@@ -108,7 +108,7 @@ about:
     working with friends, and gaining new skills, learning about the possibilities of technology.
   header4: "Previous Sponsors"
   content4: >
-    Interestered in sponsoring us? Check out our sponsorship package 
+    Interested in sponsoring us? Check out our sponsorship package 
     [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
     and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
   header5: "Not convinced yet?"
@@ -123,8 +123,11 @@ about:
   header6: "Support CuseHacks"
   content6:
     - text : >
-        Interested in sponsoring us? Check out our sponsorship page
-        [here](/cusehacks/sponsors.html).
+        Interested in sponsoring us? Check out our sponsorship package 
+        [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
+        and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
+    - text : >
+        Check out our sponsorship page [here](/cusehacks/sponsors.html).
 
 # Frequently asked questions.
 faq_message: >

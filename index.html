@@ -5,14 +5,19 @@ layout: default
 {% include hero.html %}
 
 <section class="about" id="about">
-  <div class="row align-items-center">
+  <div class="about-top row align-items-center">
     <div class="col-4">
-      <img class="about-top" src="{{ site.image.aboutTop }}" alt="Top">
+      <img src="{{ site.image.aboutTop }}" alt="Top">
     </div>
     <div class="col-8">
       <p>{{ site.about.content1.first }}</p>
       <p style="color:#48bd96;"><b>{{ site.about.content1.second }}</b></p>
     </div>
+  </div>
+
+  <div class="mobile content-p">
+    <p>{{ site.about.content1.first }}</p>
+    <p style="color:#48bd96;"><b>{{ site.about.content1.second }}</b></p>
   </div>
 
   <div class="content-heading">
@@ -37,9 +42,9 @@ layout: default
     <h6><i>{{ site.about.header5 }}</i></h6>
   </div>
 
-  <div class="row align-items-center">
+  <div class="about-bottom row align-items-center">
     <div class="col-5">
-      <img class="about-bottom" src="{{ site.image.aboutBottom }}" alt="Bottom">
+      <img src="{{ site.image.aboutBottom }}" alt="Bottom">
     </div>
     <div class="col-6">
       {% for item in site.about.content5 %}
@@ -57,5 +62,28 @@ layout: default
       {% endfor %}
     </div>
   </div>
+
+  <div class="mobile">
+    {% for item in site.about.content5 %}
+    <div class="content-p">
+      {{ item.text | markdownify }}
+    </div>
+    {% endfor %}
+    <div class="content-heading">
+      <h6><i>{{ site.about.header6 }}</i></h6>
+    </div>
+    {% for item in site.about.content6 %}
+    <div class="content-p">
+      {{ item.text | markdownify }}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="mobile content-apply text-center">
+    <h5>Join us for CuseHacks 2021!</h5>
+    <div class="buttons">
+      <a target="_blank" href="{{ site.links.apply_href }}">Register</a>
+    </div>
+  </div>
+
 </section>
-<hr>

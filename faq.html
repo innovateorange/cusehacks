@@ -2,18 +2,20 @@
 layout: default
 ---
 
-
-<!--{% include hero.html %} -->
-
 <section class="faq" id="faq">
-    <div class="row align-items-center justify-content-around">
+    <div class="faq-top row align-items-center justify-content-around">
       <div class="col-6">
         <h2 style="color:#48bd96;">FAQ</h2>
         <p>{{ site.faq_message }}</p>
       </div>
       <div class="col-5">
-        <img class="faq-top" src="{{ site.image.faqTop }}" alt="Top">
+        <img src="{{ site.image.faqTop }}" alt="Top">
       </div>
+    </div>
+
+    <div class="mobile text-center">
+      <h2 style="color:#48bd96;">FAQ</h2>
+      <p>{{ site.faq_message }}</p>
     </div>
   
     {% for item in site.faq %}
