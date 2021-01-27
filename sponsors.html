@@ -6,12 +6,14 @@ layout: default
   <h6><i>Current Sponsors</i></h6>
 </div>
 
-<div class="sponsor_logos container text-center">
-  {% for item in site.sponsors %}
-    <a target="_blank" href="{{ item.href }}">
-      <img src="{{ item.image }}" alt="{{ item.name }}" class="{{ item.class }}">
-    </a>
-  {% endfor %}
+<div class="sponsor_logos text-center">
+  <div class="container">
+    {% for item in site.sponsors %}
+      <a target="_blank" href="{{ item.href }}">
+        <img src="{{ item.image }}" alt="{{ item.name }}" class="{{ item.class }}">
+      </a>
+    {% endfor %}
+  </div>
 </div>
 
 <div class="content-heading">

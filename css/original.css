@@ -199,7 +199,7 @@ a:focus {
 }
 
 .sidebar-register {
-  margin-bottom: 2vw;
+  margin-bottom: 4vw;
 }
 
 .sidebar-buttons {
@@ -224,6 +224,10 @@ a:focus {
 .sidebar-buttons a:focus {
   background-color: rgba(58, 219, 165, 0.6);
   transition: all 0.2s ease;
+}
+
+.sidebar-sponsor-link {
+  margin-bottom: 0vw;
 }
 
 
@@ -521,12 +525,16 @@ a:focus {
 
   .sidebar-register {
     margin-top: 16vw;
-    margin-bottom: 5vw;
   }
 
   .sidebar-buttons a {
     font-size: 3vw;
     padding: 1vw 6vw;
+  }
+
+  .sidebar-sponsor-link {
+    margin-top: 8vw;
+    margin-bottom: 6vw;
   }
 
 
