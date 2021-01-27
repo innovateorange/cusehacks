@@ -322,29 +322,9 @@ a:focus {
  * Sponsor Section
  */
 
-.sponsor {
-  position: relative;
-  padding-bottom: 5%;
-}
-
-.sponsor .sponsor_logos {
+.sponsor_logos {
   padding: 40px 0;
-}
-
-.sponsor-header {
-  width: 175%;
-}
-
-.sponsor .row {
-  padding-bottom: 8%;
-}
-
-.sponsor p {
-  padding-bottom: 5%;
-}
-
-.rounded {
-  border-radius: 3rem!important;
+  background-color: #48bd96;
 }
 
 .partner {
@@ -352,32 +332,32 @@ a:focus {
   width: 30%;
 }
 
-.long_gold_sponsor {
+.long_gold {
   padding: 2% 2%;
   max-width: 35%;
 }
 
-.gold_sponsor {
+.gold {
   padding: 2% 2%;
   max-width: 23%;
 }
 
-.long_silver_sponsor {
+.long_silver {
   padding: 1.5% 1.5%;
   max-width: 25%;
 }
 
-.silver_sponsor {
+.silver {
   padding: 1.5% 1.5%;
   max-width: 20%;
 }
 
-.bronze_sponsor {
+.bronze {
   padding: 1.5% 1.5%;
   max-width: 15%;
 }
 
-.small_bronze_sponsor {
+.small_bronze {
   padding: 1.5% 1.5%;
   max-width: 10%;
 }
@@ -387,13 +367,13 @@ a:focus {
   max-width: 10%;
 }
 
-.sponsor .sponsor_logos img:hover {
+.sponsor_logos img:hover {
   -moz-box-shadow: 0 0 10px #ccc;
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
 }
 
-.sponsor a:hover {
+.sponsor_logos a:hover {
   text-decoration: none;
 }
 

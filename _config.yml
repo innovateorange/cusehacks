@@ -106,13 +106,8 @@ about:
     peers and impressive mentors. <span style="color: #48bd96;">There will be games, food, and swag!</span> 
     Build something or break something. CuseHacks just wants you to have a great experience meeting new people, 
     working with friends, and gaining new skills, learning about the possibilities of technology.
-  header4: "Previous Sponsors"
-  content4: >
-    Interested in sponsoring us? Check out our sponsorship package 
-    [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
-    and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
-  header5: "Not convinced yet?"
-  content5:
+  header4: "Not convinced yet?"
+  content4:
     - text: >
         Check out past projects and winners on our [Devpost](https://devpost.com/cusehacks/challenges){:target="_blank"}.
     - text: >
@@ -120,8 +115,8 @@ about:
     - text: >
         View [photos](https://drive.google.com/drive/folders/107c2zow0wFz0TLrBV0LSLuS-qFj4EWvT?usp=sharing){:target="_blank"} 
         from last years CuseHacks.
-  header6: "Support CuseHacks"
-  content6:
+  header5: "Support CuseHacks"
+  content5:
     - text : >
         Interested in sponsoring us? Check out our sponsorship package 
         [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
@@ -192,6 +187,20 @@ social:
     href: "https://www.instagram.com/cusehacks/"
   - icon: "fa fa-twitter fa-2x"
     href: "https://twitter.com/CuseHacks"
+
+sponsor_message: >
+  Interested in sponsoring us? Check out our sponsorship package 
+  [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
+  and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
+sponsors:
+  - name:  "MLH"
+    class: "gold"
+    image: "/cusehacks/images/sponsors/mlh.png"
+    href:  "https://mlh.io/"
+  - name:  "Sticker Mule"
+    class: "gold"
+    image: "/cusehacks/images/sponsors/sticker-mule.png"
+    href:  "http://hackp.ac/mlh-stickermule-hackathons"
 
 
 # ----------------------------------------------------

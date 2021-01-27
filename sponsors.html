@@ -3,11 +3,23 @@ layout: default
 ---
 
 <div class="content-heading">
-    <h6><i>{{ site.about.header4 }}</i></h6>
-  </div>
+  <h6><i>Current Sponsors</i></h6>
+</div>
 
-  <img class="about-sponsor" src="{{ site.image.aboutSponsor }}" alt="Sponsors">
+<div class="sponsor_logos container text-center">
+  {% for item in site.sponsors %}
+    <a target="_blank" href="{{ item.href }}">
+      <img src="{{ item.image }}" alt="{{ item.name }}" class="{{ item.class }}">
+    </a>
+  {% endfor %}
+</div>
 
-  <div class="content-p container">
-    {{ site.about.content4 | markdownify }}
-  </div>
+<div class="content-heading">
+  <h6><i>Previous Sponsors</i></h6>
+</div>
+
+<img class="about-sponsor" src="{{ site.image.aboutSponsor }}" alt="Sponsors">
+
+<div class="content-p container">
+  {{ site.sponsor_message | markdownify }}
+</div>

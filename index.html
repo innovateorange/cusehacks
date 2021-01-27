@@ -39,7 +39,7 @@ layout: default
   </div>
 
   <div class="content-heading">
-    <h6><i>{{ site.about.header5 }}</i></h6>
+    <h6><i>{{ site.about.header4 }}</i></h6>
   </div>
 
   <div class="about-bottom row align-items-center">
@@ -47,15 +47,15 @@ layout: default
       <img src="{{ site.image.aboutBottom }}" alt="Bottom">
     </div>
     <div class="col-6">
-      {% for item in site.about.content5 %}
+      {% for item in site.about.content4 %}
       <div class="content-p container" style="padding-left: 3vw;">
         {{ item.text | markdownify }}
       </div>
       {% endfor %}
       <div class="content-heading" style="width: 150%;">
-        <h6><i>{{ site.about.header6 }}</i></h6>
+        <h6><i>{{ site.about.header5 }}</i></h6>
       </div>
-      {% for item in site.about.content6 %}
+      {% for item in site.about.content5 %}
       <div class="content-p container" style="padding-left: 3vw;">
         {{ item.text | markdownify }}
       </div>
@@ -64,15 +64,15 @@ layout: default
   </div>
 
   <div class="mobile">
-    {% for item in site.about.content5 %}
+    {% for item in site.about.content4 %}
     <div class="content-p">
       {{ item.text | markdownify }}
     </div>
     {% endfor %}
     <div class="content-heading">
-      <h6><i>{{ site.about.header6 }}</i></h6>
+      <h6><i>{{ site.about.header5 }}</i></h6>
     </div>
-    {% for item in site.about.content6 %}
+    {% for item in site.about.content5 %}
     <div class="content-p">
       {{ item.text | markdownify }}
     </div>
