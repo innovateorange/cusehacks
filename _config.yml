@@ -193,6 +193,14 @@ sponsor_message: >
   [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
   and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
 sponsors:
+  - name:  "Wegmans"
+    class: "gold"
+    image: "/cusehacks/images/sponsors/wegmans.png"
+    href:  "https://www.wegmans.com"
+  - name:  "M&T Bank"
+    class: "gold"
+    image: "/cusehacks/images/sponsors/MT-bank.png"
+    href:  "https://www3.mtb.com/"
   - name:  "MLH"
     class: "gold"
     image: "/cusehacks/images/sponsors/mlh.png"
