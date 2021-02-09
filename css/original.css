@@ -199,14 +199,14 @@ a:focus {
 }
 
 .sidebar-register {
-  margin-bottom: 4vw;
+  margin-bottom: 3vw;
 }
 
 .sidebar-buttons {
   -ms-transform: skewX(-15deg); /* IE 9 */
   -webkit-transform: skewX(-15deg); /* Safari */
   transform: skewX(-15deg);
-  margin: 1vw 0;
+  margin: 1.5vw 0;
 }
 
 .sidebar-buttons a {
@@ -321,6 +321,25 @@ a:focus {
   width: 100%;
 }
 
+/*
+ * Event Section
+ */
+
+ .event {
+  padding-top: 3vw;
+  padding-bottom: 0vw;
+  position: relative;
+  width: 75vw;
+}
+
+.event-countdown {
+  padding-bottom: 2vw;
+}
+
+.event td {
+  font-family: heronsanslight;
+  font-size: 1.25vw;
+}
 
 /*
  * Sponsor Section
@@ -527,6 +546,10 @@ a:focus {
     margin-top: 16vw;
   }
 
+  .sidebar-buttons {
+    margin: 4vw 0;
+  }
+
   .sidebar-buttons a {
     font-size: 3vw;
     padding: 1vw 6vw;
@@ -610,6 +633,19 @@ a:focus {
   */
 
 
+  /*
+ * Event Section
+ */
+
+ .event {
+  width: 100vw;
+}
+
+.event td {
+  font-family: heronsanslight;
+  font-size: 4vw;
+  padding: 2vw 0;
+}
 
   /*
   * Footer Section

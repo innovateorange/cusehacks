@@ -3,6 +3,8 @@
   {% include head.html %}
 
   <body>
+    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
     {% if site.trust_badge.year %}
       {% include trust_badge.html %}
     {% endif %}
@@ -29,6 +31,9 @@
             </div>
           </div>
           <div class="sidebar-sponsor-link">
+            <div class="sidebar-buttons">
+              <a href="event.html">View Event Page</a>
+            </div>
             <div class="sidebar-buttons">
               <a href="sponsors.html">View Sponsors</a>
             </div>
@@ -73,9 +78,6 @@
         <p>2021 CuseHacks <img src="{{ site.image.slice }}" alt="" width=6%></p>
       </div>
     </section>
-
-    <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-    <script src="{{ '/js/script.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
     {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
   </body>

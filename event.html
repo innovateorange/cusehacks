@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="event">
+  <div class="text-center">
+    <h2 style="color:#48bd96;">The Event</h2>
+    <div class="event-countdown">
+      <h3 id="countdown"></h3>
+    </div>
+  </div>
+
+  {% for item in site.event_page %}
+  <div class="content-heading">
+    <h6><i>{{ item.header }}</i></h6>
+  </div>
+  <div class="content-p container">
+    {{ item.content | markdownify }}
+  </div>
+  {% endfor %}
+
+</div>
+
+<script type="application/javascript">
+  $(document).ready(function() {
+    var countDownDate = new Date("Feb 27, 2021 12:00:00").getTime();
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("countdown").innerHTML = days + "d " + hours
+      + "h " + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "";
+      }
+    }, 1000);
+  });
+</script>
