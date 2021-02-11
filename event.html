@@ -15,7 +15,19 @@ layout: default
     <h6><i>{{ item.header }}</i></h6>
   </div>
   <div class="content-p container">
+    {% if item.header contains "Schedule" %}
+    <table align="center">
+      {% for event in item.events %}
+      <tr>
+        {% for detail in event.event_details %}
+        <td>{{ detail }}</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+    {% else %}
     {{ item.content | markdownify }}
+    {% endif %}
   </div>
   {% endfor %}
 

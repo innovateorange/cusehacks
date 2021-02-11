@@ -219,25 +219,118 @@ event_page:
     content: >
       Here you can find the latest information about the hackathon.
   - header: "Pre-Hackathon Workshop Schedule"
-    content: >
-      <table align="center">
-        <tr><td>Learn To Code 1: Hello World</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>7:00 - 8:00pm</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>February 11th</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a target="_blank" href="https://zoom.us/j/93352719823?pwd=RzVlK0xCbEVCYlFsR0NMUmVmK0h4QT09">Zoom Link</a></td></tr>
-        <tr><td>Advanced Topics 1: Multicore in C/C++</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>7:00 - 8:00pm</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>February 12th</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a target="_blank" href="https://zoom.us/j/97366178094?pwd=VDZwZkNKV0ovK2wyNWptSy9XVGJ2dz09">Zoom Link</a></td></tr>
-        <tr><td>Learn To Code 2: Variables and Data Types</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>7:00 - 8:00pm</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>February 18th</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a target="_blank" href="https://zoom.us/j/93551977288?pwd=ZGxya3E5cjBJdVdUaDJUN29nMUJ3UT09">Zoom Link</a></td></tr>
-        <tr><td>Advanced Topics 2: Intro to Node JS</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>7:00 - 8:00pm</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>February 19th</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a target="_blank" href="https://zoom.us/j/97548031464?pwd=ZnQ3RXFGZG9IY1hOTk1WRzhKcjhYdz09">Zoom Link</a></td></tr>
-        <tr><td>Learn To Code 3: Arrays, Loops, and If-Else</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>7:00 - 8:00pm</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>February 25th</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a target="_blank" href="https://zoom.us/j/93216303205?pwd=YVd0Q0JCU3QyRmdXZUpFUXd4Y2FMZz09">Zoom Link</a></td></tr>
-        <tr><td>Advanced Topics 3: Algorithms and Data Structures</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>7:00 - 8:00pm</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td>February 26th</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td><a target="_blank" href="https://zoom.us/j/97591901787?pwd=dTV6ZVZXeHdSaTVtZWZ3dFluRHNlZz09">Zoom Link</a></td></tr>
-      </table>
+    events:
+      - event_details:
+        - "Learn To Code 1: Hello World"
+        - "7:00 - 8:00pm"
+        - "February 11th"
+        - <a target="_blank" href="https://zoom.us/j/93352719823?pwd=RzVlK0xCbEVCYlFsR0NMUmVmK0h4QT09">Zoom Link</a>
+      - event_details:
+        - "Advanced Topics 1: Multicore in C/C++"
+        - "7:00 - 8:00pm"
+        - "February 12th"
+        - <a target="_blank" href="https://zoom.us/j/97366178094?pwd=VDZwZkNKV0ovK2wyNWptSy9XVGJ2dz09">Zoom Link</a>
+      - event_details:
+        - "Learn To Code 2: Variables and Data Types"
+        - "7:00 - 8:00pm"
+        - "February 18th"
+        - <a target="_blank" href="https://zoom.us/j/93551977288?pwd=ZGxya3E5cjBJdVdUaDJUN29nMUJ3UT09">Zoom Link</a>
+      - event_details:
+        - "Advanced Topics 2: Intro to Node JS"
+        - "7:00 - 8:00pm"
+        - "February 19th"
+        - <a target="_blank" href="https://zoom.us/j/97548031464?pwd=ZnQ3RXFGZG9IY1hOTk1WRzhKcjhYdz09">Zoom Link</a>
+      - event_details:
+        - "Learn To Code 3: Arrays, Loops, and If-Else"
+        - "7:00 - 8:00pm"
+        - "February 25th"
+        - <a target="_blank" href="https://zoom.us/j/93216303205?pwd=YVd0Q0JCU3QyRmdXZUpFUXd4Y2FMZz09">Zoom Link</a>
+      - event_details:
+        - "Advanced Topics 3: Algorithms and Data Structures"
+        - "7:00 - 8:00pm"
+        - "February 26th"
+        - <a target="_blank" href="https://zoom.us/j/97591901787?pwd=dTV6ZVZXeHdSaTVtZWZ3dFluRHNlZz09">Zoom Link</a>
+      
   - header: "Hackathon Schedule"
-    content: >
-      <table align="center">
-        <tr><td><b>February 27th</b></td></tr>
-        <tr><td>TBA</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td></td></tr>
-        <tr></tr>
-        <tr><td><b>February 28th</b></td></tr>
-        <tr><td>TBA</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td></td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td><td></td></tr>
-      </table>
-
+    events:
+      - event_details:
+        - "<b>February 27th</b>"
+      - event_details:
+        - "Opening Ceremony"
+        - "11:30am - 12:00pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Hacking Begins"
+        - "12:00pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Learn New Languages"
+        - "1:00 - 2:00pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Accessible Design"
+        - "1:30 - 2:00pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Version Control"
+        - "2:00 - 2:30pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Adobe XD"
+        - "2:30 - 3:30pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Speed up Python with CPython"
+        - "3:00 - 3:45pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Python/GPU"
+        - "3:55 - 4:40pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Database Programming"
+        - "4:50 - 5:35pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Intro to Graphics with OpenGL"
+        - "7:00 - 7:45pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Ray Tracing"
+        - "7:55 - 8:45pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Command Line Puzzle Challenge"
+        - "9:00 - 11:45pm"
+        # - "Zoom Link"
+      - event_details:
+        - "eSports Event"
+        - "10:00pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Among Us"
+        - "11:00pm"
+        # - "Zoom Link"
+      - event_details:
+        - ""
+      - event_details:
+        - "<b>February 28th</b>"
+      - event_details:
+        - "skribble.io"
+        - "1:00am"
+        # - "Zoom Link"
+      - event_details:
+        - "Hacking Ends"
+        - "12:00pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Judging"
+        - "12:30pm"
+        # - "Zoom Link"
+      - event_details:
+        - "Closing Ceremony"
+        - "4:00pm"
+        # - "Zoom Link"
 
 
 # ----------------------------------------------------
