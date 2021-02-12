@@ -329,7 +329,7 @@ a:focus {
   padding-top: 3vw;
   padding-bottom: 0vw;
   position: relative;
-  width: 75vw;
+  width: 73.75vw;
 }
 
 .event-countdown {
@@ -513,7 +513,7 @@ a:focus {
   }
 
   .sidebar {
-    width: 100vw;
+    width: 97.7vw;
     height: 10%;
     position: relative;
     z-index: 0;
@@ -642,7 +642,7 @@ a:focus {
  */
 
  .event {
-  width: 100vw;
+  width: 97.7vw;
 }
 
 .event td {
