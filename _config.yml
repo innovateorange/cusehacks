@@ -335,6 +335,9 @@ event_page:
         - "Closing Ceremony"
         - "4:00pm"
         # - "Zoom Link"
+  - header: "Useful Links"
+    content: >
+      [Pre-Hackathon Workshops](https://drive.google.com/drive/folders/1SK7Cm9FG0RmbL1btYEW0226yhBDk9xeB?usp=sharing){:target="_blank"}
 
 
 # ----------------------------------------------------

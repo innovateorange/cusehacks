@@ -26,7 +26,7 @@ layout: default
       {% endfor %}
     </table>
     {% else %}
-    {{ item.content | markdownify }}
+    <div class="text-center">{{ item.content | markdownify }}</div>
     {% endif %}
   </div>
   {% endfor %}
