@@ -306,11 +306,11 @@ event_page:
         # - "Zoom Link"
       - event_details:
         - "Workshop: Python/GPU"
-        - "3:55 - 4:40pm EST"
+        - "4:00 - 4:45pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Database Programming"
-        - "4:50 - 5:35pm EST"
+        - "5:00 - 5:45pm EST"
         # - "Zoom Link"
       - event_details:
         - "M&T Workshop: Rapid Full-Stack Web Development"
@@ -322,7 +322,7 @@ event_page:
         # - "Zoom Link"
       - event_details:
         - "Workshop: Ray Tracing"
-        - "7:55 - 8:45pm EST"
+        - "8:00 - 8:45pm EST"
         # - "Zoom Link"
       - event_details:
         - "Command Line Puzzle Challenge"
