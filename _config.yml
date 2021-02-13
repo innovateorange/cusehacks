@@ -293,10 +293,6 @@ event_page:
         - "1:30 - 2:00pm EST"
         # - "Zoom Link"
       - event_details:
-        - "Workshop: Version Control"
-        - "2:00 - 2:30pm EST"
-        # - "Zoom Link"
-      - event_details:
         - "IEEE Workshop: Git"
         - "2:00 - 3:00pm EST"
         # - "Zoom Link"
@@ -330,7 +326,7 @@ event_page:
         # - "Zoom Link"
       - event_details:
         - "Command Line Puzzle Challenge"
-        - "9:00 - 11:45pm EST"
+        - "9:00 - 9:30pm EST"
         # - "Zoom Link"
       - event_details:
         - "eSports Event"
@@ -366,7 +362,8 @@ event_page:
         # - "Zoom Link"
   - header: "Useful Links"
     content: >
-      [Pre-Hackathon Workshops](https://drive.google.com/drive/folders/1SK7Cm9FG0RmbL1btYEW0226yhBDk9xeB?usp=sharing){:target="_blank"}
+      [Pre-Hackathon Workshops](https://drive.google.com/drive/folders/1SK7Cm9FG0RmbL1btYEW0226yhBDk9xeB?usp=sharing){:target="_blank"}<br>
+      [2021 Devpost](https://cusehacks-2021.devpost.com){:target="_blank"}
 
 
 # ----------------------------------------------------
