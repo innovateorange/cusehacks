@@ -277,6 +277,10 @@ event_page:
         - "12:00pm EST"
         # - "Zoom Link"
       - event_details:
+        - "Networking"
+        - "12:00 - 3:00pm EST"
+        # - "Zoom Link"
+      - event_details:
         - "Google Cloud Platform Techtalk"
         - "12:00 - 12:30pm EST"
         # - "Zoom Link"
@@ -313,7 +317,7 @@ event_page:
         - "4:50 - 5:35pm EST"
         # - "Zoom Link"
       - event_details:
-        - "M&T Workshop: Rapid Full-Stack Web Bevelopment"
+        - "M&T Workshop: Rapid Full-Stack Web Development"
         - "5:30 - 6:30pm EST"
         # - "Zoom Link" 
       - event_details:
