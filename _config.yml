@@ -205,6 +205,10 @@ sponsors:
     class: "gold"
     image: "/cusehacks/images/sponsors/vanguard.png"
     href:  "https://investor.vanguard.com/corporate-portal/"
+  - name:  "Digi-Key"
+    class: "gold"
+    image: "/cusehacks/images/sponsors/digikey.png"
+    href:  "https://www.digikey.com/"
   - name:  "Wegmans"
     class: "gold"
     image: "/cusehacks/images/sponsors/wegmans.png"
@@ -226,32 +230,37 @@ event_page:
     events:
       - event_details:
         - "Learn To Code 1: Hello World"
-        - "7:00 - 8:00pm"
+        - "7:00 - 8:00pm EST"
         - "February 11th"
         - <a target="_blank" href="https://zoom.us/j/93352719823?pwd=RzVlK0xCbEVCYlFsR0NMUmVmK0h4QT09">Zoom Link</a>
       - event_details:
         - "Advanced Topics 1: Multicore in C/C++"
-        - "7:00 - 8:00pm"
+        - "7:00 - 8:00pm EST"
         - "February 12th"
         - <a target="_blank" href="https://zoom.us/j/97366178094?pwd=VDZwZkNKV0ovK2wyNWptSy9XVGJ2dz09">Zoom Link</a>
       - event_details:
         - "Learn To Code 2: Variables and Data Types"
-        - "7:00 - 8:00pm"
+        - "7:00 - 8:00pm EST"
         - "February 18th"
         - <a target="_blank" href="https://zoom.us/j/93551977288?pwd=ZGxya3E5cjBJdVdUaDJUN29nMUJ3UT09">Zoom Link</a>
       - event_details:
         - "Advanced Topics 2: Intro to Node JS"
-        - "7:00 - 8:00pm"
+        - "7:00 - 8:00pm EST"
         - "February 19th"
         - <a target="_blank" href="https://zoom.us/j/97548031464?pwd=ZnQ3RXFGZG9IY1hOTk1WRzhKcjhYdz09">Zoom Link</a>
       - event_details:
         - "Learn To Code 3: Arrays, Loops, and If-Else"
-        - "7:00 - 8:00pm"
+        - "7:00 - 8:00pm EST"
         - "February 25th"
         - <a target="_blank" href="https://zoom.us/j/93216303205?pwd=YVd0Q0JCU3QyRmdXZUpFUXd4Y2FMZz09">Zoom Link</a>
       - event_details:
+        - "GCP: Google Cloud and Qwicklabs"
+        - "7:00 - 8:00pm EST"
+        - "February 25th"
+        - "Zoom Link TBA"
+      - event_details:
         - "Advanced Topics 3: Algorithms and Data Structures"
-        - "7:00 - 8:00pm"
+        - "7:00 - 8:00pm EST"
         - "February 26th"
         - <a target="_blank" href="https://zoom.us/j/97591901787?pwd=dTV6ZVZXeHdSaTVtZWZ3dFluRHNlZz09">Zoom Link</a>
       
@@ -261,59 +270,71 @@ event_page:
         - "<b>February 27th</b>"
       - event_details:
         - "Opening Ceremony"
-        - "11:30am - 12:00pm"
+        - "11:30am - 12:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "Hacking Begins"
-        - "12:00pm"
+        - "12:00pm EST"
+        # - "Zoom Link"
+      - event_details:
+        - "Google Cloud Platform Techtalk"
+        - "12:00 - 12:30pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Learn New Languages"
-        - "1:00 - 2:00pm"
+        - "1:00 - 2:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Accessible Design"
-        - "1:30 - 2:00pm"
+        - "1:30 - 2:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Version Control"
-        - "2:00 - 2:30pm"
+        - "2:00 - 2:30pm EST"
+        # - "Zoom Link"
+      - event_details:
+        - "IEEE Workshop: Git"
+        - "2:00 - 3:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Adobe XD"
-        - "2:30 - 3:30pm"
+        - "2:30 - 3:30pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Speed up Python with CPython"
-        - "3:00 - 3:45pm"
+        - "3:00 - 3:45pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Python/GPU"
-        - "3:55 - 4:40pm"
+        - "3:55 - 4:40pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Database Programming"
-        - "4:50 - 5:35pm"
+        - "4:50 - 5:35pm EST"
         # - "Zoom Link"
       - event_details:
+        - "M&T Workshop: Rapid Full-Stack Web Bevelopment"
+        - "5:30 - 6:30pm EST"
+        # - "Zoom Link" 
+      - event_details:
         - "Workshop: Intro to Graphics with OpenGL"
-        - "7:00 - 7:45pm"
+        - "7:00 - 7:45pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Ray Tracing"
-        - "7:55 - 8:45pm"
+        - "7:55 - 8:45pm EST"
         # - "Zoom Link"
       - event_details:
         - "Command Line Puzzle Challenge"
-        - "9:00 - 11:45pm"
+        - "9:00 - 11:45pm EST"
         # - "Zoom Link"
       - event_details:
         - "eSports Event"
-        - "10:00pm"
+        - "10:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "Among Us"
-        - "11:00pm"
+        - "11:00pm EST"
         # - "Zoom Link"
       - event_details:
         - ""
@@ -321,19 +342,23 @@ event_page:
         - "<b>February 28th</b>"
       - event_details:
         - "skribble.io"
-        - "1:00am"
+        - "1:00am EST"
         # - "Zoom Link"
       - event_details:
         - "Hacking Ends"
-        - "12:00pm"
+        - "12:00pm EST"
+        # - "Zoom Link"
+      - event_details:
+        - "On-Campus Swag Bag Pickup"
+        - "12:00 - 4:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "Judging"
-        - "12:30pm"
+        - "12:30pm EST"
         # - "Zoom Link"
       - event_details:
         - "Closing Ceremony"
-        - "4:00pm"
+        - "4:00pm EST"
         # - "Zoom Link"
   - header: "Useful Links"
     content: >
