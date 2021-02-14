@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="event">
+<div class="event" id="event">
   <div class="text-center">
     <h2 style="color:#48bd96;">The Event</h2>
     <div class="event-countdown">
@@ -51,5 +51,29 @@ layout: default
         document.getElementById("countdown").innerHTML = "";
       }
     }, 1000);
+
+    function checkMode() {
+      var now = new Date().getHours();
+      
+      var eventElem = document.getElementById("event")
+      var footer = document.getElementById("footer")
+      var body = document.getElementsByTagName('body')[0];
+
+      if ((now >= 18 || now < 6 ) && eventElem.className == "event") {
+        body.style.backgroundColor = "#191919"
+        eventElem.className = "event night";
+        footer.className = "footer night";
+      }
+      if ((now < 18 && now >= 6 ) && eventElem.className == "event-night") {
+        body.style.backgroundColor = "white"
+        eventElem.className = "event";
+        footer.className = "footer";
+      }
+    }
+
+    checkMode();
+    
+    var y = setInterval(checkMode(), 60000);
+    
   });
 </script>

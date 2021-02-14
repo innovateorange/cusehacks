@@ -341,6 +341,18 @@ a:focus {
   font-size: 1.25vw;
 }
 
+.night {
+  background-color: rgb(25, 25, 25);
+}
+
+.night .event-countdown, .night .content-p, .night p  {
+  color: white;
+}
+
+.night .content-heading, .night .footer-heading {
+  background-color: #48bd96;
+}
+
 /*
  * Sponsor Section
  */
@@ -423,7 +435,6 @@ a:focus {
 .footer {
   margin-left: 25vw;
   color: black;
-  background-color: white;
 }
 
 .footer-heading {
