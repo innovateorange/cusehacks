@@ -289,8 +289,12 @@ event_page:
         - "1:00 - 2:00pm EST"
         # - "Zoom Link"
       - event_details:
+        - "Workshop: Introduction to the Twitter API"
+        - "1:00 - 2:00pm EST"
+        # - "Zoom Link"
+      - event_details:
         - "Workshop: Accessible Design"
-        - "1:30 - 2:00pm EST"
+        - "2:30 - 3:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "IEEE Workshop: Git"
@@ -298,7 +302,7 @@ event_page:
         # - "Zoom Link"
       - event_details:
         - "Workshop: Adobe XD"
-        - "2:30 - 3:30pm EST"
+        - "3:00 - 4:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "Workshop: Speed up Python with CPython"
@@ -329,8 +333,16 @@ event_page:
         - "9:00 - 9:30pm EST"
         # - "Zoom Link"
       - event_details:
+        - "Workshop: Introduction to Deep Learning with Keras"
+        - "9:30 - 10:30pm EST"
+        # - "Zoom Link"
+      - event_details:
         - "eSports Event"
         - "10:00pm EST"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Introduction to GANS (Keras Part 2)"
+        - "10:30 - 11:30pm EST"
         # - "Zoom Link"
       - event_details:
         - "Among Us"
@@ -347,6 +359,10 @@ event_page:
       - event_details:
         - "Hacking Ends"
         - "12:00pm EST"
+        # - "Zoom Link"
+      - event_details:
+        - "Workshop: Adding CuseHacks to Your Resume"
+        - "12:00 - 1:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "On-Campus Swag Bag Pickup"
