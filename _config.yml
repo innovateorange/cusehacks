@@ -292,9 +292,9 @@ event_page:
         - "Workshop: Introduction to the Twitter API"
         - "1:00 - 2:00pm EST"
         # - "Zoom Link"
-      - event_details:
-        - "Workshop: Accessible Design"
-        - "2:30 - 3:00pm EST"
+      # - event_details:
+        # - "Workshop: Accessible Design"
+        # - "2:30 - 3:00pm EST"
         # - "Zoom Link"
       - event_details:
         - "IEEE Workshop: Git"
