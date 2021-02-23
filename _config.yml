@@ -264,7 +264,7 @@ event_page:
         - "February 26th"
         - <a target="_blank" href="https://zoom.us/j/97591901787?pwd=dTV6ZVZXeHdSaTVtZWZ3dFluRHNlZz09">Zoom Link</a>
       
-  - header: "Hackathon Schedule"
+  - header: "Hackathon Schedule (Links on Discord)"
     events:
       - event_details:
         - "<b>February 27th</b>"
