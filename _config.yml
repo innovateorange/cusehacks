@@ -254,10 +254,9 @@ event_page:
         - "February 25th"
         - <a target="_blank" href="https://zoom.us/j/93216303205?pwd=YVd0Q0JCU3QyRmdXZUpFUXd4Y2FMZz09">Zoom Link</a>
       - event_details:
-        - "GCP: Google Cloud and Qwicklabs"
+        - "GCP: Google Cloud and Qwicklabs (CANCELED)"
         - "7:00 - 8:00pm EST"
         - "February 25th"
-        - "Zoom Link TBA"
       - event_details:
         - "Advanced Topics 3: Algorithms and Data Structures"
         - "7:00 - 8:00pm EST"
