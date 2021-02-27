@@ -243,7 +243,7 @@ event_page:
         - "12:00 - 3:00pm EST"
         # - "Zoom Link"
       - event_details:
-        - "Google Cloud Platform Techtalk"
+        - "Application Design by Example: Tips for Hack by Google Cloud Platform"
         - "12:00 - 1:00pm EST"
         # - "Zoom Link"
       - event_details:
