@@ -35,7 +35,7 @@ layout: default
 
 <script type="application/javascript">
   $(document).ready(function() {
-    var countDownDate = new Date("Feb 27, 2021 12:00:00").getTime();
+    var countDownDate = new Date("Feb 28, 2021 12:00:00").getTime();
     var x = setInterval(function() {
       var now = new Date().getTime();
       var distance = countDownDate - now;
@@ -45,7 +45,7 @@ layout: default
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       document.getElementById("countdown").innerHTML = days + "d " + hours
-      + "h " + minutes + "m " + seconds + "s ";
+      + "h " + minutes + "m " + seconds + "s until end of hacking";
       if (distance < 0) {
         clearInterval(x);
         document.getElementById("countdown").innerHTML = "";
