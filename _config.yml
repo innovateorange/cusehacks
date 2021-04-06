@@ -50,7 +50,7 @@ links:
   event_href:      "event.html"
   faq_href:        "faq.html"
   sponsors_href:   "sponsors.html"
-  apply_href:      "https://forms.gle/eLXQKgySo6g3qs5M8"
+  # apply_href:      "https://forms.gle/eLXQKgySo6g3qs5M8"
   sponsor_package: "/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf"
 
 hero_header: Syracuse University's 24-hour hackathon is going virtual!
@@ -71,7 +71,7 @@ image:
 
 # Side Banner
 side_banner:
-  apply_text: "I'm in."
+  # apply_text: "I'm in."
   faq: 
     - header: "What is CuseHacks?"
       content: >
@@ -90,10 +90,8 @@ side_banner:
 about:
   content1:
     first: >
-        Over a span of 24-hours, students of all backgrounds are invited to explore the possibilities 
-        of technology and imagination. Build cool and innovative applications, websites, and hardware 
-        projects and compete for the grand prize.
-    second: "Join us February 27th-28th, 2020!"
+        Thank you for an amazing CuseHacks 2021! We hope to see you again soon!
+    second: "Join us February 27th-28th, 2021!"
   header2: "You don't need to know how to code to participate."
   content2: >
     Designers, Artists, Entrepreneurs, Engineers, and <span style="color: #48bd96;">anyone</span> 
@@ -346,8 +344,6 @@ event_page:
     content: >
       [Pre-Hackathon Workshops](https://drive.google.com/drive/folders/1SK7Cm9FG0RmbL1btYEW0226yhBDk9xeB?usp=sharing){:target="_blank"}<br>
       [2021 Devpost](https://cusehacks-2021.devpost.com){:target="_blank"}
-      [Workshop Room #1](https://zoom.us/j/97664144418?pwd=WW5sNVc5ckFjUkIwQWFva3h0Y2diUT09)
-      [Workshop Room #2](https://syracuseuniversity.zoom.us/j/94172919898)
 
 
 # ----------------------------------------------------
