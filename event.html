@@ -4,7 +4,7 @@ layout: default
 
 <div class="event" id="event">
   <div class="text-center">
-    <h2 style="color:#48bd96;">The Event</h2>
+    <h2 style="color:#48bd96;">The Events</h2>
     <div class="event-countdown">
       <h3 id="countdown"></h3>
     </div>
@@ -35,15 +35,20 @@ layout: default
 
 <script type="application/javascript">
   $(document).ready(function() {
-    var countDownDate = new Date("Feb 28, 2021 12:00:00").getTime();
+    var countDownDate = new Date("Feb 20, 2022 12:00:00").getTime();
     var x = setInterval(function() {
       var now = new Date().getTime();
       var distance = countDownDate - now;
+      var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24));
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      document.getElementById("countdown").innerHTML = hours
+      var daysStr = days + "days ";
+      if(days < 1) {
+        daysStr = "";
+      }
+      document.getElementById("countdown").innerHTML = daysStr + hours
       + "h " + minutes + "m " + seconds + "s until submissions due";
       if (distance < 0) {
         clearInterval(x);
