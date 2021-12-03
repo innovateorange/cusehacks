@@ -4,6 +4,26 @@ Desktop layout below
 -------------------------------------------------------------------------------------------------
 */
 
+
+@font-face {
+  font-family: 'sofachromeitalic';
+  src: url('sofachrome_rg_it-webfont.woff2') format('woff2'),
+       url('sofachrome_rg_it-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'menloregular';
+  src: url('menlo-regular-webfont.woff2') format('woff2'),
+       url('menlo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 @font-face {
   font-family: 'heronsans';
   src: url(HeronSans.otf);
@@ -17,7 +37,7 @@ Desktop layout below
   }
   
 * {
-  font-family: 'heronsans';
+  font-family: 'sofachromeitalic';
 }
 
 body {
@@ -136,7 +156,7 @@ a:focus {
 }
 
 .sidebar {
-  background-image: url('side_banner.jpg');
+  background-image: url('side_banner22.png');
   background-size: auto 100%;
   color: #fff;
   align-content: center;
