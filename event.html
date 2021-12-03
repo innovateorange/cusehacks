@@ -4,7 +4,7 @@ layout: default
 
 <div class="event" id="event">
   <div class="text-center">
-    <h2 style="color:#48bd96;">The Events</h2>
+    <h2 style="color: #001f54;">The Events</h2>
     <div class="event-countdown">
       <h3 id="countdown"></h3>
     </div>
@@ -12,7 +12,7 @@ layout: default
 
   {% for item in site.event_page %}
   <div class="content-heading">
-    <h6><i>{{ item.header }}</i></h6>
+    <h6 style="color: white;"><i>{{ item.header }}</i></h6>
   </div>
   <div class="content-p container">
     {% if item.header contains "Schedule" %}
@@ -64,7 +64,7 @@ layout: default
       var body = document.getElementsByTagName('body')[0];
 
       if ((now >= 18 || now < 6 ) && eventElem.className == "event") {
-        body.style.backgroundColor = "#191919"
+        body.style.backgroundColor = "white"
         eventElem.className = "event night";
         footer.className = "footer night";
       }

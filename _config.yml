@@ -94,14 +94,14 @@ about:
     second: "Join us February 19th-20th, 2022!"
   header2: "You don't need to know how to code to participate."
   content2: >
-    Designers, Artists, Entrepreneurs, Engineers, and <span style="color: #48bd96;">anyone</span> 
+    Designers, Artists, Entrepreneurs, Engineers, and <span style="color: #31314E;">anyone</span> 
     interested in creating are encouraged to participate. We are dedicated to facilitating a welcoming 
     environment for everyone, particularly beginners. Mentors and volunteers will be there to help you 
     by answering questions, leading fun workshops, and guiding you on your hack.
   header3: "It will be fun."
   content3: >
     Throughout the weekend, you can use your imagination to make anything you want with the help of your amazing 
-    peers and impressive mentors. <span style="color: #48bd96;">There will be games, food, and swag!</span> 
+    peers and impressive mentors. <span style="color: #31314E;">There will be games, food, and swag!</span> 
     Build something or break something. CuseHacks just wants you to have a great experience meeting new people, 
     working with friends, and gaining new skills, learning about the possibilities of technology.
   header4: "Not convinced yet?"
@@ -125,7 +125,7 @@ about:
 # Frequently asked questions.
 faq_message: >
     Have questions? You've come to the right place! Here are all our 
-    <span style="color: #48bd96;">top questions.</span>
+    <span style="color: #31314E;">top questions.</span>
 faq:
   - question: "What is a hackathon?"
     answer: >
