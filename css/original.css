@@ -4,7 +4,33 @@ Desktop layout below
 -------------------------------------------------------------------------------------------------
 */
 
+
+
 @font-face {
+  font-family: 'sofachrome it';
+  src: url('./fonts/SofachromeRg-Italic.eot');
+  src: url('./fonts/SofachromeRg-Italic.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/SofachromeRg-Italic.woff2') format('woff2'),
+      url('./fonts/SofachromeRg-Italic.woff') format('woff'),
+      url('./fonts/SofachromeRg-Italic.ttf') format('truetype');
+    
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'menloreg';
+  src:  url('./fonts/menlo-regular-webfont.woff2') format('woff2'),
+        url('./fonts/menlo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+/* @font-face {
   font-family: 'heronsans';
   src: url(HeronSans.otf);
   font-weight: normal;
@@ -14,14 +40,14 @@ Desktop layout below
   font-family: 'heronsanslight';
   src: url(HeronSansLight.otf);
   font-weight: 200;
-  }
+  } */
   
 * {
-  font-family: 'heronsans';
+  font-family: 'menloreg';
 }
 
 body {
-  background-color: white;
+  background-color: #F8E7C9;
 }
 
 section {
@@ -41,13 +67,18 @@ h4 {
 }
 
 h5 {
-  font-size: 1.75vw;
+  font-size: 1.25vw;
+  font-family: 'sofachrome it';
+  font-weight: 600;
   margin-bottom: 0;
+  text-transform: uppercase;
+  color: #F8E7C9;
 }
 
 h6 {
   font-size: 1.25vw;
   margin-bottom: 0;
+  font-family: 'sofachrome it';
 }
 
 p {
@@ -55,12 +86,12 @@ p {
 }
 
 a {
-  color: #48bd96;
+  color: #31314E;
 }
 
 a:hover,
 a:focus {
-  color: #48bd96;
+  color: #C5070A;
   text-decoration: underline;
 }
 
@@ -87,16 +118,16 @@ a:focus {
 }
 
 .content {
-  color: black;
+  color: #001F54;
   margin-left: 25vw;
 }
 
 .content p {
-  font-family: 'heronsanslight';
+  font-family: 'menloreg';
 }
 
 .content hr {
-  background-color: black;
+  background-color: #001F54;
   height: 2vw;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -106,8 +137,13 @@ a:focus {
   padding-top: 1.5vw;
   padding-bottom: 1.5vw;
   padding-left: 2vw;
-  background-color: black;
-  color: white;
+  background-color: #001F54;
+  color:#F8E7C9;
+  font-family: 'sofachrome it';
+}
+
+.content-heading h6 {
+  font-family: 'sofachrome it';
 }
 
 .content-p {
@@ -120,7 +156,7 @@ a:focus {
 
 .content-apply {
   padding: 4vw 11vw;
-  background-color: #48bd96;
+  background-color: #C5070A;
   color: #fff;
 }
 
@@ -136,9 +172,9 @@ a:focus {
 }
 
 .sidebar {
-  background-image: url('side_banner.jpg');
+  background-image: url('side_banner22.png');
   background-size: auto 100%;
-  color: #fff;
+  color: #F8E7C9;
   align-content: center;
   align-items: center;
   width: 25vw;
@@ -150,6 +186,7 @@ a:focus {
   left: 0;
   overflow-x: hidden;
   margin-top: 0;
+  font-family: "sofachrome it";
 }
 
 .sidebar img {
@@ -158,21 +195,24 @@ a:focus {
 }
 
 .sidebar h2 {
-  color: #48bd96;
+  color: #F8E7C9;
+  
   margin-top: 4vw;
   margin-bottom: 6vw;
   text-transform: uppercase;
 }
 
 .sidebar h4 {
-  color: #48bd96;
+  color: #F8E7C9;
+  
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .sidebar h5 {
+  color: #C5070A;
   font-size: 1vw;
-  color: #48bd96;
+  
   margin-bottom: 0%;
   text-transform: uppercase;
   font-weight: 700;
@@ -186,15 +226,20 @@ a:focus {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color:rgba(49, 49, 79, 0.75); 
+  
+  font-family: "sofachrome it";
 }
 
 .sidebar-faq-link {
   font-size: 1vw;
   margin-bottom: 1.5vw;
+  background-color: rgba(49,49,79, 0.75);
+  color: #F8E7C9;
 }
 
 .sidebar-faq-link a {
-  color: #48bd96;
+  color: #AFD2E9;
   text-transform: uppercase;
 }
 
@@ -210,8 +255,8 @@ a:focus {
 }
 
 .sidebar-buttons a {
-  background: #48bd96;  
-  color: #fff;
+  background: #C5070A; /*rgba(255, 255, 255, 0);  */
+  color: #AFD2E9;
   display: inline;
   font-size: 1vw;
   font-weight: 600;
@@ -222,7 +267,7 @@ a:focus {
 
 .sidebar-buttons a:hover,
 .sidebar-buttons a:focus {
-  background-color: rgba(58, 219, 165, 0.6);
+  background-color: #D94538;
   transition: all 0.2s ease;
 }
 
@@ -246,7 +291,7 @@ a:focus {
 .hero-header {
   margin-top: -0.5vw;
   padding: 0.7vw 0;
-  background-color: #48bd96;
+  background-color: #001F54;
   color: #fff;
 }
 
@@ -258,19 +303,20 @@ a:focus {
 }
 
 .buttons a {
-  background: black;
-  color: #fff;
+  background: #D94538;
+  color: #FFFF;
   display: inline;
   font-size: 1vw;
   font-weight: 600;
   padding: 0.5vw 2.25vw;
   text-decoration: none;
   text-transform: uppercase;
+
 }
 
 .buttons a:hover,
 .buttons a:focus {
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: rgba(197, 7, 10, 1.0);
   transition: all 0.2s ease;
 }
 
@@ -337,20 +383,20 @@ a:focus {
 }
 
 .event td {
-  font-family: heronsanslight;
+  font-family: 'menloregular';
   font-size: 1.25vw;
 }
 
 .night {
-  background-color: rgb(25, 25, 25);
+  background-color:#F8E7C9;
 }
 
 .night .event-countdown, .night .content-p, .night p  {
-  color: white;
+  color: #001F54;
 }
 
 .night .content-heading, .night .footer-heading {
-  background-color: #48bd96;
+  background-color: #001F54;
 }
 
 /*
@@ -359,7 +405,7 @@ a:focus {
 
 .sponsor_logos {
   padding: 40px 0;
-  background-color: #48bd96;
+  background-color: #001F54;
 }
 
 .partner {
@@ -434,7 +480,7 @@ a:focus {
 
 .footer {
   margin-left: 25vw;
-  color: black;
+  color: #001F54;
 }
 
 .footer-heading {
@@ -442,8 +488,9 @@ a:focus {
   padding-bottom: 1.5vw;
   padding-left: 2vw;
   margin-bottom: 2vw;
-  background-color: black;
-  color: white;
+  background-color:#001F54;
+  color: #F8E7C9;
+  font-family: 'sofachrome it';
 }
 
 .footer img {
@@ -452,11 +499,11 @@ a:focus {
 
 .footer a:hover, .footer a:focus {
   text-decoration: none;
-  color: #42a886;
+  color: #C5070A;
 }
 
 .social_icon {
-  color: #48bd96;
+  color:#001F54;
 }
 
 .fa-2x {
@@ -465,6 +512,7 @@ a:focus {
 
 .footer h5 {
   padding-top: 3%;
+  color:#001F54
 }
 
 
@@ -488,6 +536,7 @@ a:focus {
 
   h6 {
     font-size: 4vw;
+    font-family: 'sofachrome it'
   }
 
   p {
@@ -657,7 +706,7 @@ a:focus {
 }
 
 .event td {
-  font-family: heronsanslight;
+  font-family: 'menloreg';
   font-size: 4vw;
   padding: 2vw 0;
 }

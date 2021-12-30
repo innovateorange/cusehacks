@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-
+  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=red" target="_blank">
+    <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-red.svg" alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>
   <body>
     <script src="{{ '/js/jquery-1.11.3.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
@@ -17,12 +18,13 @@
           </a>
           {% for item in site.side_banner.faq %}
           <div class="sidebar-q">
-            <h5><i>{{ item.header }}</i></h5>
+            <h5>{{ item.header }}</h5>
             {{ item.content }}
           </div>
           {% endfor %}
           <div class="sidebar-faq-link">
-            <i>More questions? </i><a href="{{ site.links.faq_href }}"><b><i>FAQ.</i></b></a>
+            More questions?  <a href="{{ site.links.faq_href }}"><b><i>FAQ.</i></b></a>
+           
           </div>
           <div class="sidebar-sponsor-link">
             <div class="sidebar-buttons">
@@ -34,8 +36,11 @@
             <div class="sidebar-buttons">
               <a href="sponsors.html">View Sponsors</a>
             </div>
-            <div class="sidebar-buttons">
+            <!-- <div class="sidebar-buttons">
               <a href="https://forms.gle/pwxQb2CogxzTVdEt5">Interest Form</a>
+            </div> -->
+            <div class="sidebar-buttons">
+              <a href="/cusehacks/assets/mlh-code-of-conduct.pdf">Code of Conduct</a>
             </div>
           </div>
         </div>
@@ -49,7 +54,7 @@
 
     <section class="footer" id="footer">
       <div class="footer-heading">
-        <h6><i>Contact Us</i></h6>
+        <h6>Contact Us</h6>
       </div>
 
 
