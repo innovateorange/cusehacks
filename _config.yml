@@ -40,7 +40,7 @@ event:
 # MLH Trust Badge for site. Leave commented out if MLH application
 # hasn't been approved
 # Check https://mlh.io/brand-guidelines to make sure trust_badge.html has proper badge
-#trust_badge: 
+#trust_badge:
 #  year:  "2022"
 #  color: "white"
 
@@ -51,7 +51,7 @@ links:
   faq_href:        "faq.html"
   sponsors_href:   "sponsors.html"
   # apply_href:      "https://forms.gle/eLXQKgySo6g3qs5M8"
-  sponsor_package: "/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf"
+  sponsor_package: "/cusehacks/assets/CuseHacks2022_Sponsorship_Package.pdf"
 
 hero_header: CuseHacks Returns February 2022!
 
@@ -72,7 +72,7 @@ image:
 # Side Banner
 side_banner:
   # apply_text: "I'm in."
-  faq: 
+  faq:
     - header: "What is CuseHacks?"
       content: >
         Syracuse University's original 24-hour hackathon.
@@ -111,13 +111,13 @@ about:
     - text: >
         Never been to a hackathon? Read our [FAQ](/cusehacks/faq.html).
     - text: >
-        View [photos](https://drive.google.com/drive/folders/107c2zow0wFz0TLrBV0LSLuS-qFj4EWvT?usp=sharing){:target="_blank"} 
+        View [photos](https://drive.google.com/drive/folders/107c2zow0wFz0TLrBV0LSLuS-qFj4EWvT?usp=sharing){:target="_blank"}
         from last years CuseHacks.
   header5: "Support CuseHacks"
   content5:
     - text : >
-        Interested in sponsoring us? Check out our sponsorship package 
-        [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
+        Interested in sponsoring us? Check out our sponsorship package
+        [here](/cusehacks/assets/CuseHacks2022_Sponsorship_Package.pdf){:target="_blank"}
         and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
     - text : >
         Check out our sponsorship page [here](/cusehacks/sponsors.html).
@@ -141,7 +141,7 @@ faq:
       All current college students are invited to participate.
   # - question: "Will there be travel reimbursement?"
   #   answer: >
-  #     We can not ensure travel reimbursements right now, but it may be a possibility. Please email 
+  #     We can not ensure travel reimbursements right now, but it may be a possibility. Please email
   #     innovateorange@syr.edu for more information.
   - question: "What if I don't have coding or hackathon experience?"
     answer: >
@@ -150,17 +150,17 @@ faq:
       and mentors available throughout the event that can help you get started.
   - question: "How do teams work?"
     answer: >
-      Each team can have up to as many members as you want. Typically teams run from 3-4 members. You can come 
-      with your friends or you can form a team at the event. There will be team forming activities at the 
+      Each team can have up to as many members as you want. Typically teams run from 3-4 members. You can come
+      with your friends or you can form a team at the event. There will be team forming activities at the
       beginning of the hackathon for anybody interested. You can also work alone if you want.
   # - question: "Is there a schedule?"
   #   answer: >
-  #     The schedule is posted on the [CuseHacks 2020 Devpost](https://cusehacks2020.devpost.com/){:target="_blank"}. The Devpost is also where 
+  #     The schedule is posted on the [CuseHacks 2020 Devpost](https://cusehacks2020.devpost.com/){:target="_blank"}. The Devpost is also where
   #     submissions are posted.
   - question: "Will there be prizes for hacks?"
     answer: >
-      Yes, there are many prizes we will be giving out! At the end of the 24 hours, there will be an expo where you 
-      can demo your invention. Judges will be looking for the best inventions to fit the prize categories on 
+      Yes, there are many prizes we will be giving out! At the end of the 24 hours, there will be an expo where you
+      can demo your invention. Judges will be looking for the best inventions to fit the prize categories on
       the Devpost.
   - question: "Where is the event?"
     answer: >
@@ -187,8 +187,8 @@ social:
     href: "https://twitter.com/CuseHacks"
 
 sponsor_message: >
-  Interested in sponsoring us? Check out our previous sponsorship package 
-  [here](/cusehacks/assets/CuseHacks_SponsorshipGuide_2021.pdf){:target="_blank"} 
+  Interested in sponsoring us? Check out our sponsorship package
+  [here](/cusehacks/assets/CuseHacks2022_Sponsorship_Package.pdf){:target="_blank"}
   and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
 sponsors:
   - name:  "Google Cloud Platform"
@@ -285,7 +285,7 @@ event_page:
       # - event_details:
       #   - "M&T Workshop: Rapid Full-Stack Web Development"
       #   - "5:30 - 6:30pm EST"
-      #   # - "Zoom Link" 
+      #   # - "Zoom Link"
       # - event_details:
       #   - "Workshop: Intro to Graphics with OpenGL"
       #   - "7:00 - 7:45pm EST"
