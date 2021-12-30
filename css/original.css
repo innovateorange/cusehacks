@@ -5,26 +5,32 @@ Desktop layout below
 */
 
 
+
 @font-face {
-  font-family: 'sofachromeitalic';
-  src: url('sofachrome_rg_it-webfont.woff2') format('woff2'),
-       url('sofachrome_rg_it-webfont.woff') format('woff');
+  font-family: 'sofachrome it';
+  src: url('./fonts/SofachromeRg-Italic.eot');
+  src: url('./fonts/SofachromeRg-Italic.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/SofachromeRg-Italic.woff2') format('woff2'),
+      url('./fonts/SofachromeRg-Italic.woff') format('woff'),
+      url('./fonts/SofachromeRg-Italic.ttf') format('truetype');
+    
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'menloreg';
+  src:  url('./fonts/menlo-regular-webfont.woff2') format('woff2'),
+        url('./fonts/menlo-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
 
-@font-face {
-  font-family: 'menloregular';
-  src: url('menlo-regular-webfont.woff2') format('woff2'),
-       url('menlo-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 
-}
-
-
-@font-face {
+/* @font-face {
   font-family: 'heronsans';
   src: url(HeronSans.otf);
   font-weight: normal;
@@ -34,14 +40,14 @@ Desktop layout below
   font-family: 'heronsanslight';
   src: url(HeronSansLight.otf);
   font-weight: 200;
-  }
+  } */
   
 * {
-  font-family: 'sofachromeitalic';
+  font-family: 'menloreg';
 }
 
 body {
-  background-color: white;
+  background-color: #F8E7C9;
 }
 
 section {
@@ -61,13 +67,18 @@ h4 {
 }
 
 h5 {
-  font-size: 1.75vw;
+  font-size: 1.25vw;
+  font-family: 'sofachrome it';
+  font-weight: 600;
   margin-bottom: 0;
+  text-transform: uppercase;
+  color: #F8E7C9;
 }
 
 h6 {
   font-size: 1.25vw;
   margin-bottom: 0;
+  font-family: 'sofachrome it';
 }
 
 p {
@@ -112,7 +123,7 @@ a:focus {
 }
 
 .content p {
-  font-family: 'menlo';
+  font-family: 'menloreg';
 }
 
 .content hr {
@@ -127,12 +138,12 @@ a:focus {
   padding-bottom: 1.5vw;
   padding-left: 2vw;
   background-color: #001F54;
-  color:white;
-  font-family: 'sofachromeitalic';
+  color:#F8E7C9;
+  font-family: 'sofachrome it';
 }
 
 .content-heading h6 {
-  font-family: 'sofachromeitalic';
+  font-family: 'sofachrome it';
 }
 
 .content-p {
@@ -163,7 +174,7 @@ a:focus {
 .sidebar {
   background-image: url('side_banner22.png');
   background-size: auto 100%;
-  color: white;
+  color: #F8E7C9;
   align-content: center;
   align-items: center;
   width: 25vw;
@@ -175,6 +186,7 @@ a:focus {
   left: 0;
   overflow-x: hidden;
   margin-top: 0;
+  font-family: "sofachrome it";
 }
 
 .sidebar img {
@@ -183,21 +195,24 @@ a:focus {
 }
 
 .sidebar h2 {
-  color: #D94538;
+  color: #F8E7C9;
+  
   margin-top: 4vw;
   margin-bottom: 6vw;
   text-transform: uppercase;
 }
 
 .sidebar h4 {
-  color: #D94538;
+  color: #F8E7C9;
+  
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .sidebar h5 {
+  color: #C5070A;
   font-size: 1vw;
-  color: #D94538;
+  
   margin-bottom: 0%;
   text-transform: uppercase;
   font-weight: 700;
@@ -211,11 +226,16 @@ a:focus {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color:rgba(49, 49, 79, 0.75); 
+  
+  font-family: "sofachrome it";
 }
 
 .sidebar-faq-link {
   font-size: 1vw;
   margin-bottom: 1.5vw;
+  background-color: rgba(49,49,79, 0.75);
+  color: #F8E7C9;
 }
 
 .sidebar-faq-link a {
@@ -235,7 +255,7 @@ a:focus {
 }
 
 .sidebar-buttons a {
-  background: #D94538; /*rgba(255, 255, 255, 0);  */
+  background: #C5070A; /*rgba(255, 255, 255, 0);  */
   color: #AFD2E9;
   display: inline;
   font-size: 1vw;
@@ -247,7 +267,7 @@ a:focus {
 
 .sidebar-buttons a:hover,
 .sidebar-buttons a:focus {
-  background-color: rgba(197, 07, 10, 1.0);
+  background-color: #D94538;
   transition: all 0.2s ease;
 }
 
@@ -283,14 +303,15 @@ a:focus {
 }
 
 .buttons a {
-  background: #001F54;
-  color: #fff;
+  background: #D94538;
+  color: #FFFF;
   display: inline;
   font-size: 1vw;
   font-weight: 600;
   padding: 0.5vw 2.25vw;
   text-decoration: none;
   text-transform: uppercase;
+
 }
 
 .buttons a:hover,
@@ -367,7 +388,7 @@ a:focus {
 }
 
 .night {
-  background-color:white;
+  background-color:#F8E7C9;
 }
 
 .night .event-countdown, .night .content-p, .night p  {
@@ -468,7 +489,8 @@ a:focus {
   padding-left: 2vw;
   margin-bottom: 2vw;
   background-color:#001F54;
-  color: #C5070A;
+  color: #F8E7C9;
+  font-family: 'sofachrome it';
 }
 
 .footer img {
@@ -514,7 +536,7 @@ a:focus {
 
   h6 {
     font-size: 4vw;
-    font-family: 'sofachromeitalic'
+    font-family: 'sofachrome it'
   }
 
   p {
@@ -684,7 +706,7 @@ a:focus {
 }
 
 .event td {
-  font-family: 'menloregular';
+  font-family: 'menloreg';
   font-size: 4vw;
   padding: 2vw 0;
 }

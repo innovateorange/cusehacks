@@ -12,7 +12,7 @@ layout: default
 
   {% for item in site.event_page %}
   <div class="content-heading">
-    <h6 style="color: white;"><i>{{ item.header }}</i></h6>
+    <h6 style="color: #F8E7C9;"><i>{{ item.header }}</i></h6>
   </div>
   <div class="content-p container">
     {% if item.header contains "Schedule" %}
@@ -64,12 +64,12 @@ layout: default
       var body = document.getElementsByTagName('body')[0];
 
       if ((now >= 18 || now < 6 ) && eventElem.className == "event") {
-        body.style.backgroundColor = "white"
+        body.style.backgroundColor = "#F8E7C9";
         eventElem.className = "event night";
         footer.className = "footer night";
       }
       if ((now < 18 && now >= 6 ) && eventElem.className == "event-night") {
-        body.style.backgroundColor = "white"
+        body.style.backgroundColor = "#F8E7C9";
         eventElem.className = "event";
         footer.className = "footer";
       }
