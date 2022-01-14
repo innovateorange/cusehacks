@@ -187,8 +187,8 @@ social:
 
 sponsor_message: >
   Interested in sponsoring us? Check out our sponsorship package
-  [here](/cusehacks/assets/CuseHacks2022_Sponsorship_Package.pdf){:target="_blank"}
-  and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
+  <span style="color: #C5070A;">[here](/cusehacks/assets/CuseHacks2022_Sponsorship_Package.pdf){:target="_blank"}
+  </span> and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
 sponsors:
   - name:  "Google Cloud Platform"
     class: "gold"
@@ -198,14 +198,14 @@ sponsors:
     class: "gold"
     image: "/cusehacks/images/sponsors/MT-tech.png"
     href:  "https://www.mtb.com/home-page"
-  - name:  "Vanguard"
-    class: "gold"
-    image: "/cusehacks/images/sponsors/vanguard.png"
-    href:  "https://investor.vanguard.com/corporate-portal/"
-  - name:  "Digi-Key"
-    class: "gold"
-    image: "/cusehacks/images/sponsors/digikey.png"
-    href:  "https://www.digikey.com/"
+  # - name:  "Vanguard"
+  #   class: "gold"
+  #   image: "/cusehacks/images/sponsors/vanguard.png"
+  #   href:  "https://investor.vanguard.com/corporate-portal/"
+  # - name:  "Digi-Key"
+  #   class: "gold"
+  #   image: "/cusehacks/images/sponsors/digikey.png"
+  #   href:  "https://www.digikey.com/"
   - name:  "Wegmans"
     class: "gold"
     image: "/cusehacks/images/sponsors/wegmans.png"
@@ -214,40 +214,120 @@ sponsors:
     class: "gold"
     image: "/cusehacks/images/sponsors/mlh.png"
     href:  "https://mlh.io/"
-  - name:  "Sticker Mule"
+  # - name:  "Sticker Mule"
+  #   class: "gold"
+  #   image: "/cusehacks/images/sponsors/sticker-mule.png"
+  #   href:  "http://hackp.ac/mlh-stickermule-hackathons"
+  - name: "ECS"
     class: "gold"
-    image: "/cusehacks/images/sponsors/sticker-mule.png"
-    href:  "http://hackp.ac/mlh-stickermule-hackathons"
+    image: "/cusehacks/assets/ecsLogo.png" 
+    href: "https://ecs.syracuse.edu/" 
+  - name: "Insomnia"
+    class: "gold"
+    image: "/cusehacks/assets/insomniaCookiesLogo.png"
+    href: "https://insomniacookies.com"
 
 event_page:
   - header: "Welcome to the event page."
     content: >
       Here you can find the latest information about the hackathon.
-  - header: "Hackathon Schedule (Links on Discord)"
+  - header: "Hackathon Schedule (Zoom Links on Discord)"
     events:
       - event_details:
-        - "<b>February 19th</b>"
+        - "<b> January 27th</b>"
       - event_details:
-        - "Workshop Schedule TBD"
-      # - event_details:
-      #   - "Opening Ceremony"
-      #   - "11:30am - 12:00pm EST"
+        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'> Learn To Code For Non-Stem Majors Workshop</a>"
+        - "7:00pm - 8:00pm EST"
+        - "Lyman Hall 126"
+      - event_details:
+        - "<b> January 28th </b>"
+      - event_details:
+        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>GPU Programming: CUDA Workshop</a>"
+        - "7:00pm - 8:00pm EST"
+        - "Lyman Hall 126"
+      - event_details:
+        - "<b> February 3rd </b>"
+      - event_details:
+        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Learn To Code For Non-Stem Majors Workshop</a>"
+        - "7:00pm - 8:00pm EST"
+        - "Lyman Hall 126"
+      - event_details:
+        - "<b>February 4th</b>"
+      - event_details:
+        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Introduction To Computer Graphics Workshop</a>"
+        - "7:00pm - 8:00pm EST"
+        - "Lyman Hall 126"
+      - event_details:
+        - "<b> February 10th </b>"
+
+      - event_details:
+        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Learn To Code For Non-Stem Majors Workshop</a>"
+        - "7:00pm - 8:00pm EST"
+        - "Lyman Hall 126"
+      - event_details:
+        - "<b> February 11th </b>"
+      - event_details:
+        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Introduction To Version Control: Git Workshop</a>"
+        - "7:00pm - 8:00pm EST"
+        - "Lyman Hall 126"
+      - event_details:
+        - "<b> February 17th </b>"
+
+      - event_details:
+        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'> Learn To Code For Non-Stem Majors Workshop</a>"
+        - "7:00pm - 8:00pm EST"
+        - "Lyman Hall 126"
+      - event_details:
+        - "<b> February 18th </b>"
+      - event_details:
+        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Non-Fungible Tokens And Blockchain Workshop</a>"
+        - "7:00pm - 8:00pm EST"
+        - "Lyman Hall 126"
+      - event_details:
+        - "<b> February 19th </b>"
+
+      - event_details:
+        - "Opening Ceremony"
+        - "11:30am - 12:00pm EST"
       #   # - "Zoom Link"
-      # - event_details:
-      #   - "Hacking Begins"
-      #   - "12:00pm EST"
+      - event_details:
+        - "Hacking Begins"
+        - "12:00pm"
       #   # - "Zoom Link"
-      # - event_details:
-      #   - "Networking"
-      #   - "12:00 - 3:00pm EST"
+      - event_details:
+        - "Networking"
+        - "12:00pm - 3:00pm"
       #   # - "Zoom Link"
       # - event_details:
       #   - "Application Design by Example: Tips for Hack by Google Cloud Platform"
       #   - "12:00 - 1:00pm EST"
       #   # - "Zoom Link"
-      # - event_details:
-      #   - "Workshop: Learn New Languages"
-      #   - "1:00 - 2:00pm EST"
+      - event_details:
+        - "Workshop: Let's Learn Rust"
+        - "1:00pm - 2:00pm"
+      - event_details:
+        - "Workshop: Multicore C"
+        - "2:00pm - 3:00pm / 4:00pm - 5:00pm"
+      - event_details:
+        - "Workshop: Preparing For Interviews in C++"
+        - "3:00pm - 4:00pm / 5:00pm - 6:00pm"
+      - event_details:
+        - "Workshop Series AI: Reinforcement Learning 1"
+        - "8:00pm - 9:00pm"
+      - event_details:
+        - "Workshop Series AI: Reinforcement Learning 2"
+        - "9:00pm - 10:00pm"
+      - event_details:
+        - "Workshop Series AI: Neural Nets 1"
+        - "10:00pm - 11:00pm"
+      - event_details:
+        - "Workshop Series AI: Neural Nets 2"
+        - "11:00pm - 12:00am"
+      - event_details:
+        - "<b> February 20th </b>"
+      - event_details:  
+        - "Hacking Ends"
+        - "12:00pm EST"
       #   # - "Zoom Link"
       # - event_details:
       #   - "Workshop: Introduction to the Twitter API"
@@ -322,8 +402,7 @@ event_page:
       #   - "1:00am EST"
       #   # - "Zoom Link"
       # - event_details:
-      #   - "Hacking Ends"
-      #   - "12:00pm EST"
+     
       #   # - "Zoom Link"
       # - event_details:
       #   - "Workshop: Adding CuseHacks to Your Resume"
