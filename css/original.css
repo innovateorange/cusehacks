@@ -76,7 +76,7 @@ h5 {
 }
 
 h6 {
-  font-size: 1.25vw;
+  font-size: 1.50vw;
   margin-bottom: 0;
   font-family: 'sofachrome it';
 }
@@ -147,9 +147,22 @@ a:focus {
 }
 
 .content-p {
+
   margin: 2vw 0;
 }
 
+.content-p a{
+  color: #D94538;
+  text-decoration: underline;
+
+}
+
+.content-p a:hover,
+           a:focus{
+  color: #C5070A;
+  text-decoration: underline;
+  transition: all 0.2 ease;
+}
 .mobile {
   display: none;
 }
@@ -398,6 +411,7 @@ a:focus {
 .night .content-heading, .night .footer-heading {
   background-color: #001F54;
 }
+
 
 /*
  * Sponsor Section
