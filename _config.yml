@@ -227,7 +227,6 @@ sponsors:
     class: "gold"
     image: "/cusehacks/assets/insomniaCookiesLogo.png"
     href: "https://insomniacookies.com"
-
   - name: "JP Morgan Chase"
     class: "gold"
     image: "/cusehacks/assets/Logo2008_JPMC_D_Black.jpeg"
@@ -236,6 +235,10 @@ sponsors:
     class: "gold"
     image: "/cusehacks/assets/EDC_logo.jpg"
     href: "https://aimsparking.com/"
+  - name: "Twitter"
+    class: "gold"
+    image: "/cusehacks/assets/twitterLogo.png"
+    href: "https://twitter.com/"
 
 event_page:
   - header: "Welcome to the event page."
