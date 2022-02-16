@@ -20,7 +20,8 @@ layout: default
       {% for event in item.events %}
       <tr>
         {% for detail in event.event_details %}
-        <td>{{ detail }}</td><td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>{{ detail }}</td>
+        <!-- <td>&nbsp;&nbsp;&nbsp;&nbsp;</td> -->
         {% endfor %}
       </tr>
       {% endfor %}

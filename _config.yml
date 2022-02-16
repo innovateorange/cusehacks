@@ -358,7 +358,7 @@ event_page:
         - "9:00pm - 10:00pm EST"
         - "LSB 105 and Zoom"
       - event_details:
-        - "<a href='https://skribbl.io/'>Skribbl.io</a>"
+        - "Skribbl.io"
         - "9:00pm - 9:30pm EST"
         - "LSB 001 and Zoom"
       - event_details:
