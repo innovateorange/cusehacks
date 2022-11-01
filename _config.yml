@@ -24,8 +24,8 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "CuseHacks | February 19th-20th, 2022 | Hybrid"
-  description: "This will be the Fifth event of Syracuse University's first student-run hackathon."
+  title:       "CuseHacks | February 25th, 2023 | In-Person"
+  description: "This will be the Sixth iteration of Syracuse University's first student-run hackathon."
   image:       "/cusehacks/images/logos/cusehacks_logo.png"
 
 # Event information.
@@ -33,15 +33,15 @@ event:
   name:        "CuseHacks"
   # Spacing intentional
   description: "Syracuse University's 24-hour hackathon"
-  date:        "February 19th-20th"
-  year:        "2022"
+  date:        "February 25th"
+  year:        "2023"
   location:    "Hybrid"
 
 # MLH Trust Badge for site. Leave commented out if MLH application
 # hasn't been approved
 # Check https://mlh.io/brand-guidelines to make sure trust_badge.html has proper badge
 #trust_badge:
-#  year:  "2022"
+#  year:  "2023"
 #  color: "white"
 
 # Links
@@ -51,9 +51,9 @@ links:
   faq_href:        "faq.html"
   sponsors_href:   "sponsors.html"
   # apply_href:      "https://forms.gle/eLXQKgySo6g3qs5M8"
-  sponsor_package: "/cusehacks/assets/CuseHacks2022_Sponsorship_Package.pdf"
+  sponsor_package: "/cusehacks/assets/CuseHacks2023_Sponsorship_Package.pdf"
 
-hero_header: CuseHacks Returns February 2022!
+hero_header: CuseHacks Returns February 2023!
 
 video: "/cusehacks/images/video.mp4"
 
@@ -78,7 +78,7 @@ side_banner:
         Syracuse University's original 24-hour hackathon.
     - header: "When is it?"
       content: >
-        February 19th-20th, 2022.
+        February 25th, 2023.
     - header: "What's at stake?"
       content: >
         Over $5000 worth of prizes.
@@ -90,7 +90,7 @@ side_banner:
 about:
   content1:
     first: >
-        Thank you for an amazing CuseHacks 2021... Get ready for CuseHacks 2022!
+        Thank you for an amazing CuseHacks 2021... Get ready for CuseHacks 2023!
   header2: "You don't need to know how to code to participate."
   content2: >
     Designers, Artists, Entrepreneurs, Engineers, and <span style="color: #31314E;">anyone</span> 
@@ -116,7 +116,7 @@ about:
   content5:
     - text : >
         Interested in sponsoring us? Check out our sponsorship package
-        [here](/cusehacks/assets/CuseHacks2022_Sponsorship_Package.pdf){:target="_blank"}
+        [here](/cusehacks/assets/CuseHacks2023_Sponsorship_Package.pdf){:target="_blank"}
         and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
     - text : >
         Check out our sponsorship page [here](/cusehacks/sponsors.html).
@@ -187,7 +187,7 @@ social:
 
 sponsor_message: >
   Interested in sponsoring us? Check out our sponsorship package
-  <span style="color: #C5070A;">[here](/cusehacks/assets/CuseHacks2022_Sponsorship_Package.pdf){:target="_blank"}
+  <span style="color: #C5070A;">[here](/cusehacks/assets/CuseHacks2023_Sponsorship_Package.pdf){:target="_blank"}
   </span> and send us an email at [innovateorange@syr.edu](mailto:innovateorange@syr.edu)
 sponsors:
   - name:  "Google Cloud Platform"
