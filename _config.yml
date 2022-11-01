@@ -241,171 +241,171 @@ sponsors:
     href: "https://twitter.com/"
 
 event_page:
-  - header: "Welcome to the event page."
+  - header: "Welcome to the event page... Planning in Progress"
     content: >
       Here you can find the latest information about the hackathon.
-  - header: "Hackathon Schedule (Zoom Links on Discord)"
-    events:
-      - event_details:
-        - "<b> January 27th</b>"
-      - event_details:
-        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'> Learn To Code For Non-Stem Majors Workshop</a>"
-        - "7:00pm - 8:00pm EST"
-        - "Lyman Hall 126"
-      - event_details:
-        - "<b> January 28th </b>"
-      - event_details:
-        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>GPU Programming: CUDA Workshop</a>"
-        - "7:00pm - 8:00pm EST"
-        - "Lyman Hall 126"
-      - event_details:
-        - "<b> February 3rd </b>"
-      - event_details:
-        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Learn To Code For Non-Stem Majors Workshop</a>"
-        - "7:00pm - 8:00pm EST"
-        - "Lyman Hall 126"
-      - event_details:
-        - "<b>February 4th</b>"
-      - event_details:
-        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Introduction To Computer Graphics Workshop</a>"
-        - "7:00pm - 8:00pm EST"
-        - "Lyman Hall 126"
-      - event_details:
-        - "<b> February 10th </b>"
+  - header: "Hackathon Schedule TBD"
+    # events:
+    #   - event_details:
+    #     - "<b> January 27th</b>"
+    #   - event_details:
+    #     - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'> Learn To Code For Non-Stem Majors Workshop</a>"
+    #     - "7:00pm - 8:00pm EST"
+    #     - "Lyman Hall 126"
+    #   - event_details:
+    #     - "<b> January 28th </b>"
+    #   - event_details:
+    #     - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>GPU Programming: CUDA Workshop</a>"
+    #     - "7:00pm - 8:00pm EST"
+    #     - "Lyman Hall 126"
+    #   - event_details:
+    #     - "<b> February 3rd </b>"
+    #   - event_details:
+    #     - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Learn To Code For Non-Stem Majors Workshop</a>"
+    #     - "7:00pm - 8:00pm EST"
+    #     - "Lyman Hall 126"
+    #   - event_details:
+    #     - "<b>February 4th</b>"
+    #   - event_details:
+    #     - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Introduction To Computer Graphics Workshop</a>"
+    #     - "7:00pm - 8:00pm EST"
+    #     - "Lyman Hall 126"
+    #   - event_details:
+    #     - "<b> February 10th </b>"
 
-      - event_details:
-        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Learn To Code For Non-Stem Majors Workshop</a>"
-        - "7:00pm - 8:00pm EST"
-        - "Lyman Hall 126"
-      - event_details:
-        - "<b> February 11th </b>"
-      - event_details:
-        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Introduction To Version Control: Git Workshop</a>"
-        - "7:00pm - 8:00pm EST"
-        - "Lyman Hall 126"
-      - event_details:
-        - "<b> February 17th </b>"
+    #   - event_details:
+    #     - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Learn To Code For Non-Stem Majors Workshop</a>"
+    #     - "7:00pm - 8:00pm EST"
+    #     - "Lyman Hall 126"
+    #   - event_details:
+    #     - "<b> February 11th </b>"
+    #   - event_details:
+    #     - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Introduction To Version Control: Git Workshop</a>"
+    #     - "7:00pm - 8:00pm EST"
+    #     - "Lyman Hall 126"
+    #   - event_details:
+    #     - "<b> February 17th </b>"
 
-      - event_details:
-        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'> Learn To Code For Non-Stem Majors Workshop</a>"
-        - "7:00pm - 8:00pm EST"
-        - "Lyman Hall 126"
-      - event_details:
-        - "<b> February 18th </b>"
-      - event_details:
-        - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Smart Contract Development</a>"
-        - "7:00pm - 8:00pm EST"
-        - "Lyman Hall 126"
-      - event_details:
-        - "<b> February 19th (Saturday) </b>"
+    #   - event_details:
+    #     - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'> Learn To Code For Non-Stem Majors Workshop</a>"
+    #     - "7:00pm - 8:00pm EST"
+    #     - "Lyman Hall 126"
+    #   - event_details:
+    #     - "<b> February 18th </b>"
+    #   - event_details:
+    #     - "<a href='https://docs.google.com/forms/d/e/1FAIpQLSfkm-EguL2j-ZzoqfkZUIlgsGklGXUP5Z_G-3kfGr_5x6Vixg/viewform?usp=sf_link'>Smart Contract Development</a>"
+    #     - "7:00pm - 8:00pm EST"
+    #     - "Lyman Hall 126"
+    #   - event_details:
+    #     - "<b> February 19th (Saturday) </b>"
 
-      - event_details:
-        - "Opening Ceremony"
-        - "11:30am - 12:00pm EST"
-        - "LSB 001 and Zoom"
-      #   # - "Zoom Link"
-      - event_details:
-        - "Hacking Begins"
-        - "12:00pm EST"
-      - event_details:
-        - "Team Building Activity"
-        - "12:00pm - 1:00pm EST"
-        - "LSB 001 and Zoom"
-      #   # - "Zoom Link"
-      - event_details:
-        - "Virtual Networking"
-        - "12:00pm - 3:00pm EST"
-        - "Discord"
-      #   # - "Zoom Link"
-      # - event_details:
-      #   - "Application Design by Example: Tips for Hack by Google Cloud Platform"
-      #   - "12:00 - 1:00pm EST"
-      #   # - "Zoom Link"
-      - event_details:
-        - "Workshop: Let's Learn Rust"
-        - "1:00pm - 2:00pm EST"
-        - "LSB 105 and Zoom"
-      - event_details:
-        - "Workshop: Multicore C"
-        - "2:00pm - 3:00pm / 4:00pm - 5:00pm EST"
-        - "LSB 105 and Zoom"
-      - event_details:
-        - "Syracuse Open Data API Workshop"
-        - "3:00pm - 3:30pm EST"
-        - "LSB 001 (In person only)"
-      - event_details:
-        - "M&T Bank: SPA Development with React + NodeJS + Cassandra + Docker + k8s"
-        - "3:30pm-4:00pm EST"
-        - "LSB 001 and Zoom"
-      - event_details:
-        - "Workshop: Preparing For Interviews in C++"
-        - "3:00pm - 4:00pm / 5:00pm - 6:00pm EST"
-        - "LSB 105 and Zoom"
-      - event_details:
-        - "MLH No Light HTML Event"
-        - "7:00pm - 7:30pm EST"
-        - "Zoom Only"
-      - event_details:
-        - "MLH Slideshow Fun Event"
-        - "8:00pm - 8:30pm EST"
-        - "Zoom Only"
-      - event_details:
-        - "Workshop Series AI: Reinforcement Learning 1"
-        - "8:00pm - 9:00pm EST"
-        - "LSB 105 and Zoom"
-      - event_details:
-        - "Workshop Series AI: Reinforcement Learning 2"
-        - "9:00pm - 10:00pm EST"
-        - "LSB 105 and Zoom"
-      - event_details:
-        - "Skribbl.io"
-        - "9:00pm - 9:30pm EST"
-        - "LSB 001 and Zoom"
-      - event_details:
-        - "Workshop Series AI: Neural Nets 1"
-        - "10:00pm - 11:00pm EST"
-        - "LSB 105 and Zoom"
-      - event_details:
-        - "Kareoke"
-        - "10:00pm - 10:30pm EST"
-        - "LSB 001 (In person only)"
-      - event_details:
-        - "Among Us"
-        - "10:00pm - 10:30pm EST"
-        - "Zoom (Online Only)"
-      - event_details:
-        - "Workshop Series AI: Neural Nets 2"
-        - "11:00pm - 12:00am EST"
-        - "LSB 105 and Zoom"
-      - event_details:
-        - "Amazon Prime Jeopardy"
-        - "11:00pm - 11:30am EST"
-        - "LSB 001 (In person only)"
-      - event_details:
-        - "Virtual Amazon Prime Jeopardy"
-        - "11:30pm - 12:00am EST"
-        - "Zoom (Online Only)"
-      - event_details:
-        - "<b> February 20th (Sunday) </b>"
-      - event_details:
-        - "Big Jenga"
-        - "2:00am - 2:30am EST"
-        - "Atrium (In person only)"
-      - event_details:
-        - "Jackbox"
-        - "1:30pm - 2:30pm EST"
-        - "LSB 001 and Zoom"
-      - event_details:
-        - "Hacker Expo"
-        - "1:00pm - 4:00pm EST"
-        - "Atrium and Zoom"
-      - event_details:  
-        - "<b> Hacking Ends </b>"
-        - "12:00pm EST"
-      - event_details:
-        - "<b> Closing Ceremony </b>"
-        - "4:00:00 PM-4:30 PM EST"
-        - "LSB 001 and Zoom"
+    #   - event_details:
+    #     - "Opening Ceremony"
+    #     - "11:30am - 12:00pm EST"
+    #     - "LSB 001 and Zoom"
+    #   #   # - "Zoom Link"
+    #   - event_details:
+    #     - "Hacking Begins"
+    #     - "12:00pm EST"
+    #   - event_details:
+    #     - "Team Building Activity"
+    #     - "12:00pm - 1:00pm EST"
+    #     - "LSB 001 and Zoom"
+    #   #   # - "Zoom Link"
+    #   - event_details:
+    #     - "Virtual Networking"
+    #     - "12:00pm - 3:00pm EST"
+    #     - "Discord"
+    #   #   # - "Zoom Link"
+    #   # - event_details:
+    #   #   - "Application Design by Example: Tips for Hack by Google Cloud Platform"
+    #   #   - "12:00 - 1:00pm EST"
+    #   #   # - "Zoom Link"
+    #   - event_details:
+    #     - "Workshop: Let's Learn Rust"
+    #     - "1:00pm - 2:00pm EST"
+    #     - "LSB 105 and Zoom"
+    #   - event_details:
+    #     - "Workshop: Multicore C"
+    #     - "2:00pm - 3:00pm / 4:00pm - 5:00pm EST"
+    #     - "LSB 105 and Zoom"
+    #   - event_details:
+    #     - "Syracuse Open Data API Workshop"
+    #     - "3:00pm - 3:30pm EST"
+    #     - "LSB 001 (In person only)"
+    #   - event_details:
+    #     - "M&T Bank: SPA Development with React + NodeJS + Cassandra + Docker + k8s"
+    #     - "3:30pm-4:00pm EST"
+    #     - "LSB 001 and Zoom"
+    #   - event_details:
+    #     - "Workshop: Preparing For Interviews in C++"
+    #     - "3:00pm - 4:00pm / 5:00pm - 6:00pm EST"
+    #     - "LSB 105 and Zoom"
+    #   - event_details:
+    #     - "MLH No Light HTML Event"
+    #     - "7:00pm - 7:30pm EST"
+    #     - "Zoom Only"
+    #   - event_details:
+    #     - "MLH Slideshow Fun Event"
+    #     - "8:00pm - 8:30pm EST"
+    #     - "Zoom Only"
+    #   - event_details:
+    #     - "Workshop Series AI: Reinforcement Learning 1"
+    #     - "8:00pm - 9:00pm EST"
+    #     - "LSB 105 and Zoom"
+    #   - event_details:
+    #     - "Workshop Series AI: Reinforcement Learning 2"
+    #     - "9:00pm - 10:00pm EST"
+    #     - "LSB 105 and Zoom"
+    #   - event_details:
+    #     - "Skribbl.io"
+    #     - "9:00pm - 9:30pm EST"
+    #     - "LSB 001 and Zoom"
+    #   - event_details:
+    #     - "Workshop Series AI: Neural Nets 1"
+    #     - "10:00pm - 11:00pm EST"
+    #     - "LSB 105 and Zoom"
+    #   - event_details:
+    #     - "Kareoke"
+    #     - "10:00pm - 10:30pm EST"
+    #     - "LSB 001 (In person only)"
+    #   - event_details:
+    #     - "Among Us"
+    #     - "10:00pm - 10:30pm EST"
+    #     - "Zoom (Online Only)"
+    #   - event_details:
+    #     - "Workshop Series AI: Neural Nets 2"
+    #     - "11:00pm - 12:00am EST"
+    #     - "LSB 105 and Zoom"
+    #   - event_details:
+    #     - "Amazon Prime Jeopardy"
+    #     - "11:00pm - 11:30am EST"
+    #     - "LSB 001 (In person only)"
+    #   - event_details:
+    #     - "Virtual Amazon Prime Jeopardy"
+    #     - "11:30pm - 12:00am EST"
+    #     - "Zoom (Online Only)"
+    #   - event_details:
+    #     - "<b> February 20th (Sunday) </b>"
+    #   - event_details:
+    #     - "Big Jenga"
+    #     - "2:00am - 2:30am EST"
+    #     - "Atrium (In person only)"
+    #   - event_details:
+    #     - "Jackbox"
+    #     - "1:30pm - 2:30pm EST"
+    #     - "LSB 001 and Zoom"
+    #   - event_details:
+    #     - "Hacker Expo"
+    #     - "1:00pm - 4:00pm EST"
+    #     - "Atrium and Zoom"
+    #   - event_details:  
+    #     - "<b> Hacking Ends </b>"
+    #     - "12:00pm EST"
+    #   - event_details:
+    #     - "<b> Closing Ceremony </b>"
+    #     - "4:00:00 PM-4:30 PM EST"
+    #     - "LSB 001 and Zoom"
       #   # - "Zoom Link"
       # - event_details:
       #   - "Workshop: Introduction to the Twitter API"
