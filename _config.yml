@@ -297,19 +297,25 @@ event_page:
         - "7:00pm - 8:00pm EST"
         - "Lyman Hall 126"
       - event_details:
-        - "<b> February 19th </b>"
+        - "<b> February 19th (Saturday) </b>"
 
       - event_details:
         - "Opening Ceremony"
         - "11:30am - 12:00pm EST"
+        - "LSB 001 and Zoom"
       #   # - "Zoom Link"
       - event_details:
         - "Hacking Begins"
-        - "12:00pm"
+        - "12:00pm EST"
+      - event_details:
+        - "Team Building Activity"
+        - "12:00pm - 1:00pm EST"
+        - "LSB 001 and Zoom"
       #   # - "Zoom Link"
       - event_details:
-        - "Networking"
-        - "12:00pm - 3:00pm"
+        - "Virtual Networking"
+        - "12:00pm - 3:00pm EST"
+        - "Discord"
       #   # - "Zoom Link"
       # - event_details:
       #   - "Application Design by Example: Tips for Hack by Google Cloud Platform"
@@ -317,30 +323,89 @@ event_page:
       #   # - "Zoom Link"
       - event_details:
         - "Workshop: Let's Learn Rust"
-        - "1:00pm - 2:00pm"
+        - "1:00pm - 2:00pm EST"
+        - "LSB 105 and Zoom"
       - event_details:
         - "Workshop: Multicore C"
-        - "2:00pm - 3:00pm / 4:00pm - 5:00pm"
+        - "2:00pm - 3:00pm / 4:00pm - 5:00pm EST"
+        - "LSB 105 and Zoom"
+      - event_details:
+        - "Syracuse Open Data API Workshop"
+        - "3:00pm - 3:30pm EST"
+        - "LSB 001 (In person only)"
+      - event_details:
+        - "M&T Bank: SPA Development with React + NodeJS + Cassandra + Docker + k8s"
+        - "3:30pm-4:00pm EST"
+        - "LSB 001 and Zoom"
       - event_details:
         - "Workshop: Preparing For Interviews in C++"
-        - "3:00pm - 4:00pm / 5:00pm - 6:00pm"
+        - "3:00pm - 4:00pm / 5:00pm - 6:00pm EST"
+        - "LSB 105 and Zoom"
+      - event_details:
+        - "MLH No Light HTML Event"
+        - "7:00pm - 7:30pm EST"
+        - "Zoom Only"
+      - event_details:
+        - "MLH Slideshow Fun Event"
+        - "8:00pm - 8:30pm EST"
+        - "Zoom Only"
       - event_details:
         - "Workshop Series AI: Reinforcement Learning 1"
-        - "8:00pm - 9:00pm"
+        - "8:00pm - 9:00pm EST"
+        - "LSB 105 and Zoom"
       - event_details:
         - "Workshop Series AI: Reinforcement Learning 2"
-        - "9:00pm - 10:00pm"
+        - "9:00pm - 10:00pm EST"
+        - "LSB 105 and Zoom"
+      - event_details:
+        - "Skribbl.io"
+        - "9:00pm - 9:30pm EST"
+        - "LSB 001 and Zoom"
       - event_details:
         - "Workshop Series AI: Neural Nets 1"
-        - "10:00pm - 11:00pm"
+        - "10:00pm - 11:00pm EST"
+        - "LSB 105 and Zoom"
+      - event_details:
+        - "Kareoke"
+        - "10:00pm - 10:30pm EST"
+        - "LSB 001 (In person only)"
+      - event_details:
+        - "Among Us"
+        - "10:00pm - 10:30pm EST"
+        - "Zoom (Online Only)"
       - event_details:
         - "Workshop Series AI: Neural Nets 2"
-        - "11:00pm - 12:00am"
+        - "11:00pm - 12:00am EST"
+        - "LSB 105 and Zoom"
       - event_details:
-        - "<b> February 20th </b>"
+        - "Amazon Prime Jeopardy"
+        - "11:00pm - 11:30am EST"
+        - "LSB 001 (In person only)"
+      - event_details:
+        - "Virtual Amazon Prime Jeopardy"
+        - "11:30pm - 12:00am EST"
+        - "Zoom (Online Only)"
+      - event_details:
+        - "<b> February 20th (Sunday) </b>"
+      - event_details:
+        - "Big Jenga"
+        - "2:00am - 2:30am EST"
+        - "Atrium (In person only)"
+      - event_details:
+        - "Jackbox"
+        - "1:30pm - 2:30pm EST"
+        - "LSB 001 and Zoom"
+      - event_details:
+        - "Hacker Expo"
+        - "1:00pm - 4:00pm EST"
+        - "Atrium and Zoom"
       - event_details:  
-        - "Hacking Ends"
+        - "<b> Hacking Ends </b>"
         - "12:00pm EST"
+      - event_details:
+        - "<b> Closing Ceremony </b>"
+        - "4:00:00 PM-4:30 PM EST"
+        - "LSB 001 and Zoom"
       #   # - "Zoom Link"
       # - event_details:
       #   - "Workshop: Introduction to the Twitter API"
