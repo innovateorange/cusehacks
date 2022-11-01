@@ -84,7 +84,7 @@ side_banner:
         Over $5000 worth of prizes.
     - header: "Where at?"
       content: >
-        Life Sciences Complex & Virtual
+        Life Sciences Complex!
 
 # About Information
 about:
@@ -163,7 +163,7 @@ faq:
       the Devpost.
   - question: "Where is the event?"
     answer: >
-      CuseHacks is returning to in-person! Syracuse community members are welcomed in person (at SU Life Sciences Complex) and all others can join us virtually!
+      CuseHacks is returning to in-person at SU Life Sciences Complex!
   - question: "Is there a code of conduct?"
     answer: >
       Yes there is. We enforce it very strongly. You can find it
